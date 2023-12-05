@@ -26,7 +26,8 @@ brew services stop mosquitto
 ```
 
 ##### **If you want Mosquitto to restart, you can use Homebrew services:**
-```brew services restart mosquitto
+```
+brew services restart mosquitto
 ```
 
 ## For better working environment/understanding you can install the desktop UI for your local machine (MacOS, Windows, Linux) - Those who wants more info [Official Documentation](https://mqttx.app/)
