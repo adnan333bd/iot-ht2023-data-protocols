@@ -83,7 +83,7 @@ brew services start mosquitto
 ```
 #### Now, Mosquitto should log messages to the specified file as per your configuration. Adjust the paths and settings based on your preferences and system configuration.
 
-#### **Open a configuration file that defines a listener to allow remote access for mosquitto in macos:**
+## **Open a configuration file that defines a listener to allow remote access for mosquitto in macos:**
 ##### **Open the configuration file by useing the below command:**
 ```
 nano /opt/homebrew/etc/mosquitto/mosquitto.conf
@@ -105,3 +105,9 @@ listener 1883 <your ip address> - you can initially use 127.0.0.1 for test purpo
 brew services restart mosquitto
 
 ```
+### For better demonstration below are the SS
+[Screenshot 1]('images/MQTTX_1.png')
+[Screenshot 2]('images/MQTTX_2.png')
+[Screenshot 3]('images/MQTTX_3.png')
+[Screenshot 4]('images/MQTTX_4.png')
+[Screenshot 5]('images/Log_1.png')
