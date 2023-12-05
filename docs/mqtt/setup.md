@@ -1,5 +1,5 @@
 # iot-ht2023-data-protocols-mqtt-setup-guide
-## MQTT setup guide for local environment (MacOS, Windows, Linux) - those who watns more info [Official Documentation] (https://mosquitto.org/download/).
+## MQTT setup guide for local environment (MacOS, Windows, Linux) - those who watns more info [Official Documentation](https://mosquitto.org/download/).
 ### **MacOS setup guide**
 #### Install Homebrew:
 ##### If you don't have Homebrew installed, you can install it by running the following command in your terminal: 
@@ -83,8 +83,8 @@ brew services start mosquitto
 ```
 #### Now, Mosquitto should log messages to the specified file as per your configuration. Adjust the paths and settings based on your preferences and system configuration.
 
-### **Create a configuration file that defines a listener to allow remote access for mosquitto in macos:**
-#### **Open the configuration file by useing the below command:**
+#### **Open a configuration file that defines a listener to allow remote access for mosquitto in macos:**
+##### **Open the configuration file by useing the below command:**
 ```
 nano /opt/homebrew/etc/mosquitto/mosquitto.conf
 
@@ -96,11 +96,11 @@ nano /opt/homebrew/etc/mosquitto/mosquitto.conf
 allow_anonymous true
 
 `**Listener for remote access**`
-listener 1883 <your ip address>
+listener 1883 <your ip address> - you can initially use 127.0.0.1 for test purpose.
 
 ```
-### **Restart Mosquitto:**
-#### After making changes to the mosquitto.conf file, restart the Mosquitto service to apply the changes:
+#### **Restart Mosquitto:**
+##### After making changes to the mosquitto.conf file, restart the Mosquitto service to apply the changes:
 ```
 brew services restart mosquitto
 
