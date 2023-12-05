@@ -21,7 +21,7 @@ Install it from a terminal using your package manager.
 sudo apt install rpi-imager
 ```
 
-![image1](https://github.com/adnan333bd/iot-ht2023-data-protocols/blob/main/docs/devices/img/1.png)
+![image1](img/1.png)
 
 
 After installing the Imager, launch the application by  running:
@@ -29,19 +29,19 @@ After installing the Imager, launch the application by  running:
 rpi-imager.
 ```
 
-![image2](https://github.com/adnan333bd/iot-ht2023-data-protocols/blob/main/docs/devices/img/2.png)
+![image2](img/2.png)
 
 
 Click Choose device and select your Raspberry Pi model from the list.
 
 Next, click Choose OS and select an operating system to install.Then plug a microSD card in using an external or built-in SD card reader. Then, click Choose storage and select your storage device.
 
-![image3](https://github.com/adnan333bd/iot-ht2023-data-protocols/blob/main/docs/devices/img/3.png)
+![image3](img/3.png)
 
 
 Then click the settings at the right bottom and apply OS customisation. We strongly recommend configuring your Raspberry Pi via the OS customisation settings. Click the Edit Settings button to open OS customisation.
 
-![image4](https://github.com/adnan333bd/iot-ht2023-data-protocols/blob/main/docs/devices/img/4.png)
+![image4](img/4.png)
 
 
 Next, click Write.
@@ -59,4 +59,4 @@ Then select the "Use custom" from operting system option then after selecting th
 
 
 
-![image5](https://github.com/adnan333bd/iot-ht2023-data-protocols/blob/main/docs/devices/img/5.png)
+![image5](img/5.png)
