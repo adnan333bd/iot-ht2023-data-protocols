@@ -105,9 +105,12 @@ listener 1883 <your ip address> - you can initially use 127.0.0.1 for test purpo
 brew services restart mosquitto
 
 ```
-### For better demonstration below are the images:
-[Screenshot 1](images/MQTTX_1.png)
-[Screenshot 2](images/MQTTX_2.png)
-[Screenshot 3](images/MQTTX_3.png)
-[Screenshot 4](images/MQTTX_4.png)
-[Screenshot 5](images/Log_1.png)
+#### For better demonstration below are the images:
+![Image 1](images/MQTTX_1.png)
+![Image 2](images/MQTTX_2.png)
+![Image 3](images/MQTTX_3.png)
+![Image 4](images/MQTTX_4.png)
+![Image 5](images/Log_1.png)
+
+#### Presentation image is given below
+![Presentation Image](images/presentation.png)
