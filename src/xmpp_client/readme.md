@@ -1,5 +1,10 @@
 # dev
 
+## openfire server
+
+
+## openfire client
+
 python -m venv xenv
 xenv\Scripts\activate
-python -m pip install twisted
+pip install sleekxmpp
