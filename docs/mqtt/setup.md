@@ -6,12 +6,12 @@
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-#### **Install Mosquitto:**
+## **Install Mosquitto:**
 ##### Once Homebrew is installed, you can use it to install Mosquitto:
 ```
 brew install mosquitto
 ```
-#### **Start Mosquitto:**
+## **Start Mosquitto:**
 ##### After the installation is complete, you can start the Mosquitto broker using: 
 ```
 mosquitto

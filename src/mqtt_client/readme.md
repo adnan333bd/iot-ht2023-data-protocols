@@ -22,3 +22,11 @@ python setup.py install
 ```
 git clone https://github.com/eclipse/paho.mqtt.testing.git
 ```
+
+# run mqtt server
+windows:
+
+mosquitto -v > mosquitto.log 2>&1
+
+# run mqtt client
+https://pypi.org/project/paho-mqtt/#installation
