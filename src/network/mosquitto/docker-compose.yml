@@ -49,6 +49,13 @@ services:
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.12
+  mqtt-pytest:
+    build: .
+    depends_on:
+      - mqtt-broker
+    networks:
+      mqtt-net:
+        ipv4_address: 172.100.10.13
 volumes:
   data:
     name: "mqtt-broker-data"
