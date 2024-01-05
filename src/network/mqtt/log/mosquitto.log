@@ -529,3 +529,61 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704494171: Client ras_pi_sub_1 closed its connection.
 1704494172: mosquitto version 2.0.18 terminating
 1704494172: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704494280: mosquitto version 2.0.18 starting
+1704494280: Config loaded from /mosquitto/config/mosquitto.conf.
+1704494280: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704494280: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704494280: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704494280: Opening ipv4 listen socket on port 1883.
+1704494280: Opening ipv6 listen socket on port 1883.
+1704494280: mosquitto version 2.0.18 running
+1704494282: New connection from 172.100.10.14:60409 on port 1883.
+1704494283: New client connected from 172.100.10.14:60409 as ras_pi_sub_1 (p2, c1, k60).
+1704494285: New connection from 172.100.10.13:58869 on port 1883.
+1704494285: New client connected from 172.100.10.13:58869 as ras_pi_pub_1 (p2, c1, k60).
+1704494288: Client ras_pi_pub_1 closed its connection.
+1704494884: Client ras_pi_sub_1 closed its connection.
+1704494885: New connection from 172.100.10.14:47713 on port 1883.
+1704494885: New client connected from 172.100.10.14:47713 as ras_pi_sub_1 (p2, c1, k60).
+1704494886: New connection from 172.100.10.14:39787 on port 1883.
+1704494886: Client ras_pi_sub_1 closed its connection.
+1704494886: New client connected from 172.100.10.14:39787 as ras_pi_sub_1 (p2, c1, k60).
+1704495126: Client ras_pi_sub_1 closed its connection.
+1704495127: New connection from 172.100.10.14:39413 on port 1883.
+1704495127: New client connected from 172.100.10.14:39413 as ras_pi_sub_1 (p2, c1, k60).
+1704495128: New connection from 172.100.10.14:49803 on port 1883.
+1704495128: Client ras_pi_sub_1 closed its connection.
+1704495128: New client connected from 172.100.10.14:49803 as ras_pi_sub_1 (p2, c1, k60).
+1704495549: Client ras_pi_sub_1 closed its connection.
+1704495550: New connection from 172.100.10.14:41869 on port 1883.
+1704495550: New client connected from 172.100.10.14:41869 as ras_pi_sub_1 (p2, c1, k60).
+1704495551: New connection from 172.100.10.14:41389 on port 1883.
+1704495551: Client ras_pi_sub_1 closed its connection.
+1704495551: New client connected from 172.100.10.14:41389 as ras_pi_sub_1 (p2, c1, k60).
+1704495615: New connection from 172.100.10.13:55323 on port 1883.
+1704495615: New client connected from 172.100.10.13:55323 as ras_pi_pub_1 (p2, c1, k60).
+1704495618: Client ras_pi_pub_1 closed its connection.
+1704495832: Client ras_pi_sub_1 closed its connection.
+1704495833: mosquitto version 2.0.18 terminating
+1704495833: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704495880: mosquitto version 2.0.18 starting
+1704495880: Config loaded from /mosquitto/config/mosquitto.conf.
+1704495880: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704495880: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704495880: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704495880: Opening ipv4 listen socket on port 1883.
+1704495880: Opening ipv6 listen socket on port 1883.
+1704495880: mosquitto version 2.0.18 running
+1704495882: New connection from 172.100.10.14:49799 on port 1883.
+1704495882: New client connected from 172.100.10.14:49799 as ras_pi_sub_1 (p2, c1, k60).
+1704495884: New connection from 172.100.10.13:34427 on port 1883.
+1704495884: New client connected from 172.100.10.13:34427 as ras_pi_pub_1 (p2, c1, k60).
+1704495887: Client ras_pi_pub_1 closed its connection.
+1704495903: New connection from 172.100.10.13:35403 on port 1883.
+1704495903: New client connected from 172.100.10.13:35403 as ras_pi_pub_1 (p2, c1, k60).
+1704495906: Client ras_pi_pub_1 closed its connection.
+1704495924: Client ras_pi_sub_1 closed its connection.
+1704495925: mosquitto version 2.0.18 terminating
+1704495925: Saving in-memory database to /mosquitto/data//mosquitto.db.

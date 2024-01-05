@@ -30,4 +30,4 @@ gateway = SubscriberGateway(client_id="ras_pi_sub_1", broker_address="172.100.10
 gateway.connect()
 gateway.subscribe()
 # gateway.be_alive()
-gateway.client.loop_forever()
+time.sleep(50)
