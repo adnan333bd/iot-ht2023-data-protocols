@@ -34,17 +34,20 @@ services:
         mqtt-net:
           ipv4_address: 172.100.10.10  
   mqtt-pub:
+    environment:
+      - PYTHONUNBUFFERED=1
     build: 
       context: ./
       dockerfile: pubDockerfile
     depends_on:
       - mqtt-broker
       - mqtt-sub
-      - mqtt-sub-cli
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.13
   mqtt-sub:
+    environment:
+      - PYTHONUNBUFFERED=1
     build: 
       context: ./
       dockerfile: subDockerfile
@@ -53,14 +56,6 @@ services:
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.14
-  mqtt-sub-cli:
-    image: eclipse-mosquitto:latest
-    command: sh -c "mosquitto_sub -h mqtt-broker -t "/device" -u admin -P password"
-    depends_on:
-      - mqtt-broker
-    networks:
-      mqtt-net:
-        ipv4_address: 172.100.10.12
 volumes:
   data:
     name: "mqtt-broker-data"

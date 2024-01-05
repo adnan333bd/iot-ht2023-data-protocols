@@ -1,4 +1,5 @@
 import paho.mqtt.client as mqtt
+import time
 
 
 class SubscriberGateway:
@@ -24,11 +25,9 @@ class SubscriberGateway:
     def subscribe(self):
         self.client.subscribe("/device")
 
-    def be_alive(self):
-        self.client.loop_forever()
-
 
 gateway = SubscriberGateway(client_id="ras_pi_sub_1", broker_address="172.100.10.10")
 gateway.connect()
 gateway.subscribe()
-gateway.be_alive()
+# gateway.be_alive()
+gateway.client.loop_forever()

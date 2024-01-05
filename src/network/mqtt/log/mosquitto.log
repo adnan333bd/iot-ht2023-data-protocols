@@ -205,3 +205,327 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704480888: Client ras_pi_sub_1 closed its connection.
 1704482448: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1704484249: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704484864: Client auto-9DB2FB10-9388-54C7-91FB-612C3084FC9F disconnected.
+1704484866: mosquitto version 2.0.18 terminating
+1704484866: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704489771: mosquitto version 2.0.18 starting
+1704489771: Config loaded from /mosquitto/config/mosquitto.conf.
+1704489771: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704489771: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704489771: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704489771: Opening ipv4 listen socket on port 1883.
+1704489771: Opening ipv6 listen socket on port 1883.
+1704489771: mosquitto version 2.0.18 running
+1704489773: New connection from 172.100.10.12:47468 on port 1883.
+1704489773: New client connected from 172.100.10.12:47468 as auto-3B82CBC3-EAEC-C28A-77C3-8C320E06D4A1 (p2, c1, k60, u'admin').
+1704489774: New connection from 172.100.10.14:47495 on port 1883.
+1704489774: New client connected from 172.100.10.14:47495 as ras_pi_sub_1 (p2, c1, k60).
+1704489775: New connection from 172.100.10.13:48351 on port 1883.
+1704489775: New client connected from 172.100.10.13:48351 as ras_pi_pub_1 (p2, c1, k60).
+1704489787: Client ras_pi_pub_1 closed its connection.
+1704490328: Client auto-3B82CBC3-EAEC-C28A-77C3-8C320E06D4A1 disconnected.
+1704490338: Client ras_pi_sub_1 closed its connection.
+1704490339: mosquitto version 2.0.18 terminating
+1704490339: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704490587: mosquitto version 2.0.18 starting
+1704490587: Config loaded from /mosquitto/config/mosquitto.conf.
+1704490587: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704490587: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704490587: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704490587: Opening ipv4 listen socket on port 1883.
+1704490587: Opening ipv6 listen socket on port 1883.
+1704490587: mosquitto version 2.0.18 running
+1704490589: New connection from 172.100.10.14:58919 on port 1883.
+1704490589: New client connected from 172.100.10.14:58919 as ras_pi_sub_1 (p2, c1, k60).
+1704490590: New connection from 172.100.10.12:40978 on port 1883.
+1704490590: New client connected from 172.100.10.12:40978 as auto-7EA87536-C0D1-2134-F44B-005066D6D655 (p2, c1, k60, u'admin').
+1704490592: New connection from 172.100.10.13:45683 on port 1883.
+1704490592: New client connected from 172.100.10.13:45683 as ras_pi_pub_1 (p2, c1, k60).
+1704490604: Client ras_pi_pub_1 closed its connection.
+1704490650: Client auto-7EA87536-C0D1-2134-F44B-005066D6D655 disconnected.
+1704490660: Client ras_pi_sub_1 closed its connection.
+1704490662: mosquitto version 2.0.18 terminating
+1704490662: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704490732: mosquitto version 2.0.18 starting
+1704490732: Config loaded from /mosquitto/config/mosquitto.conf.
+1704490732: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704490732: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704490732: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704490732: Opening ipv4 listen socket on port 1883.
+1704490732: Opening ipv6 listen socket on port 1883.
+1704490732: mosquitto version 2.0.18 running
+1704490734: New connection from 172.100.10.14:59271 on port 1883.
+1704490734: New client connected from 172.100.10.14:59271 as ras_pi_sub_1 (p2, c1, k60).
+1704490735: New connection from 172.100.10.12:33116 on port 1883.
+1704490735: New client connected from 172.100.10.12:33116 as auto-534EEFB3-9049-7C8E-8533-6F597EFAA191 (p2, c1, k60, u'admin').
+1704490737: New connection from 172.100.10.13:40257 on port 1883.
+1704490737: New client connected from 172.100.10.13:40257 as ras_pi_pub_1 (p2, c1, k60).
+1704490749: Client ras_pi_pub_1 closed its connection.
+1704491282: Client auto-534EEFB3-9049-7C8E-8533-6F597EFAA191 disconnected.
+1704491292: Client ras_pi_sub_1 closed its connection.
+1704491294: mosquitto version 2.0.18 terminating
+1704491294: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704491352: mosquitto version 2.0.18 starting
+1704491352: Config loaded from /mosquitto/config/mosquitto.conf.
+1704491352: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704491352: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704491352: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704491352: Opening ipv4 listen socket on port 1883.
+1704491352: Opening ipv6 listen socket on port 1883.
+1704491352: mosquitto version 2.0.18 running
+1704491355: New connection from 172.100.10.14:44607 on port 1883.
+1704491355: New client connected from 172.100.10.14:44607 as ras_pi_sub_1 (p2, c1, k60).
+1704491355: New connection from 172.100.10.12:54722 on port 1883.
+1704491355: New client connected from 172.100.10.12:54722 as auto-317B807B-66C7-C42B-D2E3-DB9DAA73378E (p2, c1, k60, u'admin').
+1704491358: New connection from 172.100.10.13:33691 on port 1883.
+1704491358: New client connected from 172.100.10.13:33691 as ras_pi_pub_1 (p2, c1, k60).
+1704491367: Client ras_pi_sub_1 closed its connection.
+1704491370: Client ras_pi_pub_1 closed its connection.
+1704491446: Client auto-317B807B-66C7-C42B-D2E3-DB9DAA73378E disconnected.
+1704491448: mosquitto version 2.0.18 terminating
+1704491448: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704491540: mosquitto version 2.0.18 starting
+1704491540: Config loaded from /mosquitto/config/mosquitto.conf.
+1704491540: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704491540: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704491540: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704491540: Opening ipv4 listen socket on port 1883.
+1704491540: Opening ipv6 listen socket on port 1883.
+1704491540: mosquitto version 2.0.18 running
+1704491543: New connection from 172.100.10.14:33865 on port 1883.
+1704491543: New client connected from 172.100.10.14:33865 as ras_pi_sub_1 (p2, c1, k60).
+1704491544: New connection from 172.100.10.13:35837 on port 1883.
+1704491544: New client connected from 172.100.10.13:35837 as ras_pi_pub_1 (p2, c1, k60).
+1704491555: Client ras_pi_sub_1 closed its connection.
+1704491556: Client ras_pi_pub_1 closed its connection.
+1704491723: mosquitto version 2.0.18 terminating
+1704491723: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704491780: mosquitto version 2.0.18 starting
+1704491780: Config loaded from /mosquitto/config/mosquitto.conf.
+1704491780: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704491780: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704491780: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704491780: Opening ipv4 listen socket on port 1883.
+1704491780: Opening ipv6 listen socket on port 1883.
+1704491780: mosquitto version 2.0.18 running
+1704491783: New connection from 172.100.10.14:54961 on port 1883.
+1704491783: New client connected from 172.100.10.14:54961 as ras_pi_sub_1 (p2, c1, k60).
+1704491785: New connection from 172.100.10.13:40295 on port 1883.
+1704491785: New client connected from 172.100.10.13:40295 as ras_pi_pub_1 (p2, c1, k60).
+1704491786: Client ras_pi_pub_1 closed its connection.
+1704491795: Client ras_pi_sub_1 closed its connection.
+1704491936: mosquitto version 2.0.18 terminating
+1704491936: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704491985: mosquitto version 2.0.18 starting
+1704491985: Config loaded from /mosquitto/config/mosquitto.conf.
+1704491985: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704491985: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704491985: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704491985: Opening ipv4 listen socket on port 1883.
+1704491985: Opening ipv6 listen socket on port 1883.
+1704491985: mosquitto version 2.0.18 running
+1704491987: New connection from 172.100.10.14:50685 on port 1883.
+1704491987: New client connected from 172.100.10.14:50685 as ras_pi_sub_1 (p2, c1, k60).
+1704491988: New connection from 172.100.10.13:60495 on port 1883.
+1704491988: New client connected from 172.100.10.13:60495 as ras_pi_pub_1 (p2, c1, k60).
+1704491989: Client ras_pi_sub_1 closed its connection.
+1704491989: Client ras_pi_pub_1 closed its connection.
+1704492030: mosquitto version 2.0.18 terminating
+1704492030: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704492083: mosquitto version 2.0.18 starting
+1704492083: Config loaded from /mosquitto/config/mosquitto.conf.
+1704492083: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704492083: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704492083: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704492083: Opening ipv4 listen socket on port 1883.
+1704492083: Opening ipv6 listen socket on port 1883.
+1704492083: mosquitto version 2.0.18 running
+1704492084: New connection from 172.100.10.14:37367 on port 1883.
+1704492084: New client connected from 172.100.10.14:37367 as ras_pi_sub_1 (p2, c1, k60).
+1704492087: New connection from 172.100.10.13:35933 on port 1883.
+1704492087: New client connected from 172.100.10.13:35933 as ras_pi_pub_1 (p2, c1, k60).
+1704492088: Client ras_pi_pub_1 closed its connection.
+1704492117: Client ras_pi_sub_1 closed its connection.
+1704492118: mosquitto version 2.0.18 terminating
+1704492118: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704492339: mosquitto version 2.0.18 starting
+1704492339: Config loaded from /mosquitto/config/mosquitto.conf.
+1704492339: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704492339: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704492339: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704492339: Opening ipv4 listen socket on port 1883.
+1704492339: Opening ipv6 listen socket on port 1883.
+1704492339: mosquitto version 2.0.18 running
+1704492340: New connection from 172.100.10.14:55071 on port 1883.
+1704492340: New client connected from 172.100.10.14:55071 as ras_pi_sub_1 (p2, c1, k60).
+1704492343: New connection from 172.100.10.13:44979 on port 1883.
+1704492343: New client connected from 172.100.10.13:44979 as ras_pi_pub_1 (p2, c1, k60).
+1704492344: Client ras_pi_pub_1 closed its connection.
+1704492445: Client ras_pi_sub_1 closed its connection.
+1704492446: mosquitto version 2.0.18 terminating
+1704492446: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704492619: mosquitto version 2.0.18 starting
+1704492619: Config loaded from /mosquitto/config/mosquitto.conf.
+1704492619: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704492619: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704492619: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704492619: Opening ipv4 listen socket on port 1883.
+1704492619: Opening ipv6 listen socket on port 1883.
+1704492619: mosquitto version 2.0.18 running
+1704492621: New connection from 172.100.10.14:35809 on port 1883.
+1704492621: New client connected from 172.100.10.14:35809 as ras_pi_sub_1 (p2, c1, k60).
+1704492624: New connection from 172.100.10.13:41385 on port 1883.
+1704492624: New client connected from 172.100.10.13:41385 as ras_pi_pub_1 (p2, c1, k60).
+1704492625: Client ras_pi_pub_1 closed its connection.
+1704492884: Client ras_pi_sub_1 closed its connection.
+1704492885: mosquitto version 2.0.18 terminating
+1704492885: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704492937: mosquitto version 2.0.18 starting
+1704492937: Config loaded from /mosquitto/config/mosquitto.conf.
+1704492937: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704492937: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704492937: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704492937: Opening ipv4 listen socket on port 1883.
+1704492937: Opening ipv6 listen socket on port 1883.
+1704492937: mosquitto version 2.0.18 running
+1704492938: New connection from 172.100.10.14:36793 on port 1883.
+1704492938: New client connected from 172.100.10.14:36793 as ras_pi_sub_1 (p2, c1, k60).
+1704492938: Client ras_pi_sub_1 closed its connection.
+1704492941: New connection from 172.100.10.13:54809 on port 1883.
+1704492941: New client connected from 172.100.10.13:54809 as ras_pi_pub_1 (p2, c1, k60).
+1704492942: Client ras_pi_pub_1 closed its connection.
+1704492951: mosquitto version 2.0.18 terminating
+1704492951: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493003: mosquitto version 2.0.18 starting
+1704493003: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493003: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493003: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493003: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493003: Opening ipv4 listen socket on port 1883.
+1704493003: Opening ipv6 listen socket on port 1883.
+1704493003: mosquitto version 2.0.18 running
+1704493011: New connection from 172.100.10.14:41687 on port 1883.
+1704493011: New client connected from 172.100.10.14:41687 as ras_pi_sub_1 (p2, c1, k60).
+1704493013: New connection from 172.100.10.13:45167 on port 1883.
+1704493013: New client connected from 172.100.10.13:45167 as ras_pi_pub_1 (p2, c1, k60).
+1704493015: Client ras_pi_pub_1 closed its connection.
+1704493021: Client ras_pi_sub_1 closed its connection.
+1704493247: mosquitto version 2.0.18 terminating
+1704493247: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493282: mosquitto version 2.0.18 starting
+1704493282: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493282: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493282: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493282: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493282: Opening ipv4 listen socket on port 1883.
+1704493282: Opening ipv6 listen socket on port 1883.
+1704493282: mosquitto version 2.0.18 running
+1704493284: New connection from 172.100.10.14:44851 on port 1883.
+1704493284: New client connected from 172.100.10.14:44851 as ras_pi_sub_1 (p2, c1, k60).
+1704493287: New connection from 172.100.10.13:47337 on port 1883.
+1704493287: New client connected from 172.100.10.13:47337 as ras_pi_pub_1 (p2, c1, k60).
+1704493288: Client ras_pi_pub_1 closed its connection.
+1704493294: Client ras_pi_sub_1 closed its connection.
+1704493454: mosquitto version 2.0.18 terminating
+1704493454: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493487: mosquitto version 2.0.18 starting
+1704493487: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493487: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493487: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493487: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493487: Opening ipv4 listen socket on port 1883.
+1704493487: Opening ipv6 listen socket on port 1883.
+1704493487: mosquitto version 2.0.18 running
+1704493488: New connection from 172.100.10.14:46639 on port 1883.
+1704493488: New client connected from 172.100.10.14:46639 as ras_pi_sub_1 (p2, c1, k60).
+1704493490: New connection from 172.100.10.13:54703 on port 1883.
+1704493490: New client connected from 172.100.10.13:54703 as ras_pi_pub_1 (p2, c1, k60).
+1704493491: Client ras_pi_pub_1 closed its connection.
+1704493498: Client ras_pi_sub_1 closed its connection.
+1704493529: mosquitto version 2.0.18 terminating
+1704493529: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493582: mosquitto version 2.0.18 starting
+1704493582: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493582: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493582: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493582: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493582: Opening ipv4 listen socket on port 1883.
+1704493582: Opening ipv6 listen socket on port 1883.
+1704493582: mosquitto version 2.0.18 running
+1704493584: New connection from 172.100.10.14:58783 on port 1883.
+1704493584: New client connected from 172.100.10.14:58783 as ras_pi_sub_1 (p2, c1, k60).
+1704493585: New connection from 172.100.10.13:54965 on port 1883.
+1704493585: New client connected from 172.100.10.13:54965 as ras_pi_pub_1 (p2, c1, k60).
+1704493586: Client ras_pi_pub_1 closed its connection.
+1704493596: Client ras_pi_sub_1 closed its connection.
+1704493711: mosquitto version 2.0.18 terminating
+1704493711: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493788: mosquitto version 2.0.18 starting
+1704493788: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493788: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493788: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493788: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493788: Opening ipv4 listen socket on port 1883.
+1704493788: Opening ipv6 listen socket on port 1883.
+1704493788: mosquitto version 2.0.18 running
+1704493790: New connection from 172.100.10.14:34513 on port 1883.
+1704493790: New client connected from 172.100.10.14:34513 as ras_pi_sub_1 (p2, c1, k60).
+1704493791: New connection from 172.100.10.13:60563 on port 1883.
+1704493791: New client connected from 172.100.10.13:60563 as ras_pi_pub_1 (p2, c1, k60).
+1704493794: Client ras_pi_pub_1 closed its connection.
+1704493800: Client ras_pi_sub_1 closed its connection.
+1704493837: mosquitto version 2.0.18 terminating
+1704493837: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704493892: mosquitto version 2.0.18 starting
+1704493892: Config loaded from /mosquitto/config/mosquitto.conf.
+1704493892: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704493892: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704493892: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704493892: Opening ipv4 listen socket on port 1883.
+1704493892: Opening ipv6 listen socket on port 1883.
+1704493892: mosquitto version 2.0.18 running
+1704493894: New connection from 172.100.10.14:47681 on port 1883.
+1704493894: New client connected from 172.100.10.14:47681 as ras_pi_sub_1 (p2, c1, k60).
+1704493895: New connection from 172.100.10.13:44655 on port 1883.
+1704493895: New client connected from 172.100.10.13:44655 as ras_pi_pub_1 (p2, c1, k60).
+1704493898: Client ras_pi_pub_1 closed its connection.
+1704493994: Client ras_pi_sub_1 closed its connection.
+1704494060: mosquitto version 2.0.18 terminating
+1704494060: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704494095: mosquitto version 2.0.18 starting
+1704494095: Config loaded from /mosquitto/config/mosquitto.conf.
+1704494095: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704494095: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704494095: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704494095: Opening ipv4 listen socket on port 1883.
+1704494095: Opening ipv6 listen socket on port 1883.
+1704494095: mosquitto version 2.0.18 running
+1704494097: New connection from 172.100.10.14:41573 on port 1883.
+1704494097: New client connected from 172.100.10.14:41573 as ras_pi_sub_1 (p2, c1, k60).
+1704494099: New connection from 172.100.10.13:43627 on port 1883.
+1704494099: New client connected from 172.100.10.13:43627 as ras_pi_pub_1 (p2, c1, k60).
+1704494102: Client ras_pi_pub_1 closed its connection.
+1704494130: New connection from 172.100.10.13:57299 on port 1883.
+1704494130: New client connected from 172.100.10.13:57299 as ras_pi_pub_1 (p2, c1, k60).
+1704494133: Client ras_pi_pub_1 closed its connection.
+1704494171: Client ras_pi_sub_1 closed its connection.
+1704494172: mosquitto version 2.0.18 terminating
+1704494172: Saving in-memory database to /mosquitto/data//mosquitto.db.

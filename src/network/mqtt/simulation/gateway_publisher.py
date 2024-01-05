@@ -20,10 +20,12 @@ class PublisherGateway:
         # print(f"({self.client.client_id}) Received message : {msg.payload.decode()}")
         pass
 
+    def on_publish(mqttc, obj, mid):
+        print("mid: " + str(mid))
+
     def connect(self):
         self.client.connect(self.broker_address, self.port, 60)
         self.client.loop_start()
-        time.sleep(2)
 
     def publish_message(self, topic, message):
         self.topic = topic
@@ -35,8 +37,10 @@ class PublisherGateway:
 gateway = PublisherGateway(client_id="ras_pi_pub_1", broker_address="172.100.10.10")
 gateway.connect()
 
+time.sleep(2)
+
 # Publish a message
 topic_to_publish = "/device"
 message_to_publish = "device_id:1;state:on"
 gateway.publish_message(topic_to_publish, message_to_publish)
-time.sleep(10)
+time.sleep(1)
