@@ -32,30 +32,35 @@ services:
         mode: host
     networks:
         mqtt-net:
-          ipv4_address: 172.100.10.10
+          ipv4_address: 172.100.10.10  
   mqtt-pub:
-    image: eclipse-mosquitto:latest
-    command: sh -c "mosquitto_pub -h mqtt-broker -t test -m 'Hello World' -u admin -P password"
+    build: 
+      context: ./
+      dockerfile: pubDockerfile
+    depends_on:
+      - mqtt-broker
+      - mqtt-sub
+      - mqtt-sub-cli
+    networks:
+      mqtt-net:
+        ipv4_address: 172.100.10.13
+  mqtt-sub:
+    build: 
+      context: ./
+      dockerfile: subDockerfile
     depends_on:
       - mqtt-broker
     networks:
       mqtt-net:
-        ipv4_address: 172.100.10.11
-  mqtt-sub:
+        ipv4_address: 172.100.10.14
+  mqtt-sub-cli:
     image: eclipse-mosquitto:latest
-    command: sh -c "mosquitto_sub -h mqtt-broker -t test -u admin -P password"
+    command: sh -c "mosquitto_sub -h mqtt-broker -t "/device" -u admin -P password"
     depends_on:
       - mqtt-broker
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.12
-  mqtt-pytest:
-    build: .
-    depends_on:
-      - mqtt-broker
-    networks:
-      mqtt-net:
-        ipv4_address: 172.100.10.13
 volumes:
   data:
     name: "mqtt-broker-data"

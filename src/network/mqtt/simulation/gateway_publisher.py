@@ -1,7 +1,8 @@
 import paho.mqtt.client as mqtt
 import time
 
-class Gateway:
+
+class PublisherGateway:
     def __init__(self, client_id, broker_address, port=1883):
         self.client = mqtt.Client(client_id)
         self.broker_address = broker_address
@@ -16,7 +17,8 @@ class Gateway:
         print(f"Connected with result code {rc}")
 
     def on_message(self, client, userdata, msg):
-        print(f"Received message: {msg.payload.decode()}")
+        # print(f"({self.client.client_id}) Received message : {msg.payload.decode()}")
+        pass
 
     def connect(self):
         self.client.connect(self.broker_address, self.port, 60)
@@ -27,27 +29,14 @@ class Gateway:
         self.topic = topic
         self.message = message
         self.client.publish(self.topic, self.message)
-        print(f"Published message: {self.message}")
-
-    def run_forever(self):
-        try:
-            while True:
-                time.sleep(1)
-        except KeyboardInterrupt:
-            self.client.loop_stop()
-            self.client.disconnect()
+        # print(f"Published message: {self.message}")
 
 
-gateway = Gateway(client_id="py_pub_1", broker_address="127.0.0.1")
-
-
+gateway = PublisherGateway(client_id="ras_pi_pub_1", broker_address="172.100.10.10")
 gateway.connect()
 
 # Publish a message
-topic_to_publish = "/adit"
-message_to_publish = "aaaaaaaaaaaaaaa eeeeeee iiii!"
+topic_to_publish = "/device"
+message_to_publish = "device_id:1;state:on"
 gateway.publish_message(topic_to_publish, message_to_publish)
-
-
-# Keep the script running for a while to allow on_message to be called
-#gateway.run_forever()
+time.sleep(10)
