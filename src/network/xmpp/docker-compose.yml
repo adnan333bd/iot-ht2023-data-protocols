@@ -1,0 +1,72 @@
+version: '3'
+networks:
+  xmpp-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 173.100.10.0/24
+services:
+  openfire:
+    image: sameersbn/openfire:latest
+    user: openfire
+    volumes:
+      - type: bind
+        source: ./config/
+        target: /xmpp/config/
+        read_only: false
+      - type: bind
+        source: ./log/
+        target: /xmpp/log/
+        read_only: false
+      - type: volume
+        source: data
+        target: /xmpp/data/
+    ports:
+      - target: 1884
+        published: 1884
+        protocol: tcp
+        mode: host
+      - target: 9002
+        published: 9002
+        protocol: tcp
+        mode: host
+    networks:
+        xmpp-net:
+          ipv4_address: 173.100.10.10
+  xmpp-pub:
+    environment:
+      - PYTHONUNBUFFERED=1
+    build: 
+      context: ./
+      dockerfile: pubDockerfile
+    volumes:
+      - type: bind
+        source: ./log/
+        target: /xmpp/log/csv/
+        read_only: false
+    depends_on:
+      - openfire
+      - xmpp-sub
+    networks:
+      xmpp-net:
+        ipv4_address: 173.100.10.13
+  xmpp-sub:
+    environment:
+      - PYTHONUNBUFFERED=1
+    build: 
+      context: ./
+      dockerfile: subDockerfile
+    volumes:
+      - type: bind
+        source: ./log/
+        target: /xmpp/log/csv/
+        read_only: false
+    depends_on:
+      - openfire
+    networks:
+      xmpp-net:
+        ipv4_address: 173.100.10.14
+volumes:
+  data:
+    name: "openfire-data"
+    external: true
