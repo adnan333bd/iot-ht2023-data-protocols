@@ -2157,3 +2157,274 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704556988: Client sub_1 closed its connection.
 1704556989: mosquitto version 2.0.18 terminating
 1704556989: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704569636: mosquitto version 2.0.18 starting
+1704569636: Config loaded from /mosquitto/config/mosquitto.conf.
+1704569636: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704569636: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704569636: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704569636: Opening ipv4 listen socket on port 1883.
+1704569636: Opening ipv6 listen socket on port 1883.
+1704569636: mosquitto version 2.0.18 running
+1704569638: New connection from 172.100.10.14:43035 on port 1883.
+1704569638: New client connected from 172.100.10.14:43035 as sub_1 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:42255 on port 1883.
+1704569638: New client connected from 172.100.10.14:42255 as sub_2 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:60407 on port 1883.
+1704569638: New client connected from 172.100.10.14:60407 as sub_3 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:58775 on port 1883.
+1704569638: New client connected from 172.100.10.14:58775 as sub_4 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:34617 on port 1883.
+1704569638: New client connected from 172.100.10.14:34617 as sub_5 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:54491 on port 1883.
+1704569638: New client connected from 172.100.10.14:54491 as sub_6 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:36577 on port 1883.
+1704569638: New connection from 172.100.10.14:46115 on port 1883.
+1704569638: New client connected from 172.100.10.14:36577 as sub_7 (p2, c1, k60).
+1704569638: New client connected from 172.100.10.14:46115 as sub_8 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:44201 on port 1883.
+1704569638: New client connected from 172.100.10.14:44201 as sub_9 (p2, c1, k60).
+1704569638: New connection from 172.100.10.14:57145 on port 1883.
+1704569638: New client connected from 172.100.10.14:57145 as sub_10 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:37601 on port 1883.
+1704569641: New client connected from 172.100.10.13:37601 as pub_1 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:36557 on port 1883.
+1704569641: New client connected from 172.100.10.13:36557 as pub_2 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:38873 on port 1883.
+1704569641: New client connected from 172.100.10.13:38873 as pub_3 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:44515 on port 1883.
+1704569641: New client connected from 172.100.10.13:44515 as pub_4 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:56061 on port 1883.
+1704569641: New client connected from 172.100.10.13:56061 as pub_5 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:44181 on port 1883.
+1704569641: New client connected from 172.100.10.13:44181 as pub_6 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:43113 on port 1883.
+1704569641: New client connected from 172.100.10.13:43113 as pub_7 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:53111 on port 1883.
+1704569641: New client connected from 172.100.10.13:53111 as pub_8 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:42077 on port 1883.
+1704569641: New client connected from 172.100.10.13:42077 as pub_9 (p2, c1, k60).
+1704569641: New connection from 172.100.10.13:50279 on port 1883.
+1704569641: New client connected from 172.100.10.13:50279 as pub_10 (p2, c1, k60).
+1704569643: Client pub_9 closed its connection.
+1704569643: Client pub_8 closed its connection.
+1704569643: Client pub_10 closed its connection.
+1704569643: Client pub_6 closed its connection.
+1704569643: Client pub_5 closed its connection.
+1704569643: Client pub_4 closed its connection.
+1704569643: Client pub_7 closed its connection.
+1704569643: Client pub_3 closed its connection.
+1704569643: Client pub_2 closed its connection.
+1704569643: Client pub_1 closed its connection.
+1704569852: New connection from 172.100.10.13:42995 on port 1883.
+1704569852: New client connected from 172.100.10.13:42995 as pub_1 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:46743 on port 1883.
+1704569852: New client connected from 172.100.10.13:46743 as pub_2 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:49107 on port 1883.
+1704569852: New client connected from 172.100.10.13:49107 as pub_3 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:37959 on port 1883.
+1704569852: New client connected from 172.100.10.13:37959 as pub_4 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:57165 on port 1883.
+1704569852: New client connected from 172.100.10.13:57165 as pub_5 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:38897 on port 1883.
+1704569852: New client connected from 172.100.10.13:38897 as pub_6 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:51431 on port 1883.
+1704569852: New client connected from 172.100.10.13:51431 as pub_7 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:50171 on port 1883.
+1704569852: New client connected from 172.100.10.13:50171 as pub_8 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:52315 on port 1883.
+1704569852: New client connected from 172.100.10.13:52315 as pub_9 (p2, c1, k60).
+1704569852: New connection from 172.100.10.13:39539 on port 1883.
+1704569852: New client connected from 172.100.10.13:39539 as pub_10 (p2, c1, k60).
+1704569855: Client pub_10 closed its connection.
+1704569855: Client pub_9 closed its connection.
+1704569855: Client pub_8 closed its connection.
+1704569855: Client pub_7 closed its connection.
+1704569855: Client pub_6 closed its connection.
+1704569855: Client pub_5 closed its connection.
+1704569855: Client pub_4 closed its connection.
+1704569855: Client pub_3 closed its connection.
+1704569855: Client pub_2 closed its connection.
+1704569855: Client pub_1 closed its connection.
+1704569926: New connection from 172.100.10.13:38483 on port 1883.
+1704569926: New client connected from 172.100.10.13:38483 as pub_1 (p2, c1, k60).
+1704569926: New connection from 172.100.10.13:56141 on port 1883.
+1704569926: New client connected from 172.100.10.13:56141 as pub_2 (p2, c1, k60).
+1704569926: New connection from 172.100.10.13:39965 on port 1883.
+1704569926: New client connected from 172.100.10.13:39965 as pub_3 (p2, c1, k60).
+1704569927: Client pub_3 closed its connection.
+1704569927: Client pub_2 closed its connection.
+1704569927: Client pub_1 closed its connection.
+1704570033: New connection from 172.100.10.13:38235 on port 1883.
+1704570033: New client connected from 172.100.10.13:38235 as pub_1 (p2, c1, k60).
+1704570033: New connection from 172.100.10.13:46339 on port 1883.
+1704570033: New client connected from 172.100.10.13:46339 as pub_2 (p2, c1, k60).
+1704570033: New connection from 172.100.10.13:41311 on port 1883.
+1704570033: New client connected from 172.100.10.13:41311 as pub_3 (p2, c1, k60).
+1704570033: Client pub_3 closed its connection.
+1704570033: Client pub_2 closed its connection.
+1704570033: Client pub_1 closed its connection.
+1704570271: New connection from 172.100.10.13:49739 on port 1883.
+1704570271: New client connected from 172.100.10.13:49739 as pub_1 (p2, c1, k60).
+1704570271: New connection from 172.100.10.13:45827 on port 1883.
+1704570271: New client connected from 172.100.10.13:45827 as pub_2 (p2, c1, k60).
+1704570271: New connection from 172.100.10.13:45317 on port 1883.
+1704570271: New client connected from 172.100.10.13:45317 as pub_3 (p2, c1, k60).
+1704570272: Client pub_3 closed its connection.
+1704570272: Client pub_2 closed its connection.
+1704570272: Client pub_1 closed its connection.
+1704570320: New connection from 172.100.10.13:34689 on port 1883.
+1704570320: New client connected from 172.100.10.13:34689 as pub_1 (p2, c1, k60).
+1704570320: New connection from 172.100.10.13:50915 on port 1883.
+1704570320: New client connected from 172.100.10.13:50915 as pub_2 (p2, c1, k60).
+1704570320: New connection from 172.100.10.13:47755 on port 1883.
+1704570320: New client connected from 172.100.10.13:47755 as pub_3 (p2, c1, k60).
+1704570321: Client pub_3 closed its connection.
+1704570321: Client pub_2 closed its connection.
+1704570321: Client pub_1 closed its connection.
+1704570353: Client sub_9 closed its connection.
+1704570353: Client sub_8 closed its connection.
+1704570353: Client sub_7 closed its connection.
+1704570353: Client sub_6 closed its connection.
+1704570353: Client sub_10 closed its connection.
+1704570353: Client sub_5 closed its connection.
+1704570353: Client sub_4 closed its connection.
+1704570353: Client sub_3 closed its connection.
+1704570353: Client sub_2 closed its connection.
+1704570353: Client sub_1 closed its connection.
+1704570381: mosquitto version 2.0.18 starting
+1704570381: Config loaded from /mosquitto/config/mosquitto.conf.
+1704570381: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704570381: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704570381: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704570381: Opening ipv4 listen socket on port 1883.
+1704570381: Opening ipv6 listen socket on port 1883.
+1704570381: mosquitto version 2.0.18 running
+1704570383: New connection from 172.100.10.14:41173 on port 1883.
+1704570383: New client connected from 172.100.10.14:41173 as sub_1 (p2, c1, k60).
+1704570383: New connection from 172.100.10.14:46043 on port 1883.
+1704570383: New client connected from 172.100.10.14:46043 as sub_2 (p2, c1, k60).
+1704570383: New connection from 172.100.10.14:39693 on port 1883.
+1704570383: New client connected from 172.100.10.14:39693 as sub_3 (p2, c1, k60).
+1704570384: New connection from 172.100.10.13:57243 on port 1883.
+1704570384: New client connected from 172.100.10.13:57243 as pub_1 (p2, c1, k60).
+1704570384: New connection from 172.100.10.13:35099 on port 1883.
+1704570384: New client connected from 172.100.10.13:35099 as pub_2 (p2, c1, k60).
+1704570384: New connection from 172.100.10.13:41775 on port 1883.
+1704570384: New client connected from 172.100.10.13:41775 as pub_3 (p2, c1, k60).
+1704570385: Client pub_3 closed its connection.
+1704570385: Client pub_2 closed its connection.
+1704570385: Client pub_1 closed its connection.
+1704570399: New connection from 172.100.10.13:45483 on port 1883.
+1704570399: New client connected from 172.100.10.13:45483 as pub_1 (p2, c1, k60).
+1704570399: New connection from 172.100.10.13:41075 on port 1883.
+1704570399: New client connected from 172.100.10.13:41075 as pub_2 (p2, c1, k60).
+1704570399: New connection from 172.100.10.13:45907 on port 1883.
+1704570399: New client connected from 172.100.10.13:45907 as pub_3 (p2, c1, k60).
+1704570400: Client pub_3 closed its connection.
+1704570400: Client pub_2 closed its connection.
+1704570400: Client pub_1 closed its connection.
+1704570489: Client sub_3 closed its connection.
+1704570489: Client sub_2 closed its connection.
+1704570489: Client sub_1 closed its connection.
+1704570519: New connection from 172.100.10.14:36911 on port 1883.
+1704570519: New client connected from 172.100.10.14:36911 as sub_1 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:46727 on port 1883.
+1704570519: New client connected from 172.100.10.14:46727 as sub_2 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:60309 on port 1883.
+1704570519: New client connected from 172.100.10.14:60309 as sub_3 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:37933 on port 1883.
+1704570519: New client connected from 172.100.10.14:37933 as sub_4 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:49235 on port 1883.
+1704570519: New client connected from 172.100.10.14:49235 as sub_5 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:39091 on port 1883.
+1704570519: New client connected from 172.100.10.14:39091 as sub_6 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:50033 on port 1883.
+1704570519: New client connected from 172.100.10.14:50033 as sub_7 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:44393 on port 1883.
+1704570519: New client connected from 172.100.10.14:44393 as sub_8 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:52469 on port 1883.
+1704570519: New client connected from 172.100.10.14:52469 as sub_9 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:51199 on port 1883.
+1704570519: New client connected from 172.100.10.14:51199 as sub_10 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:38347 on port 1883.
+1704570519: New client connected from 172.100.10.14:38347 as sub_11 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:33267 on port 1883.
+1704570519: New client connected from 172.100.10.14:33267 as sub_12 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:57207 on port 1883.
+1704570519: New client connected from 172.100.10.14:57207 as sub_13 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:44271 on port 1883.
+1704570519: New client connected from 172.100.10.14:44271 as sub_14 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:43735 on port 1883.
+1704570519: New client connected from 172.100.10.14:43735 as sub_15 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:36877 on port 1883.
+1704570519: New connection from 172.100.10.14:33961 on port 1883.
+1704570519: New client connected from 172.100.10.14:36877 as sub_16 (p2, c1, k60).
+1704570519: New client connected from 172.100.10.14:33961 as sub_17 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:44945 on port 1883.
+1704570519: New client connected from 172.100.10.14:44945 as sub_18 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:41053 on port 1883.
+1704570519: New client connected from 172.100.10.14:41053 as sub_19 (p2, c1, k60).
+1704570519: New connection from 172.100.10.14:55661 on port 1883.
+1704570519: New client connected from 172.100.10.14:55661 as sub_20 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:34785 on port 1883.
+1704570531: New client connected from 172.100.10.13:34785 as pub_1 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:40639 on port 1883.
+1704570531: New client connected from 172.100.10.13:40639 as pub_2 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:39681 on port 1883.
+1704570531: New client connected from 172.100.10.13:39681 as pub_3 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:44625 on port 1883.
+1704570531: New client connected from 172.100.10.13:44625 as pub_4 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:33851 on port 1883.
+1704570531: New client connected from 172.100.10.13:33851 as pub_5 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:59599 on port 1883.
+1704570531: New client connected from 172.100.10.13:59599 as pub_6 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:60327 on port 1883.
+1704570531: New client connected from 172.100.10.13:60327 as pub_7 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:33123 on port 1883.
+1704570531: New client connected from 172.100.10.13:33123 as pub_8 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:43829 on port 1883.
+1704570531: New client connected from 172.100.10.13:43829 as pub_9 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:48087 on port 1883.
+1704570531: New client connected from 172.100.10.13:48087 as pub_10 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:59111 on port 1883.
+1704570531: New client connected from 172.100.10.13:59111 as pub_11 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:47137 on port 1883.
+1704570531: New client connected from 172.100.10.13:47137 as pub_12 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:39805 on port 1883.
+1704570531: New client connected from 172.100.10.13:39805 as pub_13 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:48217 on port 1883.
+1704570531: New connection from 172.100.10.13:46675 on port 1883.
+1704570531: New client connected from 172.100.10.13:48217 as pub_14 (p2, c1, k60).
+1704570531: New client connected from 172.100.10.13:46675 as pub_15 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:36759 on port 1883.
+1704570531: New client connected from 172.100.10.13:36759 as pub_16 (p2, c1, k60).
+1704570531: New connection from 172.100.10.13:51459 on port 1883.
+1704570531: New connection from 172.100.10.13:57287 on port 1883.
+1704570531: New connection from 172.100.10.13:42321 on port 1883.
+1704570531: New connection from 172.100.10.13:32955 on port 1883.
+1704570531: New client connected from 172.100.10.13:51459 as pub_17 (p2, c1, k60).
+1704570531: New client connected from 172.100.10.13:57287 as pub_18 (p2, c1, k60).
+1704570531: New client connected from 172.100.10.13:42321 as pub_19 (p2, c1, k60).
+1704570531: New client connected from 172.100.10.13:32955 as pub_20 (p2, c1, k60).
+1704570543: Client pub_20 closed its connection.
+1704570543: Client pub_19 closed its connection.
+1704570543: Client pub_17 closed its connection.
+1704570543: Client pub_16 closed its connection.
+1704570543: Client pub_18 closed its connection.
+1704570543: Client pub_15 closed its connection.
+1704570543: Client pub_14 closed its connection.
+1704570543: Client pub_13 closed its connection.
+1704570543: Client pub_12 closed its connection.
+1704570543: Client pub_9 closed its connection.
+1704570543: Client pub_11 closed its connection.
+1704570543: Client pub_8 closed its connection.
+1704570543: Client pub_7 closed its connection.
+1704570543: Client pub_10 closed its connection.
+1704570543: Client pub_6 closed its connection.
+1704570543: Client pub_5 closed its connection.
+1704570543: Client pub_4 closed its connection.
+1704570543: Client pub_3 closed its connection.
+1704570543: Client pub_2 closed its connection.
+1704570543: Client pub_1 closed its connection.

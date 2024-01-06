@@ -8,7 +8,6 @@ class MQTTClient(Logger):
         self.client = mqtt.Client(client_id)
         self.broker_address = broker_address
         self.port = port
-        self.topic = "/device"
         self.client.on_connect = self.on_connect
         super().__init__(device_id=client_id)
 

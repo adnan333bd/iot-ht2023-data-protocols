@@ -32,7 +32,7 @@ services:
   mqtt-pub:
     build: 
       context: ./
-      dockerfile: pubDockerfile
+      dockerfile: Dockerfile.publisher
     volumes:
       - type: bind
         source: ./log/
@@ -51,7 +51,7 @@ services:
   mqtt-sub:
     build: 
       context: ./
-      dockerfile: subDockerfile
+      dockerfile: Dockerfile.subscriber
     volumes:
       - type: bind
         source: ./log/
