@@ -1,0 +1,14 @@
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the current directory contents into the container at /app
+COPY simulation/gateway_subscriber.py /app/
+COPY simulation/requirements.txt /app/
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run when the container launches
+CMD ["python", "./gateway_subscriber.py"]
