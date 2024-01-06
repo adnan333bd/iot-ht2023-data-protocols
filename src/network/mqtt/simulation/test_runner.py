@@ -1,5 +1,7 @@
 from gateway_publisher import PublisherGateway
 import time
+from logger import Logger
+
 from constants import (
     BROKER_ADDRESS,
     NUMBER_OF_PUB_SUB_GATEWAYS,
@@ -40,3 +42,5 @@ def test():
 if __name__ == "__main__":
     count_gen = counter_generator()
     test()
+    time.sleep(5)
+    Logger.dump_logs()

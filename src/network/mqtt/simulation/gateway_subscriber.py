@@ -1,5 +1,5 @@
 import time
-from logger import EVENT_MSG_RECVD
+from logger import EVENT_MSG_RECVD, Logger
 from mqtt_client_adapter import MQTTClient
 from constants import BROKER_ADDRESS, NUMBER_OF_PUB_SUB_GATEWAYS
 
@@ -37,4 +37,6 @@ if __name__ == "__main__":
     for gateway in gateways:
         gateway.subscribe()
 
-    time.sleep(5000)
+    while True:
+        time.sleep(10)
+        Logger.dump_logs()
