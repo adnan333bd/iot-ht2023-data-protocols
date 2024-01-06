@@ -5,10 +5,11 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY simulation/gateway_publisher.py /app/
-COPY simulation/requirements.txt /app/
+COPY simulation/ /app/
 
 RUN pip install --no-cache-dir -r requirements.txt
+
+
 
 # Run when the container launches
 CMD ["python", "./gateway_publisher.py"]

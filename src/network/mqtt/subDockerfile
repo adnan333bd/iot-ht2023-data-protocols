@@ -5,8 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY simulation/gateway_subscriber.py /app/
-COPY simulation/requirements.txt /app/
+COPY simulation/ /app/
 
 RUN pip install --no-cache-dir -r requirements.txt
 

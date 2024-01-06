@@ -1,0 +1,59 @@
+import time
+import csv
+import os
+
+FIELD_FROM_DEVICE_ID = "From_Device_ID"
+FIELD_TO_DEVICE_ID = "To_Device_ID"
+FIELD_EVENT_TYPE = "Event_Type"
+FIELD_TIME_STAMP = "Time_Stamp"
+FIELD_MSG = "Message"
+FIELD_NAMES = [
+    FIELD_FROM_DEVICE_ID,
+    FIELD_TO_DEVICE_ID,
+    FIELD_EVENT_TYPE,
+    FIELD_MSG,
+    FIELD_TIME_STAMP,
+]
+
+EVENT_CONN_REQUEST = "EVENT_CONN_REQUEST"
+EVENT_CONNECTED = "EVENT_CONNECTED"
+EVENT_MSG_SENT = "EVENT_MSG_SENT"
+EVENT_MSG_RECVD = "EVENT_MSG_RECD"
+
+
+class Logger:
+    def __init__(self, device_id):
+        self.device_id = device_id
+        self.file_name = device_id + ".csv"
+
+    def log_message(self, event_type, from_device, to_device, message):
+        current_time = time.strftime("%Y-%m-%d %H:%M:%S")
+        path = "/mosquitto/log/custom/csv"
+
+        # Ensure the directory exists, create it if not
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        data = {
+            FIELD_FROM_DEVICE_ID: from_device,
+            FIELD_TO_DEVICE_ID: to_device,
+            FIELD_EVENT_TYPE: event_type,
+            FIELD_MSG: message,
+            FIELD_TIME_STAMP: current_time,
+        }
+
+        # Construct the full file path
+        filepath = os.path.join(path, self.file_name)
+
+        try:
+            with open(filepath, "a", newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=FIELD_NAMES)
+
+                # Write header if the file is empty
+                if file.tell() == 0:
+                    writer.writeheader()
+
+                # Write new data
+                writer.writerow(data)
+        except Exception as e:
+            print(f"Error creating CSV file: {e}")

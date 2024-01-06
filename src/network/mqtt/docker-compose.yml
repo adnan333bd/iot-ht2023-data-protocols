@@ -42,7 +42,7 @@ services:
     volumes:
       - type: bind
         source: ./log/
-        target: /mosquitto/log/csv/
+        target: /mosquitto/log/custom/
         read_only: false
     depends_on:
       - mqtt-broker
@@ -59,7 +59,7 @@ services:
     volumes:
       - type: bind
         source: ./log/
-        target: /mosquitto/log/csv/
+        target: /mosquitto/log/custom/
         read_only: false
     depends_on:
       - mqtt-broker
