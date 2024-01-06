@@ -23,8 +23,8 @@ class SubscriberGateway(MQTTClient):
         self.client.subscribe(self.topic)
 
 
-gateway = SubscriberGateway(client_id="sub_1", broker_address="172.100.10.10")
-gateway.connect()
-gateway.subscribe()
-# gateway.be_alive()
-time.sleep(100)
+if __name__ == '__main__':
+    gateway = SubscriberGateway(client_id="sub_1", broker_address="172.100.10.10")
+    gateway.connect()
+    gateway.subscribe()
+    time.sleep(5000)

@@ -4,3 +4,5 @@ New-Item -ItemType File -Path "log/mosquitto.log"
 
 docker-compose up --build
 
+
+docker-compose run mqtt-mqtt-pub-1 sh -c "python app/test_runner.py"

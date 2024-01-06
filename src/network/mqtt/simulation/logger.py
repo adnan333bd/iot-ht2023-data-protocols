@@ -1,6 +1,6 @@
-import time
 import csv
 import os
+from datetime import datetime
 
 FIELD_FROM_DEVICE_ID = "From_Device_ID"
 FIELD_TO_DEVICE_ID = "To_Device_ID"
@@ -27,7 +27,10 @@ class Logger:
         self.file_name = device_id + ".csv"
 
     def log_message(self, event_type, from_device, to_device, message):
-        current_time = time.strftime("%Y-%m-%d %H:%M:%S")
+        now = datetime.now()
+
+        # Format the time with millisecond precision (first three digits of microseconds)
+        current_time = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
         path = "/mosquitto/log/custom/csv"
 
         # Ensure the directory exists, create it if not

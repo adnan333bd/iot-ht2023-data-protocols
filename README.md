@@ -59,3 +59,9 @@ mqtt-sub-cli:
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.12
+
+
+      - target: 9001
+        published: 9001
+        protocol: tcp
+        mode: host

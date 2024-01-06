@@ -26,16 +26,10 @@ services:
         published: 1883
         protocol: tcp
         mode: host
-      - target: 9001
-        published: 9001
-        protocol: tcp
-        mode: host
     networks:
         mqtt-net:
           ipv4_address: 172.100.10.10
   mqtt-pub:
-    environment:
-      - PYTHONUNBUFFERED=1
     build: 
       context: ./
       dockerfile: pubDockerfile
@@ -44,6 +38,10 @@ services:
         source: ./log/
         target: /mosquitto/log/custom/
         read_only: false
+      - type: bind
+        source: ./simulation/
+        target: /app/
+        read_only: false
     depends_on:
       - mqtt-broker
       - mqtt-sub
@@ -51,8 +49,6 @@ services:
       mqtt-net:
         ipv4_address: 172.100.10.13
   mqtt-sub:
-    environment:
-      - PYTHONUNBUFFERED=1
     build: 
       context: ./
       dockerfile: subDockerfile
@@ -60,6 +56,10 @@ services:
       - type: bind
         source: ./log/
         target: /mosquitto/log/custom/
+        read_only: false
+      - type: bind
+        source: ./simulation/
+        target: /app/
         read_only: false
     depends_on:
       - mqtt-broker
