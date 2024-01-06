@@ -587,3 +587,1224 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704495924: Client ras_pi_sub_1 closed its connection.
 1704495925: mosquitto version 2.0.18 terminating
 1704495925: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704497830: mosquitto version 2.0.18 starting
+1704497830: Config loaded from /mosquitto/config/mosquitto.conf.
+1704497830: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704497830: Opening ipv4 listen socket on port 1883.
+1704497830: Opening ipv6 listen socket on port 1883.
+1704497830: mosquitto version 2.0.18 running
+1704497831: New connection from 172.100.10.14:35589 on port 1883.
+1704497831: New client connected from 172.100.10.14:35589 as ras_pi_sub_1 (p2, c1, k60).
+1704497831: New connection from 172.100.10.13:60869 on port 1883.
+1704497831: New client connected from 172.100.10.13:60869 as ras_pi_pub_1 (p2, c1, k60).
+1704497834: Client ras_pi_pub_1 closed its connection.
+1704497881: Client ras_pi_sub_1 closed its connection.
+1704498693: mosquitto version 2.0.18 terminating
+1704498693: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704499378: mosquitto version 2.0.18 starting
+1704499378: Config loaded from /mosquitto/config/mosquitto.conf.
+1704499378: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704499378: Opening ipv4 listen socket on port 1883.
+1704499378: Opening ipv6 listen socket on port 1883.
+1704499378: mosquitto version 2.0.18 running
+1704499379: New connection from 172.100.10.14:60103 on port 1883.
+1704499379: New client connected from 172.100.10.14:60103 as ras_pi_sub_1 (p2, c1, k60).
+1704499379: New connection from 172.100.10.15:38943 on port 1883.
+1704499379: Client ras_pi_sub_1 already connected, closing old connection.
+1704499379: New client connected from 172.100.10.15:38943 as ras_pi_sub_1 (p2, c1, k60).
+1704499379: New connection from 172.100.10.13:33099 on port 1883.
+1704499379: New client connected from 172.100.10.13:33099 as ras_pi_pub_1 (p2, c1, k60).
+1704499380: New connection from 172.100.10.14:51003 on port 1883.
+1704499380: Client ras_pi_sub_1 already connected, closing old connection.
+1704499380: New client connected from 172.100.10.14:51003 as ras_pi_sub_1 (p2, c1, k60).
+1704499381: New connection from 172.100.10.15:36317 on port 1883.
+1704499381: Client ras_pi_sub_1 already connected, closing old connection.
+1704499381: New client connected from 172.100.10.15:36317 as ras_pi_sub_1 (p2, c1, k60).
+1704499382: New connection from 172.100.10.14:55367 on port 1883.
+1704499382: Client ras_pi_sub_1 already connected, closing old connection.
+1704499382: New client connected from 172.100.10.14:55367 as ras_pi_sub_1 (p2, c1, k60).
+1704499382: Client ras_pi_pub_1 closed its connection.
+1704499383: New connection from 172.100.10.15:43333 on port 1883.
+1704499383: Client ras_pi_sub_1 already connected, closing old connection.
+1704499383: New client connected from 172.100.10.15:43333 as ras_pi_sub_1 (p2, c1, k60).
+1704499384: New connection from 172.100.10.14:40051 on port 1883.
+1704499384: Client ras_pi_sub_1 already connected, closing old connection.
+1704499384: New client connected from 172.100.10.14:40051 as ras_pi_sub_1 (p2, c1, k60).
+1704499385: New connection from 172.100.10.15:39961 on port 1883.
+1704499385: Client ras_pi_sub_1 already connected, closing old connection.
+1704499385: New client connected from 172.100.10.15:39961 as ras_pi_sub_1 (p2, c1, k60).
+1704499386: New connection from 172.100.10.14:57475 on port 1883.
+1704499386: Client ras_pi_sub_1 already connected, closing old connection.
+1704499386: New client connected from 172.100.10.14:57475 as ras_pi_sub_1 (p2, c1, k60).
+1704499387: New connection from 172.100.10.15:52699 on port 1883.
+1704499387: Client ras_pi_sub_1 already connected, closing old connection.
+1704499387: New client connected from 172.100.10.15:52699 as ras_pi_sub_1 (p2, c1, k60).
+1704499388: New connection from 172.100.10.14:40281 on port 1883.
+1704499388: Client ras_pi_sub_1 already connected, closing old connection.
+1704499388: New client connected from 172.100.10.14:40281 as ras_pi_sub_1 (p2, c1, k60).
+1704499389: New connection from 172.100.10.15:37685 on port 1883.
+1704499389: Client ras_pi_sub_1 already connected, closing old connection.
+1704499389: New client connected from 172.100.10.15:37685 as ras_pi_sub_1 (p2, c1, k60).
+1704499390: New connection from 172.100.10.14:38871 on port 1883.
+1704499390: Client ras_pi_sub_1 already connected, closing old connection.
+1704499390: New client connected from 172.100.10.14:38871 as ras_pi_sub_1 (p2, c1, k60).
+1704499391: New connection from 172.100.10.15:59243 on port 1883.
+1704499391: Client ras_pi_sub_1 already connected, closing old connection.
+1704499391: New client connected from 172.100.10.15:59243 as ras_pi_sub_1 (p2, c1, k60).
+1704499392: New connection from 172.100.10.14:42025 on port 1883.
+1704499392: Client ras_pi_sub_1 already connected, closing old connection.
+1704499392: New client connected from 172.100.10.14:42025 as ras_pi_sub_1 (p2, c1, k60).
+1704499393: New connection from 172.100.10.15:54625 on port 1883.
+1704499393: Client ras_pi_sub_1 already connected, closing old connection.
+1704499393: New client connected from 172.100.10.15:54625 as ras_pi_sub_1 (p2, c1, k60).
+1704499394: New connection from 172.100.10.14:43079 on port 1883.
+1704499394: Client ras_pi_sub_1 already connected, closing old connection.
+1704499394: New client connected from 172.100.10.14:43079 as ras_pi_sub_1 (p2, c1, k60).
+1704499395: New connection from 172.100.10.15:43823 on port 1883.
+1704499395: Client ras_pi_sub_1 already connected, closing old connection.
+1704499395: New client connected from 172.100.10.15:43823 as ras_pi_sub_1 (p2, c1, k60).
+1704499396: New connection from 172.100.10.14:36661 on port 1883.
+1704499396: Client ras_pi_sub_1 already connected, closing old connection.
+1704499396: New client connected from 172.100.10.14:36661 as ras_pi_sub_1 (p2, c1, k60).
+1704499397: New connection from 172.100.10.15:45669 on port 1883.
+1704499397: Client ras_pi_sub_1 already connected, closing old connection.
+1704499397: New client connected from 172.100.10.15:45669 as ras_pi_sub_1 (p2, c1, k60).
+1704499398: New connection from 172.100.10.14:37817 on port 1883.
+1704499398: Client ras_pi_sub_1 already connected, closing old connection.
+1704499398: New client connected from 172.100.10.14:37817 as ras_pi_sub_1 (p2, c1, k60).
+1704499399: New connection from 172.100.10.15:57403 on port 1883.
+1704499399: Client ras_pi_sub_1 already connected, closing old connection.
+1704499399: New client connected from 172.100.10.15:57403 as ras_pi_sub_1 (p2, c1, k60).
+1704499400: New connection from 172.100.10.14:51785 on port 1883.
+1704499400: Client ras_pi_sub_1 already connected, closing old connection.
+1704499400: New client connected from 172.100.10.14:51785 as ras_pi_sub_1 (p2, c1, k60).
+1704499401: New connection from 172.100.10.15:57489 on port 1883.
+1704499401: Client ras_pi_sub_1 already connected, closing old connection.
+1704499401: New client connected from 172.100.10.15:57489 as ras_pi_sub_1 (p2, c1, k60).
+1704499402: New connection from 172.100.10.14:32945 on port 1883.
+1704499402: Client ras_pi_sub_1 already connected, closing old connection.
+1704499402: New client connected from 172.100.10.14:32945 as ras_pi_sub_1 (p2, c1, k60).
+1704499403: New connection from 172.100.10.15:55689 on port 1883.
+1704499403: Client ras_pi_sub_1 already connected, closing old connection.
+1704499403: New client connected from 172.100.10.15:55689 as ras_pi_sub_1 (p2, c1, k60).
+1704499404: New connection from 172.100.10.14:54963 on port 1883.
+1704499404: Client ras_pi_sub_1 already connected, closing old connection.
+1704499404: New client connected from 172.100.10.14:54963 as ras_pi_sub_1 (p2, c1, k60).
+1704499405: New connection from 172.100.10.15:50599 on port 1883.
+1704499405: Client ras_pi_sub_1 already connected, closing old connection.
+1704499405: New client connected from 172.100.10.15:50599 as ras_pi_sub_1 (p2, c1, k60).
+1704499406: New connection from 172.100.10.14:51483 on port 1883.
+1704499406: Client ras_pi_sub_1 already connected, closing old connection.
+1704499406: New client connected from 172.100.10.14:51483 as ras_pi_sub_1 (p2, c1, k60).
+1704499407: New connection from 172.100.10.15:40813 on port 1883.
+1704499407: Client ras_pi_sub_1 already connected, closing old connection.
+1704499407: New client connected from 172.100.10.15:40813 as ras_pi_sub_1 (p2, c1, k60).
+1704499408: New connection from 172.100.10.14:34433 on port 1883.
+1704499408: Client ras_pi_sub_1 already connected, closing old connection.
+1704499408: New client connected from 172.100.10.14:34433 as ras_pi_sub_1 (p2, c1, k60).
+1704499409: New connection from 172.100.10.15:52493 on port 1883.
+1704499409: Client ras_pi_sub_1 already connected, closing old connection.
+1704499409: New client connected from 172.100.10.15:52493 as ras_pi_sub_1 (p2, c1, k60).
+1704499410: New connection from 172.100.10.14:39533 on port 1883.
+1704499410: Client ras_pi_sub_1 already connected, closing old connection.
+1704499410: New client connected from 172.100.10.14:39533 as ras_pi_sub_1 (p2, c1, k60).
+1704499411: New connection from 172.100.10.15:56383 on port 1883.
+1704499411: Client ras_pi_sub_1 already connected, closing old connection.
+1704499411: New client connected from 172.100.10.15:56383 as ras_pi_sub_1 (p2, c1, k60).
+1704499412: New connection from 172.100.10.14:52829 on port 1883.
+1704499412: Client ras_pi_sub_1 already connected, closing old connection.
+1704499412: New client connected from 172.100.10.14:52829 as ras_pi_sub_1 (p2, c1, k60).
+1704499413: New connection from 172.100.10.15:53463 on port 1883.
+1704499413: Client ras_pi_sub_1 already connected, closing old connection.
+1704499413: New client connected from 172.100.10.15:53463 as ras_pi_sub_1 (p2, c1, k60).
+1704499414: New connection from 172.100.10.14:39835 on port 1883.
+1704499414: Client ras_pi_sub_1 already connected, closing old connection.
+1704499414: New client connected from 172.100.10.14:39835 as ras_pi_sub_1 (p2, c1, k60).
+1704499415: New connection from 172.100.10.15:36005 on port 1883.
+1704499415: Client ras_pi_sub_1 already connected, closing old connection.
+1704499415: New client connected from 172.100.10.15:36005 as ras_pi_sub_1 (p2, c1, k60).
+1704499416: New connection from 172.100.10.14:41639 on port 1883.
+1704499416: Client ras_pi_sub_1 already connected, closing old connection.
+1704499416: New client connected from 172.100.10.14:41639 as ras_pi_sub_1 (p2, c1, k60).
+1704499417: New connection from 172.100.10.15:58401 on port 1883.
+1704499417: Client ras_pi_sub_1 already connected, closing old connection.
+1704499417: New client connected from 172.100.10.15:58401 as ras_pi_sub_1 (p2, c1, k60).
+1704499418: New connection from 172.100.10.14:36817 on port 1883.
+1704499418: Client ras_pi_sub_1 already connected, closing old connection.
+1704499418: New client connected from 172.100.10.14:36817 as ras_pi_sub_1 (p2, c1, k60).
+1704499419: New connection from 172.100.10.15:42663 on port 1883.
+1704499419: Client ras_pi_sub_1 already connected, closing old connection.
+1704499419: New client connected from 172.100.10.15:42663 as ras_pi_sub_1 (p2, c1, k60).
+1704499420: New connection from 172.100.10.14:50275 on port 1883.
+1704499420: Client ras_pi_sub_1 already connected, closing old connection.
+1704499420: New client connected from 172.100.10.14:50275 as ras_pi_sub_1 (p2, c1, k60).
+1704499421: New connection from 172.100.10.15:52101 on port 1883.
+1704499421: Client ras_pi_sub_1 already connected, closing old connection.
+1704499421: New client connected from 172.100.10.15:52101 as ras_pi_sub_1 (p2, c1, k60).
+1704499422: New connection from 172.100.10.14:37249 on port 1883.
+1704499422: Client ras_pi_sub_1 already connected, closing old connection.
+1704499422: New client connected from 172.100.10.14:37249 as ras_pi_sub_1 (p2, c1, k60).
+1704499423: New connection from 172.100.10.15:51395 on port 1883.
+1704499423: Client ras_pi_sub_1 already connected, closing old connection.
+1704499423: New client connected from 172.100.10.15:51395 as ras_pi_sub_1 (p2, c1, k60).
+1704499424: New connection from 172.100.10.14:44829 on port 1883.
+1704499424: Client ras_pi_sub_1 already connected, closing old connection.
+1704499424: New client connected from 172.100.10.14:44829 as ras_pi_sub_1 (p2, c1, k60).
+1704499425: New connection from 172.100.10.15:36905 on port 1883.
+1704499425: Client ras_pi_sub_1 already connected, closing old connection.
+1704499425: New client connected from 172.100.10.15:36905 as ras_pi_sub_1 (p2, c1, k60).
+1704499426: New connection from 172.100.10.14:35927 on port 1883.
+1704499426: Client ras_pi_sub_1 already connected, closing old connection.
+1704499426: New client connected from 172.100.10.14:35927 as ras_pi_sub_1 (p2, c1, k60).
+1704499427: New connection from 172.100.10.15:40449 on port 1883.
+1704499427: Client ras_pi_sub_1 already connected, closing old connection.
+1704499427: New client connected from 172.100.10.15:40449 as ras_pi_sub_1 (p2, c1, k60).
+1704499428: New connection from 172.100.10.14:34419 on port 1883.
+1704499428: Client ras_pi_sub_1 already connected, closing old connection.
+1704499428: New client connected from 172.100.10.14:34419 as ras_pi_sub_1 (p2, c1, k60).
+1704499429: Client ras_pi_sub_1 closed its connection.
+1704499667: mosquitto version 2.0.18 terminating
+1704499667: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704499674: mosquitto version 2.0.18 starting
+1704499674: Config loaded from /mosquitto/config/mosquitto.conf.
+1704499674: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704499674: Opening ipv4 listen socket on port 1883.
+1704499674: Opening ipv6 listen socket on port 1883.
+1704499674: mosquitto version 2.0.18 running
+1704499675: New connection from 172.100.10.15:36845 on port 1883.
+1704499675: New client connected from 172.100.10.15:36845 as ras_pi_sub_1 (p2, c1, k60).
+1704499675: New connection from 172.100.10.14:49239 on port 1883.
+1704499675: Client ras_pi_sub_1 already connected, closing old connection.
+1704499675: New client connected from 172.100.10.14:49239 as ras_pi_sub_1 (p2, c1, k60).
+1704499676: New connection from 172.100.10.13:45771 on port 1883.
+1704499676: New client connected from 172.100.10.13:45771 as ras_pi_pub_1 (p2, c1, k60).
+1704499676: New connection from 172.100.10.15:43133 on port 1883.
+1704499676: Client ras_pi_sub_1 already connected, closing old connection.
+1704499676: New client connected from 172.100.10.15:43133 as ras_pi_sub_1 (p2, c1, k60).
+1704499677: New connection from 172.100.10.14:40639 on port 1883.
+1704499677: Client ras_pi_sub_1 already connected, closing old connection.
+1704499677: New client connected from 172.100.10.14:40639 as ras_pi_sub_1 (p2, c1, k60).
+1704499678: New connection from 172.100.10.15:51937 on port 1883.
+1704499678: Client ras_pi_sub_1 already connected, closing old connection.
+1704499678: New client connected from 172.100.10.15:51937 as ras_pi_sub_1 (p2, c1, k60).
+1704499679: Client ras_pi_pub_1 closed its connection.
+1704499679: New connection from 172.100.10.14:44449 on port 1883.
+1704499679: Client ras_pi_sub_1 already connected, closing old connection.
+1704499679: New client connected from 172.100.10.14:44449 as ras_pi_sub_1 (p2, c1, k60).
+1704499680: New connection from 172.100.10.15:56011 on port 1883.
+1704499680: Client ras_pi_sub_1 already connected, closing old connection.
+1704499680: New client connected from 172.100.10.15:56011 as ras_pi_sub_1 (p2, c1, k60).
+1704499681: New connection from 172.100.10.14:50867 on port 1883.
+1704499681: Client ras_pi_sub_1 already connected, closing old connection.
+1704499681: New client connected from 172.100.10.14:50867 as ras_pi_sub_1 (p2, c1, k60).
+1704499682: New connection from 172.100.10.15:48167 on port 1883.
+1704499682: Client ras_pi_sub_1 already connected, closing old connection.
+1704499682: New client connected from 172.100.10.15:48167 as ras_pi_sub_1 (p2, c1, k60).
+1704499683: New connection from 172.100.10.14:47475 on port 1883.
+1704499683: Client ras_pi_sub_1 already connected, closing old connection.
+1704499683: New client connected from 172.100.10.14:47475 as ras_pi_sub_1 (p2, c1, k60).
+1704499684: New connection from 172.100.10.15:41881 on port 1883.
+1704499684: Client ras_pi_sub_1 already connected, closing old connection.
+1704499684: New client connected from 172.100.10.15:41881 as ras_pi_sub_1 (p2, c1, k60).
+1704499685: New connection from 172.100.10.14:50269 on port 1883.
+1704499685: Client ras_pi_sub_1 already connected, closing old connection.
+1704499685: New client connected from 172.100.10.14:50269 as ras_pi_sub_1 (p2, c1, k60).
+1704499686: New connection from 172.100.10.15:40877 on port 1883.
+1704499686: Client ras_pi_sub_1 already connected, closing old connection.
+1704499686: New client connected from 172.100.10.15:40877 as ras_pi_sub_1 (p2, c1, k60).
+1704499687: New connection from 172.100.10.14:40839 on port 1883.
+1704499687: Client ras_pi_sub_1 already connected, closing old connection.
+1704499687: New client connected from 172.100.10.14:40839 as ras_pi_sub_1 (p2, c1, k60).
+1704499688: New connection from 172.100.10.15:33105 on port 1883.
+1704499688: Client ras_pi_sub_1 already connected, closing old connection.
+1704499688: New client connected from 172.100.10.15:33105 as ras_pi_sub_1 (p2, c1, k60).
+1704499689: New connection from 172.100.10.14:38707 on port 1883.
+1704499689: Client ras_pi_sub_1 already connected, closing old connection.
+1704499689: New client connected from 172.100.10.14:38707 as ras_pi_sub_1 (p2, c1, k60).
+1704499690: New connection from 172.100.10.15:58425 on port 1883.
+1704499690: Client ras_pi_sub_1 already connected, closing old connection.
+1704499690: New client connected from 172.100.10.15:58425 as ras_pi_sub_1 (p2, c1, k60).
+1704499691: New connection from 172.100.10.14:56371 on port 1883.
+1704499691: Client ras_pi_sub_1 already connected, closing old connection.
+1704499691: New client connected from 172.100.10.14:56371 as ras_pi_sub_1 (p2, c1, k60).
+1704499692: New connection from 172.100.10.15:41823 on port 1883.
+1704499693: Client ras_pi_sub_1 already connected, closing old connection.
+1704499693: New client connected from 172.100.10.15:41823 as ras_pi_sub_1 (p2, c1, k60).
+1704499694: New connection from 172.100.10.14:47991 on port 1883.
+1704499694: Client ras_pi_sub_1 already connected, closing old connection.
+1704499694: New client connected from 172.100.10.14:47991 as ras_pi_sub_1 (p2, c1, k60).
+1704499695: New connection from 172.100.10.15:34577 on port 1883.
+1704499695: Client ras_pi_sub_1 already connected, closing old connection.
+1704499695: New client connected from 172.100.10.15:34577 as ras_pi_sub_1 (p2, c1, k60).
+1704499696: New connection from 172.100.10.14:59385 on port 1883.
+1704499696: Client ras_pi_sub_1 already connected, closing old connection.
+1704499696: New client connected from 172.100.10.14:59385 as ras_pi_sub_1 (p2, c1, k60).
+1704499697: New connection from 172.100.10.15:36361 on port 1883.
+1704499697: Client ras_pi_sub_1 already connected, closing old connection.
+1704499697: New client connected from 172.100.10.15:36361 as ras_pi_sub_1 (p2, c1, k60).
+1704499698: New connection from 172.100.10.14:41401 on port 1883.
+1704499698: Client ras_pi_sub_1 already connected, closing old connection.
+1704499698: New client connected from 172.100.10.14:41401 as ras_pi_sub_1 (p2, c1, k60).
+1704499699: New connection from 172.100.10.15:38133 on port 1883.
+1704499699: Client ras_pi_sub_1 already connected, closing old connection.
+1704499699: New client connected from 172.100.10.15:38133 as ras_pi_sub_1 (p2, c1, k60).
+1704499700: New connection from 172.100.10.14:49275 on port 1883.
+1704499700: Client ras_pi_sub_1 already connected, closing old connection.
+1704499700: New client connected from 172.100.10.14:49275 as ras_pi_sub_1 (p2, c1, k60).
+1704499701: New connection from 172.100.10.15:54449 on port 1883.
+1704499701: Client ras_pi_sub_1 already connected, closing old connection.
+1704499701: New client connected from 172.100.10.15:54449 as ras_pi_sub_1 (p2, c1, k60).
+1704499702: New connection from 172.100.10.14:48811 on port 1883.
+1704499702: Client ras_pi_sub_1 already connected, closing old connection.
+1704499702: New client connected from 172.100.10.14:48811 as ras_pi_sub_1 (p2, c1, k60).
+1704499703: New connection from 172.100.10.15:42165 on port 1883.
+1704499703: Client ras_pi_sub_1 already connected, closing old connection.
+1704499703: New client connected from 172.100.10.15:42165 as ras_pi_sub_1 (p2, c1, k60).
+1704499704: New connection from 172.100.10.14:53201 on port 1883.
+1704499704: Client ras_pi_sub_1 already connected, closing old connection.
+1704499704: New client connected from 172.100.10.14:53201 as ras_pi_sub_1 (p2, c1, k60).
+1704499705: New connection from 172.100.10.15:48359 on port 1883.
+1704499705: Client ras_pi_sub_1 already connected, closing old connection.
+1704499705: New client connected from 172.100.10.15:48359 as ras_pi_sub_1 (p2, c1, k60).
+1704499706: New connection from 172.100.10.14:60985 on port 1883.
+1704499706: Client ras_pi_sub_1 already connected, closing old connection.
+1704499706: New client connected from 172.100.10.14:60985 as ras_pi_sub_1 (p2, c1, k60).
+1704499707: New connection from 172.100.10.15:60131 on port 1883.
+1704499707: Client ras_pi_sub_1 already connected, closing old connection.
+1704499707: New client connected from 172.100.10.15:60131 as ras_pi_sub_1 (p2, c1, k60).
+1704499708: New connection from 172.100.10.14:58831 on port 1883.
+1704499708: Client ras_pi_sub_1 already connected, closing old connection.
+1704499708: New client connected from 172.100.10.14:58831 as ras_pi_sub_1 (p2, c1, k60).
+1704499709: New connection from 172.100.10.15:37631 on port 1883.
+1704499709: Client ras_pi_sub_1 already connected, closing old connection.
+1704499709: New client connected from 172.100.10.15:37631 as ras_pi_sub_1 (p2, c1, k60).
+1704499710: New connection from 172.100.10.14:52015 on port 1883.
+1704499710: Client ras_pi_sub_1 already connected, closing old connection.
+1704499710: New client connected from 172.100.10.14:52015 as ras_pi_sub_1 (p2, c1, k60).
+1704499711: New connection from 172.100.10.15:35635 on port 1883.
+1704499711: Client ras_pi_sub_1 already connected, closing old connection.
+1704499711: New client connected from 172.100.10.15:35635 as ras_pi_sub_1 (p2, c1, k60).
+1704499712: New connection from 172.100.10.14:50189 on port 1883.
+1704499712: Client ras_pi_sub_1 already connected, closing old connection.
+1704499712: New client connected from 172.100.10.14:50189 as ras_pi_sub_1 (p2, c1, k60).
+1704499713: New connection from 172.100.10.15:59223 on port 1883.
+1704499713: Client ras_pi_sub_1 already connected, closing old connection.
+1704499713: New client connected from 172.100.10.15:59223 as ras_pi_sub_1 (p2, c1, k60).
+1704499714: New connection from 172.100.10.14:49547 on port 1883.
+1704499714: Client ras_pi_sub_1 already connected, closing old connection.
+1704499714: New client connected from 172.100.10.14:49547 as ras_pi_sub_1 (p2, c1, k60).
+1704499715: New connection from 172.100.10.15:39669 on port 1883.
+1704499715: Client ras_pi_sub_1 already connected, closing old connection.
+1704499715: New client connected from 172.100.10.15:39669 as ras_pi_sub_1 (p2, c1, k60).
+1704499716: New connection from 172.100.10.14:40217 on port 1883.
+1704499716: Client ras_pi_sub_1 already connected, closing old connection.
+1704499716: New client connected from 172.100.10.14:40217 as ras_pi_sub_1 (p2, c1, k60).
+1704499717: New connection from 172.100.10.15:54353 on port 1883.
+1704499717: Client ras_pi_sub_1 already connected, closing old connection.
+1704499717: New client connected from 172.100.10.15:54353 as ras_pi_sub_1 (p2, c1, k60).
+1704499718: New connection from 172.100.10.14:54311 on port 1883.
+1704499718: Client ras_pi_sub_1 already connected, closing old connection.
+1704499718: New client connected from 172.100.10.14:54311 as ras_pi_sub_1 (p2, c1, k60).
+1704499719: New connection from 172.100.10.15:52231 on port 1883.
+1704499719: Client ras_pi_sub_1 already connected, closing old connection.
+1704499719: New client connected from 172.100.10.15:52231 as ras_pi_sub_1 (p2, c1, k60).
+1704499720: New connection from 172.100.10.14:55887 on port 1883.
+1704499720: Client ras_pi_sub_1 already connected, closing old connection.
+1704499720: New client connected from 172.100.10.14:55887 as ras_pi_sub_1 (p2, c1, k60).
+1704499721: New connection from 172.100.10.15:41065 on port 1883.
+1704499721: Client ras_pi_sub_1 already connected, closing old connection.
+1704499721: New client connected from 172.100.10.15:41065 as ras_pi_sub_1 (p2, c1, k60).
+1704499722: New connection from 172.100.10.14:57007 on port 1883.
+1704499722: Client ras_pi_sub_1 already connected, closing old connection.
+1704499722: New client connected from 172.100.10.14:57007 as ras_pi_sub_1 (p2, c1, k60).
+1704499723: New connection from 172.100.10.15:47393 on port 1883.
+1704499723: Client ras_pi_sub_1 already connected, closing old connection.
+1704499723: New client connected from 172.100.10.15:47393 as ras_pi_sub_1 (p2, c1, k60).
+1704499724: New connection from 172.100.10.14:35913 on port 1883.
+1704499724: Client ras_pi_sub_1 already connected, closing old connection.
+1704499724: New client connected from 172.100.10.14:35913 as ras_pi_sub_1 (p2, c1, k60).
+1704499725: New connection from 172.100.10.15:50985 on port 1883.
+1704499725: Client ras_pi_sub_1 already connected, closing old connection.
+1704499725: New client connected from 172.100.10.15:50985 as ras_pi_sub_1 (p2, c1, k60).
+1704499725: Client ras_pi_sub_1 closed its connection.
+1704499767: mosquitto version 2.0.18 terminating
+1704499767: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704499780: mosquitto version 2.0.18 starting
+1704499780: Config loaded from /mosquitto/config/mosquitto.conf.
+1704499780: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704499780: Opening ipv4 listen socket on port 1883.
+1704499780: Opening ipv6 listen socket on port 1883.
+1704499780: mosquitto version 2.0.18 running
+1704499781: New connection from 172.100.10.14:49879 on port 1883.
+1704499781: New client connected from 172.100.10.14:49879 as ras_pi_sub_1 (p2, c1, k60).
+1704499781: New connection from 172.100.10.15:52083 on port 1883.
+1704499781: Client ras_pi_sub_1 already connected, closing old connection.
+1704499781: New client connected from 172.100.10.15:52083 as ras_pi_sub_1 (p2, c1, k60).
+1704499781: New connection from 172.100.10.13:36959 on port 1883.
+1704499781: New client connected from 172.100.10.13:36959 as ras_pi_pub_1 (p2, c1, k60).
+1704499782: New connection from 172.100.10.14:60679 on port 1883.
+1704499782: Client ras_pi_sub_1 already connected, closing old connection.
+1704499782: New client connected from 172.100.10.14:60679 as ras_pi_sub_1 (p2, c1, k60).
+1704499783: New connection from 172.100.10.15:52953 on port 1883.
+1704499783: Client ras_pi_sub_1 already connected, closing old connection.
+1704499783: New client connected from 172.100.10.15:52953 as ras_pi_sub_1 (p2, c1, k60).
+1704499784: New connection from 172.100.10.14:40203 on port 1883.
+1704499784: Client ras_pi_sub_1 already connected, closing old connection.
+1704499784: New client connected from 172.100.10.14:40203 as ras_pi_sub_1 (p2, c1, k60).
+1704499784: Client ras_pi_pub_1 closed its connection.
+1704499785: New connection from 172.100.10.15:44505 on port 1883.
+1704499785: Client ras_pi_sub_1 already connected, closing old connection.
+1704499785: New client connected from 172.100.10.15:44505 as ras_pi_sub_1 (p2, c1, k60).
+1704499786: New connection from 172.100.10.14:40781 on port 1883.
+1704499786: Client ras_pi_sub_1 already connected, closing old connection.
+1704499786: New client connected from 172.100.10.14:40781 as ras_pi_sub_1 (p2, c1, k60).
+1704499787: New connection from 172.100.10.15:40303 on port 1883.
+1704499787: Client ras_pi_sub_1 already connected, closing old connection.
+1704499787: New client connected from 172.100.10.15:40303 as ras_pi_sub_1 (p2, c1, k60).
+1704499788: New connection from 172.100.10.14:54413 on port 1883.
+1704499788: Client ras_pi_sub_1 already connected, closing old connection.
+1704499788: New client connected from 172.100.10.14:54413 as ras_pi_sub_1 (p2, c1, k60).
+1704499789: New connection from 172.100.10.15:53817 on port 1883.
+1704499789: Client ras_pi_sub_1 already connected, closing old connection.
+1704499789: New client connected from 172.100.10.15:53817 as ras_pi_sub_1 (p2, c1, k60).
+1704499790: New connection from 172.100.10.14:39919 on port 1883.
+1704499790: Client ras_pi_sub_1 already connected, closing old connection.
+1704499790: New client connected from 172.100.10.14:39919 as ras_pi_sub_1 (p2, c1, k60).
+1704499791: New connection from 172.100.10.15:34481 on port 1883.
+1704499791: Client ras_pi_sub_1 already connected, closing old connection.
+1704499791: New client connected from 172.100.10.15:34481 as ras_pi_sub_1 (p2, c1, k60).
+1704499792: New connection from 172.100.10.14:36409 on port 1883.
+1704499792: Client ras_pi_sub_1 already connected, closing old connection.
+1704499792: New client connected from 172.100.10.14:36409 as ras_pi_sub_1 (p2, c1, k60).
+1704499793: New connection from 172.100.10.15:34367 on port 1883.
+1704499793: Client ras_pi_sub_1 already connected, closing old connection.
+1704499793: New client connected from 172.100.10.15:34367 as ras_pi_sub_1 (p2, c1, k60).
+1704499794: New connection from 172.100.10.14:52709 on port 1883.
+1704499794: Client ras_pi_sub_1 already connected, closing old connection.
+1704499794: New client connected from 172.100.10.14:52709 as ras_pi_sub_1 (p2, c1, k60).
+1704499795: New connection from 172.100.10.15:38543 on port 1883.
+1704499795: Client ras_pi_sub_1 already connected, closing old connection.
+1704499795: New client connected from 172.100.10.15:38543 as ras_pi_sub_1 (p2, c1, k60).
+1704499796: New connection from 172.100.10.14:35885 on port 1883.
+1704499796: Client ras_pi_sub_1 already connected, closing old connection.
+1704499796: New client connected from 172.100.10.14:35885 as ras_pi_sub_1 (p2, c1, k60).
+1704499797: New connection from 172.100.10.15:53731 on port 1883.
+1704499797: Client ras_pi_sub_1 already connected, closing old connection.
+1704499797: New client connected from 172.100.10.15:53731 as ras_pi_sub_1 (p2, c1, k60).
+1704499798: New connection from 172.100.10.14:46341 on port 1883.
+1704499798: Client ras_pi_sub_1 already connected, closing old connection.
+1704499798: New client connected from 172.100.10.14:46341 as ras_pi_sub_1 (p2, c1, k60).
+1704499799: New connection from 172.100.10.15:54455 on port 1883.
+1704499799: Client ras_pi_sub_1 already connected, closing old connection.
+1704499799: New client connected from 172.100.10.15:54455 as ras_pi_sub_1 (p2, c1, k60).
+1704499800: New connection from 172.100.10.14:60383 on port 1883.
+1704499800: Client ras_pi_sub_1 already connected, closing old connection.
+1704499800: New client connected from 172.100.10.14:60383 as ras_pi_sub_1 (p2, c1, k60).
+1704499801: New connection from 172.100.10.15:48677 on port 1883.
+1704499801: Client ras_pi_sub_1 already connected, closing old connection.
+1704499801: New client connected from 172.100.10.15:48677 as ras_pi_sub_1 (p2, c1, k60).
+1704499802: New connection from 172.100.10.14:56909 on port 1883.
+1704499802: Client ras_pi_sub_1 already connected, closing old connection.
+1704499802: New client connected from 172.100.10.14:56909 as ras_pi_sub_1 (p2, c1, k60).
+1704499803: New connection from 172.100.10.15:45183 on port 1883.
+1704499803: Client ras_pi_sub_1 already connected, closing old connection.
+1704499803: New client connected from 172.100.10.15:45183 as ras_pi_sub_1 (p2, c1, k60).
+1704499804: New connection from 172.100.10.14:38587 on port 1883.
+1704499804: Client ras_pi_sub_1 already connected, closing old connection.
+1704499804: New client connected from 172.100.10.14:38587 as ras_pi_sub_1 (p2, c1, k60).
+1704499805: New connection from 172.100.10.15:53439 on port 1883.
+1704499805: Client ras_pi_sub_1 already connected, closing old connection.
+1704499805: New client connected from 172.100.10.15:53439 as ras_pi_sub_1 (p2, c1, k60).
+1704499806: New connection from 172.100.10.14:40173 on port 1883.
+1704499806: Client ras_pi_sub_1 already connected, closing old connection.
+1704499806: New client connected from 172.100.10.14:40173 as ras_pi_sub_1 (p2, c1, k60).
+1704499807: New connection from 172.100.10.15:39523 on port 1883.
+1704499807: Client ras_pi_sub_1 already connected, closing old connection.
+1704499807: New client connected from 172.100.10.15:39523 as ras_pi_sub_1 (p2, c1, k60).
+1704499808: New connection from 172.100.10.14:35741 on port 1883.
+1704499808: Client ras_pi_sub_1 already connected, closing old connection.
+1704499808: New client connected from 172.100.10.14:35741 as ras_pi_sub_1 (p2, c1, k60).
+1704499809: New connection from 172.100.10.15:55169 on port 1883.
+1704499809: Client ras_pi_sub_1 already connected, closing old connection.
+1704499809: New client connected from 172.100.10.15:55169 as ras_pi_sub_1 (p2, c1, k60).
+1704499810: New connection from 172.100.10.14:57019 on port 1883.
+1704499810: Client ras_pi_sub_1 already connected, closing old connection.
+1704499810: New client connected from 172.100.10.14:57019 as ras_pi_sub_1 (p2, c1, k60).
+1704499811: New connection from 172.100.10.15:41223 on port 1883.
+1704499811: Client ras_pi_sub_1 already connected, closing old connection.
+1704499811: New client connected from 172.100.10.15:41223 as ras_pi_sub_1 (p2, c1, k60).
+1704499812: New connection from 172.100.10.14:52033 on port 1883.
+1704499812: Client ras_pi_sub_1 already connected, closing old connection.
+1704499812: New client connected from 172.100.10.14:52033 as ras_pi_sub_1 (p2, c1, k60).
+1704499813: New connection from 172.100.10.15:35647 on port 1883.
+1704499813: Client ras_pi_sub_1 already connected, closing old connection.
+1704499813: New client connected from 172.100.10.15:35647 as ras_pi_sub_1 (p2, c1, k60).
+1704499814: New connection from 172.100.10.14:40765 on port 1883.
+1704499814: Client ras_pi_sub_1 already connected, closing old connection.
+1704499814: New client connected from 172.100.10.14:40765 as ras_pi_sub_1 (p2, c1, k60).
+1704499815: New connection from 172.100.10.15:35001 on port 1883.
+1704499815: Client ras_pi_sub_1 already connected, closing old connection.
+1704499815: New client connected from 172.100.10.15:35001 as ras_pi_sub_1 (p2, c1, k60).
+1704499816: New connection from 172.100.10.14:55201 on port 1883.
+1704499816: Client ras_pi_sub_1 already connected, closing old connection.
+1704499816: New client connected from 172.100.10.14:55201 as ras_pi_sub_1 (p2, c1, k60).
+1704499818: New connection from 172.100.10.15:52047 on port 1883.
+1704499818: Client ras_pi_sub_1 already connected, closing old connection.
+1704499818: New client connected from 172.100.10.15:52047 as ras_pi_sub_1 (p2, c1, k60).
+1704499819: New connection from 172.100.10.14:44275 on port 1883.
+1704499819: Client ras_pi_sub_1 already connected, closing old connection.
+1704499819: New client connected from 172.100.10.14:44275 as ras_pi_sub_1 (p2, c1, k60).
+1704499820: New connection from 172.100.10.15:41843 on port 1883.
+1704499820: Client ras_pi_sub_1 already connected, closing old connection.
+1704499820: New client connected from 172.100.10.15:41843 as ras_pi_sub_1 (p2, c1, k60).
+1704499821: New connection from 172.100.10.14:59303 on port 1883.
+1704499821: Client ras_pi_sub_1 already connected, closing old connection.
+1704499821: New client connected from 172.100.10.14:59303 as ras_pi_sub_1 (p2, c1, k60).
+1704499822: New connection from 172.100.10.15:36043 on port 1883.
+1704499822: Client ras_pi_sub_1 already connected, closing old connection.
+1704499822: New client connected from 172.100.10.15:36043 as ras_pi_sub_1 (p2, c1, k60).
+1704499823: New connection from 172.100.10.14:36885 on port 1883.
+1704499823: Client ras_pi_sub_1 already connected, closing old connection.
+1704499823: New client connected from 172.100.10.14:36885 as ras_pi_sub_1 (p2, c1, k60).
+1704499824: New connection from 172.100.10.15:59363 on port 1883.
+1704499824: Client ras_pi_sub_1 already connected, closing old connection.
+1704499824: New client connected from 172.100.10.15:59363 as ras_pi_sub_1 (p2, c1, k60).
+1704499825: New connection from 172.100.10.14:38021 on port 1883.
+1704499825: Client ras_pi_sub_1 already connected, closing old connection.
+1704499825: New client connected from 172.100.10.14:38021 as ras_pi_sub_1 (p2, c1, k60).
+1704499826: New connection from 172.100.10.15:60243 on port 1883.
+1704499826: Client ras_pi_sub_1 already connected, closing old connection.
+1704499826: New client connected from 172.100.10.15:60243 as ras_pi_sub_1 (p2, c1, k60).
+1704499827: New connection from 172.100.10.14:43881 on port 1883.
+1704499827: Client ras_pi_sub_1 already connected, closing old connection.
+1704499827: New client connected from 172.100.10.14:43881 as ras_pi_sub_1 (p2, c1, k60).
+1704499828: New connection from 172.100.10.15:55985 on port 1883.
+1704499828: Client ras_pi_sub_1 already connected, closing old connection.
+1704499828: New client connected from 172.100.10.15:55985 as ras_pi_sub_1 (p2, c1, k60).
+1704499829: New connection from 172.100.10.14:53139 on port 1883.
+1704499829: Client ras_pi_sub_1 already connected, closing old connection.
+1704499829: New client connected from 172.100.10.14:53139 as ras_pi_sub_1 (p2, c1, k60).
+1704499830: New connection from 172.100.10.15:46881 on port 1883.
+1704499830: Client ras_pi_sub_1 already connected, closing old connection.
+1704499830: New client connected from 172.100.10.15:46881 as ras_pi_sub_1 (p2, c1, k60).
+1704499831: New connection from 172.100.10.14:33939 on port 1883.
+1704499831: Client ras_pi_sub_1 already connected, closing old connection.
+1704499831: New client connected from 172.100.10.14:33939 as ras_pi_sub_1 (p2, c1, k60).
+1704499831: Client ras_pi_sub_1 closed its connection.
+1704499851: mosquitto version 2.0.18 terminating
+1704499851: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704499972: mosquitto version 2.0.18 starting
+1704499972: Config loaded from /mosquitto/config/mosquitto.conf.
+1704499972: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704499972: Opening ipv4 listen socket on port 1883.
+1704499972: Opening ipv6 listen socket on port 1883.
+1704499972: mosquitto version 2.0.18 running
+1704499973: New connection from 172.100.10.14:33731 on port 1883.
+1704499973: New client connected from 172.100.10.14:33731 as ras_pi_sub_1 (p2, c1, k60).
+1704499973: New connection from 172.100.10.15:58701 on port 1883.
+1704499973: Client ras_pi_sub_1 already connected, closing old connection.
+1704499973: New client connected from 172.100.10.15:58701 as ras_pi_sub_1 (p2, c1, k60).
+1704499973: New connection from 172.100.10.13:47531 on port 1883.
+1704499973: New client connected from 172.100.10.13:47531 as ras_pi_pub_1 (p2, c1, k60).
+1704499974: New connection from 172.100.10.14:37439 on port 1883.
+1704499974: Client ras_pi_sub_1 already connected, closing old connection.
+1704499974: New client connected from 172.100.10.14:37439 as ras_pi_sub_1 (p2, c1, k60).
+1704499975: New connection from 172.100.10.15:49025 on port 1883.
+1704499975: Client ras_pi_sub_1 already connected, closing old connection.
+1704499975: New client connected from 172.100.10.15:49025 as ras_pi_sub_1 (p2, c1, k60).
+1704499976: New connection from 172.100.10.14:38839 on port 1883.
+1704499976: Client ras_pi_sub_1 already connected, closing old connection.
+1704499976: New client connected from 172.100.10.14:38839 as ras_pi_sub_1 (p2, c1, k60).
+1704499976: Client ras_pi_pub_1 closed its connection.
+1704499977: New connection from 172.100.10.15:40643 on port 1883.
+1704499977: Client ras_pi_sub_1 already connected, closing old connection.
+1704499977: New client connected from 172.100.10.15:40643 as ras_pi_sub_1 (p2, c1, k60).
+1704499978: New connection from 172.100.10.14:37325 on port 1883.
+1704499978: Client ras_pi_sub_1 already connected, closing old connection.
+1704499978: New client connected from 172.100.10.14:37325 as ras_pi_sub_1 (p2, c1, k60).
+1704499979: New connection from 172.100.10.15:44409 on port 1883.
+1704499979: Client ras_pi_sub_1 already connected, closing old connection.
+1704499979: New client connected from 172.100.10.15:44409 as ras_pi_sub_1 (p2, c1, k60).
+1704499980: New connection from 172.100.10.14:46225 on port 1883.
+1704499980: Client ras_pi_sub_1 already connected, closing old connection.
+1704499980: New client connected from 172.100.10.14:46225 as ras_pi_sub_1 (p2, c1, k60).
+1704499981: New connection from 172.100.10.15:60731 on port 1883.
+1704499981: Client ras_pi_sub_1 already connected, closing old connection.
+1704499981: New client connected from 172.100.10.15:60731 as ras_pi_sub_1 (p2, c1, k60).
+1704499982: New connection from 172.100.10.14:44903 on port 1883.
+1704499982: Client ras_pi_sub_1 already connected, closing old connection.
+1704499982: New client connected from 172.100.10.14:44903 as ras_pi_sub_1 (p2, c1, k60).
+1704499983: New connection from 172.100.10.15:41245 on port 1883.
+1704499983: Client ras_pi_sub_1 already connected, closing old connection.
+1704499983: New client connected from 172.100.10.15:41245 as ras_pi_sub_1 (p2, c1, k60).
+1704499984: New connection from 172.100.10.14:53513 on port 1883.
+1704499984: Client ras_pi_sub_1 already connected, closing old connection.
+1704499984: New client connected from 172.100.10.14:53513 as ras_pi_sub_1 (p2, c1, k60).
+1704499985: New connection from 172.100.10.15:46009 on port 1883.
+1704499985: Client ras_pi_sub_1 already connected, closing old connection.
+1704499985: New client connected from 172.100.10.15:46009 as ras_pi_sub_1 (p2, c1, k60).
+1704499986: New connection from 172.100.10.14:48633 on port 1883.
+1704499986: Client ras_pi_sub_1 already connected, closing old connection.
+1704499986: New client connected from 172.100.10.14:48633 as ras_pi_sub_1 (p2, c1, k60).
+1704499987: New connection from 172.100.10.15:57415 on port 1883.
+1704499987: Client ras_pi_sub_1 already connected, closing old connection.
+1704499987: New client connected from 172.100.10.15:57415 as ras_pi_sub_1 (p2, c1, k60).
+1704499988: New connection from 172.100.10.14:53799 on port 1883.
+1704499988: Client ras_pi_sub_1 already connected, closing old connection.
+1704499988: New client connected from 172.100.10.14:53799 as ras_pi_sub_1 (p2, c1, k60).
+1704499989: New connection from 172.100.10.15:58149 on port 1883.
+1704499989: Client ras_pi_sub_1 already connected, closing old connection.
+1704499989: New client connected from 172.100.10.15:58149 as ras_pi_sub_1 (p2, c1, k60).
+1704499990: New connection from 172.100.10.14:56095 on port 1883.
+1704499990: Client ras_pi_sub_1 already connected, closing old connection.
+1704499990: New client connected from 172.100.10.14:56095 as ras_pi_sub_1 (p2, c1, k60).
+1704499991: New connection from 172.100.10.15:36905 on port 1883.
+1704499991: Client ras_pi_sub_1 already connected, closing old connection.
+1704499991: New client connected from 172.100.10.15:36905 as ras_pi_sub_1 (p2, c1, k60).
+1704499992: New connection from 172.100.10.14:50909 on port 1883.
+1704499992: Client ras_pi_sub_1 already connected, closing old connection.
+1704499992: New client connected from 172.100.10.14:50909 as ras_pi_sub_1 (p2, c1, k60).
+1704499993: New connection from 172.100.10.15:40969 on port 1883.
+1704499993: Client ras_pi_sub_1 already connected, closing old connection.
+1704499993: New client connected from 172.100.10.15:40969 as ras_pi_sub_1 (p2, c1, k60).
+1704499994: New connection from 172.100.10.14:59013 on port 1883.
+1704499994: Client ras_pi_sub_1 already connected, closing old connection.
+1704499994: New client connected from 172.100.10.14:59013 as ras_pi_sub_1 (p2, c1, k60).
+1704499995: New connection from 172.100.10.15:42361 on port 1883.
+1704499995: Client ras_pi_sub_1 already connected, closing old connection.
+1704499995: New client connected from 172.100.10.15:42361 as ras_pi_sub_1 (p2, c1, k60).
+1704499996: New connection from 172.100.10.14:36893 on port 1883.
+1704499996: Client ras_pi_sub_1 already connected, closing old connection.
+1704499996: New client connected from 172.100.10.14:36893 as ras_pi_sub_1 (p2, c1, k60).
+1704499997: New connection from 172.100.10.15:55803 on port 1883.
+1704499997: Client ras_pi_sub_1 already connected, closing old connection.
+1704499997: New client connected from 172.100.10.15:55803 as ras_pi_sub_1 (p2, c1, k60).
+1704499998: New connection from 172.100.10.14:45829 on port 1883.
+1704499998: Client ras_pi_sub_1 already connected, closing old connection.
+1704499998: New client connected from 172.100.10.14:45829 as ras_pi_sub_1 (p2, c1, k60).
+1704499999: New connection from 172.100.10.15:48371 on port 1883.
+1704499999: Client ras_pi_sub_1 already connected, closing old connection.
+1704499999: New client connected from 172.100.10.15:48371 as ras_pi_sub_1 (p2, c1, k60).
+1704500000: New connection from 172.100.10.14:57905 on port 1883.
+1704500000: Client ras_pi_sub_1 already connected, closing old connection.
+1704500000: New client connected from 172.100.10.14:57905 as ras_pi_sub_1 (p2, c1, k60).
+1704500001: New connection from 172.100.10.15:33753 on port 1883.
+1704500001: Client ras_pi_sub_1 already connected, closing old connection.
+1704500001: New client connected from 172.100.10.15:33753 as ras_pi_sub_1 (p2, c1, k60).
+1704500002: New connection from 172.100.10.14:40893 on port 1883.
+1704500002: Client ras_pi_sub_1 already connected, closing old connection.
+1704500002: New client connected from 172.100.10.14:40893 as ras_pi_sub_1 (p2, c1, k60).
+1704500003: New connection from 172.100.10.15:57075 on port 1883.
+1704500003: Client ras_pi_sub_1 already connected, closing old connection.
+1704500003: New client connected from 172.100.10.15:57075 as ras_pi_sub_1 (p2, c1, k60).
+1704500004: New connection from 172.100.10.14:46737 on port 1883.
+1704500004: Client ras_pi_sub_1 already connected, closing old connection.
+1704500004: New client connected from 172.100.10.14:46737 as ras_pi_sub_1 (p2, c1, k60).
+1704500005: New connection from 172.100.10.15:37511 on port 1883.
+1704500005: Client ras_pi_sub_1 already connected, closing old connection.
+1704500005: New client connected from 172.100.10.15:37511 as ras_pi_sub_1 (p2, c1, k60).
+1704500006: New connection from 172.100.10.14:54917 on port 1883.
+1704500006: Client ras_pi_sub_1 already connected, closing old connection.
+1704500006: New client connected from 172.100.10.14:54917 as ras_pi_sub_1 (p2, c1, k60).
+1704500007: New connection from 172.100.10.15:49171 on port 1883.
+1704500007: Client ras_pi_sub_1 already connected, closing old connection.
+1704500007: New client connected from 172.100.10.15:49171 as ras_pi_sub_1 (p2, c1, k60).
+1704500008: New connection from 172.100.10.14:42581 on port 1883.
+1704500008: Client ras_pi_sub_1 already connected, closing old connection.
+1704500008: New client connected from 172.100.10.14:42581 as ras_pi_sub_1 (p2, c1, k60).
+1704500009: New connection from 172.100.10.15:47005 on port 1883.
+1704500009: Client ras_pi_sub_1 already connected, closing old connection.
+1704500009: New client connected from 172.100.10.15:47005 as ras_pi_sub_1 (p2, c1, k60).
+1704500010: New connection from 172.100.10.14:55787 on port 1883.
+1704500010: Client ras_pi_sub_1 already connected, closing old connection.
+1704500010: New client connected from 172.100.10.14:55787 as ras_pi_sub_1 (p2, c1, k60).
+1704500011: Client ras_pi_sub_1 closed its connection.
+1704500011: mosquitto version 2.0.18 terminating
+1704500011: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500085: mosquitto version 2.0.18 starting
+1704500085: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500085: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500085: Opening ipv4 listen socket on port 1883.
+1704500085: Opening ipv6 listen socket on port 1883.
+1704500085: mosquitto version 2.0.18 running
+1704500085: New connection from 172.100.10.14:35195 on port 1883.
+1704500085: New connection from 172.100.10.15:48595 on port 1883.
+1704500085: New client connected from 172.100.10.14:35195 as ras_pi_sub_1 (p2, c1, k60).
+1704500085: Client ras_pi_sub_1 already connected, closing old connection.
+1704500085: New client connected from 172.100.10.15:48595 as ras_pi_sub_1 (p2, c1, k60).
+1704500085: New connection from 172.100.10.13:54339 on port 1883.
+1704500085: New client connected from 172.100.10.13:54339 as ras_pi_pub_1 (p2, c1, k60).
+1704500086: New connection from 172.100.10.14:60569 on port 1883.
+1704500086: Client ras_pi_sub_1 already connected, closing old connection.
+1704500086: New client connected from 172.100.10.14:60569 as ras_pi_sub_1 (p2, c1, k60).
+1704500087: New connection from 172.100.10.15:33827 on port 1883.
+1704500087: Client ras_pi_sub_1 already connected, closing old connection.
+1704500087: New client connected from 172.100.10.15:33827 as ras_pi_sub_1 (p2, c1, k60).
+1704500088: New connection from 172.100.10.14:58033 on port 1883.
+1704500088: Client ras_pi_sub_1 already connected, closing old connection.
+1704500088: New client connected from 172.100.10.14:58033 as ras_pi_sub_1 (p2, c1, k60).
+1704500088: Client ras_pi_pub_1 closed its connection.
+1704500089: New connection from 172.100.10.15:45217 on port 1883.
+1704500089: Client ras_pi_sub_1 already connected, closing old connection.
+1704500089: New client connected from 172.100.10.15:45217 as ras_pi_sub_1 (p2, c1, k60).
+1704500090: New connection from 172.100.10.14:35803 on port 1883.
+1704500090: Client ras_pi_sub_1 already connected, closing old connection.
+1704500090: New client connected from 172.100.10.14:35803 as ras_pi_sub_1 (p2, c1, k60).
+1704500091: New connection from 172.100.10.15:36487 on port 1883.
+1704500091: Client ras_pi_sub_1 already connected, closing old connection.
+1704500091: New client connected from 172.100.10.15:36487 as ras_pi_sub_1 (p2, c1, k60).
+1704500092: New connection from 172.100.10.14:33945 on port 1883.
+1704500092: Client ras_pi_sub_1 already connected, closing old connection.
+1704500092: New client connected from 172.100.10.14:33945 as ras_pi_sub_1 (p2, c1, k60).
+1704500093: New connection from 172.100.10.15:38907 on port 1883.
+1704500093: Client ras_pi_sub_1 already connected, closing old connection.
+1704500093: New client connected from 172.100.10.15:38907 as ras_pi_sub_1 (p2, c1, k60).
+1704500094: New connection from 172.100.10.14:58769 on port 1883.
+1704500094: Client ras_pi_sub_1 already connected, closing old connection.
+1704500094: New client connected from 172.100.10.14:58769 as ras_pi_sub_1 (p2, c1, k60).
+1704500095: New connection from 172.100.10.15:38681 on port 1883.
+1704500095: Client ras_pi_sub_1 already connected, closing old connection.
+1704500095: New client connected from 172.100.10.15:38681 as ras_pi_sub_1 (p2, c1, k60).
+1704500096: New connection from 172.100.10.14:38725 on port 1883.
+1704500096: Client ras_pi_sub_1 already connected, closing old connection.
+1704500096: New client connected from 172.100.10.14:38725 as ras_pi_sub_1 (p2, c1, k60).
+1704500097: New connection from 172.100.10.15:35439 on port 1883.
+1704500097: Client ras_pi_sub_1 already connected, closing old connection.
+1704500097: New client connected from 172.100.10.15:35439 as ras_pi_sub_1 (p2, c1, k60).
+1704500098: New connection from 172.100.10.14:41109 on port 1883.
+1704500098: Client ras_pi_sub_1 already connected, closing old connection.
+1704500098: New client connected from 172.100.10.14:41109 as ras_pi_sub_1 (p2, c1, k60).
+1704500099: New connection from 172.100.10.15:59795 on port 1883.
+1704500099: Client ras_pi_sub_1 already connected, closing old connection.
+1704500099: New client connected from 172.100.10.15:59795 as ras_pi_sub_1 (p2, c1, k60).
+1704500100: New connection from 172.100.10.14:39349 on port 1883.
+1704500100: Client ras_pi_sub_1 already connected, closing old connection.
+1704500100: New client connected from 172.100.10.14:39349 as ras_pi_sub_1 (p2, c1, k60).
+1704500101: New connection from 172.100.10.15:59723 on port 1883.
+1704500101: Client ras_pi_sub_1 already connected, closing old connection.
+1704500101: New client connected from 172.100.10.15:59723 as ras_pi_sub_1 (p2, c1, k60).
+1704500102: New connection from 172.100.10.14:43323 on port 1883.
+1704500102: Client ras_pi_sub_1 already connected, closing old connection.
+1704500102: New client connected from 172.100.10.14:43323 as ras_pi_sub_1 (p2, c1, k60).
+1704500103: New connection from 172.100.10.15:38153 on port 1883.
+1704500103: Client ras_pi_sub_1 already connected, closing old connection.
+1704500103: New client connected from 172.100.10.15:38153 as ras_pi_sub_1 (p2, c1, k60).
+1704500104: New connection from 172.100.10.14:58035 on port 1883.
+1704500104: Client ras_pi_sub_1 already connected, closing old connection.
+1704500104: New client connected from 172.100.10.14:58035 as ras_pi_sub_1 (p2, c1, k60).
+1704500105: New connection from 172.100.10.15:47285 on port 1883.
+1704500105: Client ras_pi_sub_1 already connected, closing old connection.
+1704500105: New client connected from 172.100.10.15:47285 as ras_pi_sub_1 (p2, c1, k60).
+1704500106: New connection from 172.100.10.14:41313 on port 1883.
+1704500106: Client ras_pi_sub_1 already connected, closing old connection.
+1704500106: New client connected from 172.100.10.14:41313 as ras_pi_sub_1 (p2, c1, k60).
+1704500107: New connection from 172.100.10.15:56035 on port 1883.
+1704500108: Client ras_pi_sub_1 already connected, closing old connection.
+1704500108: New client connected from 172.100.10.15:56035 as ras_pi_sub_1 (p2, c1, k60).
+1704500109: New connection from 172.100.10.14:40067 on port 1883.
+1704500109: Client ras_pi_sub_1 already connected, closing old connection.
+1704500109: New client connected from 172.100.10.14:40067 as ras_pi_sub_1 (p2, c1, k60).
+1704500110: New connection from 172.100.10.15:48233 on port 1883.
+1704500110: Client ras_pi_sub_1 already connected, closing old connection.
+1704500110: New client connected from 172.100.10.15:48233 as ras_pi_sub_1 (p2, c1, k60).
+1704500111: New connection from 172.100.10.14:50681 on port 1883.
+1704500111: Client ras_pi_sub_1 already connected, closing old connection.
+1704500111: New client connected from 172.100.10.14:50681 as ras_pi_sub_1 (p2, c1, k60).
+1704500112: New connection from 172.100.10.15:40159 on port 1883.
+1704500112: Client ras_pi_sub_1 already connected, closing old connection.
+1704500112: New client connected from 172.100.10.15:40159 as ras_pi_sub_1 (p2, c1, k60).
+1704500113: New connection from 172.100.10.14:53817 on port 1883.
+1704500113: Client ras_pi_sub_1 already connected, closing old connection.
+1704500113: New client connected from 172.100.10.14:53817 as ras_pi_sub_1 (p2, c1, k60).
+1704500114: New connection from 172.100.10.15:59641 on port 1883.
+1704500114: Client ras_pi_sub_1 already connected, closing old connection.
+1704500114: New client connected from 172.100.10.15:59641 as ras_pi_sub_1 (p2, c1, k60).
+1704500115: New connection from 172.100.10.14:42475 on port 1883.
+1704500115: Client ras_pi_sub_1 already connected, closing old connection.
+1704500115: New client connected from 172.100.10.14:42475 as ras_pi_sub_1 (p2, c1, k60).
+1704500116: New connection from 172.100.10.15:37445 on port 1883.
+1704500116: Client ras_pi_sub_1 already connected, closing old connection.
+1704500116: New client connected from 172.100.10.15:37445 as ras_pi_sub_1 (p2, c1, k60).
+1704500117: New connection from 172.100.10.14:57239 on port 1883.
+1704500117: Client ras_pi_sub_1 already connected, closing old connection.
+1704500117: New client connected from 172.100.10.14:57239 as ras_pi_sub_1 (p2, c1, k60).
+1704500118: New connection from 172.100.10.15:58561 on port 1883.
+1704500118: Client ras_pi_sub_1 already connected, closing old connection.
+1704500118: New client connected from 172.100.10.15:58561 as ras_pi_sub_1 (p2, c1, k60).
+1704500119: New connection from 172.100.10.14:33715 on port 1883.
+1704500119: Client ras_pi_sub_1 already connected, closing old connection.
+1704500119: New client connected from 172.100.10.14:33715 as ras_pi_sub_1 (p2, c1, k60).
+1704500120: New connection from 172.100.10.15:46499 on port 1883.
+1704500120: Client ras_pi_sub_1 already connected, closing old connection.
+1704500120: New client connected from 172.100.10.15:46499 as ras_pi_sub_1 (p2, c1, k60).
+1704500121: New connection from 172.100.10.14:35209 on port 1883.
+1704500121: Client ras_pi_sub_1 already connected, closing old connection.
+1704500121: New client connected from 172.100.10.14:35209 as ras_pi_sub_1 (p2, c1, k60).
+1704500122: New connection from 172.100.10.15:47267 on port 1883.
+1704500122: Client ras_pi_sub_1 already connected, closing old connection.
+1704500122: New client connected from 172.100.10.15:47267 as ras_pi_sub_1 (p2, c1, k60).
+1704500123: New connection from 172.100.10.14:45161 on port 1883.
+1704500123: Client ras_pi_sub_1 already connected, closing old connection.
+1704500123: New client connected from 172.100.10.14:45161 as ras_pi_sub_1 (p2, c1, k60).
+1704500124: New connection from 172.100.10.15:57825 on port 1883.
+1704500124: Client ras_pi_sub_1 already connected, closing old connection.
+1704500124: New client connected from 172.100.10.15:57825 as ras_pi_sub_1 (p2, c1, k60).
+1704500125: New connection from 172.100.10.14:47113 on port 1883.
+1704500125: Client ras_pi_sub_1 already connected, closing old connection.
+1704500125: New client connected from 172.100.10.14:47113 as ras_pi_sub_1 (p2, c1, k60).
+1704500126: New connection from 172.100.10.15:37133 on port 1883.
+1704500126: Client ras_pi_sub_1 already connected, closing old connection.
+1704500126: New client connected from 172.100.10.15:37133 as ras_pi_sub_1 (p2, c1, k60).
+1704500127: New connection from 172.100.10.14:44845 on port 1883.
+1704500127: Client ras_pi_sub_1 already connected, closing old connection.
+1704500127: New client connected from 172.100.10.14:44845 as ras_pi_sub_1 (p2, c1, k60).
+1704500128: New connection from 172.100.10.15:54583 on port 1883.
+1704500128: Client ras_pi_sub_1 already connected, closing old connection.
+1704500128: New client connected from 172.100.10.15:54583 as ras_pi_sub_1 (p2, c1, k60).
+1704500129: New connection from 172.100.10.14:33327 on port 1883.
+1704500129: Client ras_pi_sub_1 already connected, closing old connection.
+1704500129: New client connected from 172.100.10.14:33327 as ras_pi_sub_1 (p2, c1, k60).
+1704500129: Client ras_pi_sub_1 closed its connection.
+1704500129: mosquitto version 2.0.18 terminating
+1704500129: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500192: mosquitto version 2.0.18 starting
+1704500192: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500192: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500192: Opening ipv4 listen socket on port 1883.
+1704500192: Opening ipv6 listen socket on port 1883.
+1704500192: mosquitto version 2.0.18 running
+1704500193: New connection from 172.100.10.14:44729 on port 1883.
+1704500193: New client connected from 172.100.10.14:44729 as ras_pi_sub_1 (p2, c1, k60).
+1704500193: New connection from 172.100.10.13:37873 on port 1883.
+1704500193: New client connected from 172.100.10.13:37873 as ras_pi_pub_1 (p2, c1, k60).
+1704500196: Client ras_pi_pub_1 closed its connection.
+1704500213: Client ras_pi_sub_1 closed its connection.
+1704500214: mosquitto version 2.0.18 terminating
+1704500214: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500368: mosquitto version 2.0.18 starting
+1704500368: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500368: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500368: Opening ipv4 listen socket on port 1883.
+1704500368: Opening ipv6 listen socket on port 1883.
+1704500368: mosquitto version 2.0.18 running
+1704500368: New connection from 172.100.10.14:59485 on port 1883.
+1704500368: New client connected from 172.100.10.14:59485 as ras_pi_sub_1 (p2, c1, k60).
+1704500369: New connection from 172.100.10.13:33431 on port 1883.
+1704500369: New client connected from 172.100.10.13:33431 as ras_pi_pub_1 (p2, c1, k60).
+1704500372: Client ras_pi_pub_1 closed its connection.
+1704500419: Client ras_pi_sub_1 closed its connection.
+1704500442: mosquitto version 2.0.18 terminating
+1704500442: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500505: mosquitto version 2.0.18 starting
+1704500505: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500505: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500505: Opening ipv4 listen socket on port 1883.
+1704500505: Opening ipv6 listen socket on port 1883.
+1704500505: mosquitto version 2.0.18 running
+1704500506: New connection from 172.100.10.14:51957 on port 1883.
+1704500506: New client connected from 172.100.10.14:51957 as ras_pi_sub_1 (p2, c1, k60).
+1704500506: New connection from 172.100.10.13:56005 on port 1883.
+1704500506: New client connected from 172.100.10.13:56005 as ras_pi_pub_1 (p2, c1, k60).
+1704500509: Client ras_pi_pub_1 closed its connection.
+1704500556: Client ras_pi_sub_1 closed its connection.
+1704500565: mosquitto version 2.0.18 terminating
+1704500565: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500701: mosquitto version 2.0.18 starting
+1704500701: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500701: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500701: Opening ipv4 listen socket on port 1883.
+1704500701: Opening ipv6 listen socket on port 1883.
+1704500701: mosquitto version 2.0.18 running
+1704500701: New connection from 172.100.10.14:57047 on port 1883.
+1704500701: New client connected from 172.100.10.14:57047 as ras_pi_sub_1 (p2, c1, k60).
+1704500702: New connection from 172.100.10.13:35959 on port 1883.
+1704500702: New client connected from 172.100.10.13:35959 as ras_pi_pub_1 (p2, c1, k60).
+1704500705: Client ras_pi_pub_1 closed its connection.
+1704500746: Client ras_pi_sub_1 closed its connection.
+1704500746: mosquitto version 2.0.18 terminating
+1704500746: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500800: mosquitto version 2.0.18 starting
+1704500800: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500800: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500800: Opening ipv4 listen socket on port 1883.
+1704500800: Opening ipv6 listen socket on port 1883.
+1704500800: mosquitto version 2.0.18 running
+1704500800: New connection from 172.100.10.14:37103 on port 1883.
+1704500800: New client connected from 172.100.10.14:37103 as ras_pi_sub_1 (p2, c1, k60).
+1704500801: New connection from 172.100.10.13:43365 on port 1883.
+1704500801: New client connected from 172.100.10.13:43365 as ras_pi_pub_1 (p2, c1, k60).
+1704500804: Client ras_pi_pub_1 closed its connection.
+1704500851: Client ras_pi_sub_1 closed its connection.
+1704500898: mosquitto version 2.0.18 terminating
+1704500898: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704500931: mosquitto version 2.0.18 starting
+1704500931: Config loaded from /mosquitto/config/mosquitto.conf.
+1704500931: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704500931: Opening ipv4 listen socket on port 1883.
+1704500931: Opening ipv6 listen socket on port 1883.
+1704500931: mosquitto version 2.0.18 running
+1704500931: New connection from 172.100.10.14:50565 on port 1883.
+1704500931: New client connected from 172.100.10.14:50565 as ras_pi_sub_1 (p2, c1, k60).
+1704500931: New connection from 172.100.10.13:45417 on port 1883.
+1704500931: New client connected from 172.100.10.13:45417 as ras_pi_pub_1 (p2, c1, k60).
+1704500934: Client ras_pi_pub_1 closed its connection.
+1704500981: Client ras_pi_sub_1 closed its connection.
+1704500991: mosquitto version 2.0.18 terminating
+1704500991: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704501030: mosquitto version 2.0.18 starting
+1704501030: Config loaded from /mosquitto/config/mosquitto.conf.
+1704501030: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704501030: Opening ipv4 listen socket on port 1883.
+1704501030: Opening ipv6 listen socket on port 1883.
+1704501030: mosquitto version 2.0.18 running
+1704501030: New connection from 172.100.10.14:57921 on port 1883.
+1704501030: New client connected from 172.100.10.14:57921 as ras_pi_sub_1 (p2, c1, k60).
+1704501030: New connection from 172.100.10.13:53871 on port 1883.
+1704501031: New client connected from 172.100.10.13:53871 as ras_pi_pub_1 (p2, c1, k60).
+1704501034: Client ras_pi_pub_1 closed its connection.
+1704501080: Client ras_pi_sub_1 closed its connection.
+1704501111: mosquitto version 2.0.18 terminating
+1704501111: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704501144: mosquitto version 2.0.18 starting
+1704501144: Config loaded from /mosquitto/config/mosquitto.conf.
+1704501144: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704501144: Opening ipv4 listen socket on port 1883.
+1704501144: Opening ipv6 listen socket on port 1883.
+1704501144: mosquitto version 2.0.18 running
+1704501145: New connection from 172.100.10.14:54951 on port 1883.
+1704501145: New client connected from 172.100.10.14:54951 as ras_pi_sub_1 (p2, c1, k60).
+1704501145: New connection from 172.100.10.13:48483 on port 1883.
+1704501145: New client connected from 172.100.10.13:48483 as ras_pi_pub_1 (p2, c1, k60).
+1704501148: Client ras_pi_pub_1 closed its connection.
+1704501195: Client ras_pi_sub_1 closed its connection.
+1704501195: mosquitto version 2.0.18 terminating
+1704501195: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704501230: mosquitto version 2.0.18 starting
+1704501230: Config loaded from /mosquitto/config/mosquitto.conf.
+1704501230: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704501230: Opening ipv4 listen socket on port 1883.
+1704501230: Opening ipv6 listen socket on port 1883.
+1704501230: mosquitto version 2.0.18 running
+1704501230: New connection from 172.100.10.14:54913 on port 1883.
+1704501230: New client connected from 172.100.10.14:54913 as ras_pi_sub_1 (p2, c1, k60).
+1704501230: New connection from 172.100.10.13:38307 on port 1883.
+1704501230: New client connected from 172.100.10.13:38307 as ras_pi_pub_1 (p2, c1, k60).
+1704501233: Client ras_pi_pub_1 closed its connection.
+1704501273: Client ras_pi_sub_1 closed its connection.
+1704501273: mosquitto version 2.0.18 terminating
+1704501273: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704501299: mosquitto version 2.0.18 starting
+1704501299: Config loaded from /mosquitto/config/mosquitto.conf.
+1704501299: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704501299: Opening ipv4 listen socket on port 1883.
+1704501299: Opening ipv6 listen socket on port 1883.
+1704501299: mosquitto version 2.0.18 running
+1704501300: New connection from 172.100.10.14:50875 on port 1883.
+1704501300: New client connected from 172.100.10.14:50875 as ras_pi_sub_1 (p2, c1, k60).
+1704501300: New connection from 172.100.10.13:35245 on port 1883.
+1704501300: New client connected from 172.100.10.13:35245 as ras_pi_pub_1 (p2, c1, k60).
+1704501303: Client ras_pi_pub_1 closed its connection.
+1704501350: Client ras_pi_sub_1 closed its connection.
+1704502041: mosquitto version 2.0.18 terminating
+1704502041: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704502097: mosquitto version 2.0.18 starting
+1704502097: Config loaded from /mosquitto/config/mosquitto.conf.
+1704502097: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704502097: Opening ipv4 listen socket on port 1883.
+1704502097: Opening ipv6 listen socket on port 1883.
+1704502097: mosquitto version 2.0.18 running
+1704502097: New connection from 172.100.10.14:37191 on port 1883.
+1704502097: New client connected from 172.100.10.14:37191 as ras_pi_sub_1 (p2, c1, k60).
+1704502098: New connection from 172.100.10.13:32835 on port 1883.
+1704502098: New client connected from 172.100.10.13:32835 as ras_pi_pub_1 (p2, c1, k60).
+1704502101: Client ras_pi_pub_1 closed its connection.
+1704502147: Client ras_pi_sub_1 closed its connection.
+1704503061: mosquitto version 2.0.18 terminating
+1704503061: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503067: mosquitto version 2.0.18 starting
+1704503067: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503067: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503067: Opening ipv4 listen socket on port 1883.
+1704503067: Opening ipv6 listen socket on port 1883.
+1704503067: mosquitto version 2.0.18 running
+1704503068: New connection from 172.100.10.14:48421 on port 1883.
+1704503068: New client connected from 172.100.10.14:48421 as ras_pi_sub_1 (p2, c1, k60).
+1704503068: New connection from 172.100.10.13:48731 on port 1883.
+1704503068: New client connected from 172.100.10.13:48731 as ras_pi_pub_1 (p2, c1, k60).
+1704503071: Client ras_pi_pub_1 closed its connection.
+1704503085: Client ras_pi_sub_1 closed its connection.
+1704503085: mosquitto version 2.0.18 terminating
+1704503085: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503124: mosquitto version 2.0.18 starting
+1704503124: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503124: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503124: Opening ipv4 listen socket on port 1883.
+1704503124: Opening ipv6 listen socket on port 1883.
+1704503124: mosquitto version 2.0.18 running
+1704503124: New connection from 172.100.10.14:39885 on port 1883.
+1704503124: New client connected from 172.100.10.14:39885 as ras_pi_sub_1 (p2, c1, k60).
+1704503125: New connection from 172.100.10.13:36269 on port 1883.
+1704503125: New client connected from 172.100.10.13:36269 as ras_pi_pub_1 (p2, c1, k60).
+1704503128: Client ras_pi_pub_1 closed its connection.
+1704503174: Client ras_pi_sub_1 closed its connection.
+1704503511: mosquitto version 2.0.18 terminating
+1704503511: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503554: mosquitto version 2.0.18 starting
+1704503554: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503554: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503554: Opening ipv4 listen socket on port 1883.
+1704503554: Opening ipv6 listen socket on port 1883.
+1704503554: mosquitto version 2.0.18 running
+1704503554: New connection from 172.100.10.14:59177 on port 1883.
+1704503554: New client connected from 172.100.10.14:59177 as ras_pi_sub_1 (p2, c1, k60).
+1704503554: New connection from 172.100.10.13:45645 on port 1883.
+1704503554: New client connected from 172.100.10.13:45645 as ras_pi_pub_1 (p2, c1, k60).
+1704503557: Client ras_pi_pub_1 closed its connection.
+1704503604: Client ras_pi_sub_1 closed its connection.
+1704503683: mosquitto version 2.0.18 terminating
+1704503683: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503713: mosquitto version 2.0.18 starting
+1704503713: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503713: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503713: Opening ipv4 listen socket on port 1883.
+1704503713: Opening ipv6 listen socket on port 1883.
+1704503713: mosquitto version 2.0.18 running
+1704503713: New connection from 172.100.10.14:41371 on port 1883.
+1704503713: New client connected from 172.100.10.14:41371 as ras_pi_sub_1 (p2, c1, k60).
+1704503714: New connection from 172.100.10.13:54649 on port 1883.
+1704503714: New client connected from 172.100.10.13:54649 as ras_pi_pub_1 (p2, c1, k60).
+1704503717: Client ras_pi_pub_1 closed its connection.
+1704503764: Client ras_pi_sub_1 closed its connection.
+1704503793: mosquitto version 2.0.18 terminating
+1704503793: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503805: mosquitto version 2.0.18 starting
+1704503805: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503805: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503805: Opening ipv4 listen socket on port 1883.
+1704503805: Opening ipv6 listen socket on port 1883.
+1704503805: mosquitto version 2.0.18 running
+1704503805: New connection from 172.100.10.14:42339 on port 1883.
+1704503805: New client connected from 172.100.10.14:42339 as ras_pi_sub_1 (p2, c1, k60).
+1704503806: New connection from 172.100.10.13:52527 on port 1883.
+1704503806: New client connected from 172.100.10.13:52527 as ras_pi_pub_1 (p2, c1, k60).
+1704503809: Client ras_pi_pub_1 closed its connection.
+1704503829: Client ras_pi_sub_1 closed its connection.
+1704503829: mosquitto version 2.0.18 terminating
+1704503829: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704503879: mosquitto version 2.0.18 starting
+1704503879: Config loaded from /mosquitto/config/mosquitto.conf.
+1704503879: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704503879: Opening ipv4 listen socket on port 1883.
+1704503879: Opening ipv6 listen socket on port 1883.
+1704503879: mosquitto version 2.0.18 running
+1704503879: New connection from 172.100.10.14:57037 on port 1883.
+1704503879: New client connected from 172.100.10.14:57037 as ras_pi_sub_1 (p2, c1, k60).
+1704503880: New connection from 172.100.10.13:40103 on port 1883.
+1704503880: New client connected from 172.100.10.13:40103 as ras_pi_pub_1 (p2, c1, k60).
+1704503883: Client ras_pi_pub_1 closed its connection.
+1704503930: Client ras_pi_sub_1 closed its connection.
+1704504169: mosquitto version 2.0.18 terminating
+1704504169: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704504219: mosquitto version 2.0.18 starting
+1704504219: Config loaded from /mosquitto/config/mosquitto.conf.
+1704504219: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704504219: Opening ipv4 listen socket on port 1883.
+1704504219: Opening ipv6 listen socket on port 1883.
+1704504219: mosquitto version 2.0.18 running
+1704504219: New connection from 172.100.10.14:39287 on port 1883.
+1704504219: New client connected from 172.100.10.14:39287 as ras_pi_sub_1 (p2, c1, k60).
+1704504220: New connection from 172.100.10.13:44719 on port 1883.
+1704504220: New client connected from 172.100.10.13:44719 as ras_pi_pub_1 (p2, c1, k60).
+1704504223: Client ras_pi_pub_1 closed its connection.
+1704504259: Client ras_pi_sub_1 closed its connection.
+1704504259: mosquitto version 2.0.18 terminating
+1704504259: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704504265: mosquitto version 2.0.18 starting
+1704504265: Config loaded from /mosquitto/config/mosquitto.conf.
+1704504265: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704504265: Opening ipv4 listen socket on port 1883.
+1704504265: Opening ipv6 listen socket on port 1883.
+1704504265: mosquitto version 2.0.18 running
+1704504265: New connection from 172.100.10.14:46139 on port 1883.
+1704504265: New client connected from 172.100.10.14:46139 as ras_pi_sub_1 (p2, c1, k60).
+1704504265: New connection from 172.100.10.13:58735 on port 1883.
+1704504265: New client connected from 172.100.10.13:58735 as ras_pi_pub_1 (p2, c1, k60).
+1704504269: Client ras_pi_pub_1 closed its connection.
+1704504315: Client ras_pi_sub_1 closed its connection.
+1704504678: mosquitto version 2.0.18 terminating
+1704504678: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704504719: mosquitto version 2.0.18 starting
+1704504719: Config loaded from /mosquitto/config/mosquitto.conf.
+1704504719: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704504719: Opening ipv4 listen socket on port 1883.
+1704504719: Opening ipv6 listen socket on port 1883.
+1704504719: mosquitto version 2.0.18 running
+1704504720: New connection from 172.100.10.14:45991 on port 1883.
+1704504720: New client connected from 172.100.10.14:45991 as ras_pi_sub_1 (p2, c1, k60).
+1704504720: New connection from 172.100.10.13:41361 on port 1883.
+1704504720: New client connected from 172.100.10.13:41361 as ras_pi_pub_1 (p2, c1, k60).
+1704504723: Client ras_pi_pub_1 closed its connection.
+1704504770: Client ras_pi_sub_1 closed its connection.
+1704504859: mosquitto version 2.0.18 terminating
+1704504859: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704504882: mosquitto version 2.0.18 starting
+1704504882: Config loaded from /mosquitto/config/mosquitto.conf.
+1704504882: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704504882: Opening ipv4 listen socket on port 1883.
+1704504882: Opening ipv6 listen socket on port 1883.
+1704504882: mosquitto version 2.0.18 running
+1704504883: New connection from 172.100.10.14:54499 on port 1883.
+1704504883: New client connected from 172.100.10.14:54499 as ras_pi_sub_1 (p2, c1, k60).
+1704504883: New connection from 172.100.10.13:46475 on port 1883.
+1704504883: New client connected from 172.100.10.13:46475 as ras_pi_pub_1 (p2, c1, k60).
+1704504886: Client ras_pi_pub_1 closed its connection.
+1704504933: Client ras_pi_sub_1 closed its connection.
+1704504933: mosquitto version 2.0.18 terminating
+1704504933: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704504944: mosquitto version 2.0.18 starting
+1704504944: Config loaded from /mosquitto/config/mosquitto.conf.
+1704504944: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704504944: Opening ipv4 listen socket on port 1883.
+1704504944: Opening ipv6 listen socket on port 1883.
+1704504944: mosquitto version 2.0.18 running
+1704504944: New connection from 172.100.10.14:53059 on port 1883.
+1704504944: New client connected from 172.100.10.14:53059 as ras_pi_sub_1 (p2, c1, k60).
+1704504945: New connection from 172.100.10.13:36623 on port 1883.
+1704504945: New client connected from 172.100.10.13:36623 as ras_pi_pub_1 (p2, c1, k60).
+1704504948: Client ras_pi_pub_1 closed its connection.
+1704504994: Client ras_pi_sub_1 closed its connection.
+1704505256: mosquitto version 2.0.18 terminating
+1704505256: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704505262: mosquitto version 2.0.18 starting
+1704505262: Config loaded from /mosquitto/config/mosquitto.conf.
+1704505262: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704505262: Opening ipv4 listen socket on port 1883.
+1704505262: Opening ipv6 listen socket on port 1883.
+1704505262: mosquitto version 2.0.18 running
+1704505262: New connection from 172.100.10.14:37807 on port 1883.
+1704505262: New client connected from 172.100.10.14:37807 as ras_pi_sub_1 (p2, c1, k60).
+1704505263: New connection from 172.100.10.13:35803 on port 1883.
+1704505263: New client connected from 172.100.10.13:35803 as ras_pi_pub_1 (p2, c1, k60).
+1704505266: Client ras_pi_pub_1 closed its connection.
+1704505306: Client ras_pi_sub_1 closed its connection.
+1704505306: mosquitto version 2.0.18 terminating
+1704505306: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704505345: mosquitto version 2.0.18 starting
+1704505345: Config loaded from /mosquitto/config/mosquitto.conf.
+1704505345: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704505345: Opening ipv4 listen socket on port 1883.
+1704505345: Opening ipv6 listen socket on port 1883.
+1704505345: mosquitto version 2.0.18 running
+1704505345: New connection from 172.100.10.14:54553 on port 1883.
+1704505345: New client connected from 172.100.10.14:54553 as ras_pi_sub_1 (p2, c1, k60).
+1704505346: New connection from 172.100.10.13:55457 on port 1883.
+1704505346: New client connected from 172.100.10.13:55457 as ras_pi_pub_1 (p2, c1, k60).
+1704505346: Client ras_pi_pub_1 closed its connection.
+1704505395: Client ras_pi_sub_1 closed its connection.
+1704505639: mosquitto version 2.0.18 terminating
+1704505639: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704505666: mosquitto version 2.0.18 starting
+1704505666: Config loaded from /mosquitto/config/mosquitto.conf.
+1704505666: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704505666: Opening ipv4 listen socket on port 1883.
+1704505666: Opening ipv6 listen socket on port 1883.
+1704505666: mosquitto version 2.0.18 running
+1704505667: New connection from 172.100.10.14:38865 on port 1883.
+1704505667: New client connected from 172.100.10.14:38865 as ras_pi_sub_1 (p2, c1, k60).
+1704505668: New connection from 172.100.10.13:47509 on port 1883.
+1704505668: New client connected from 172.100.10.13:47509 as ras_pi_pub_1 (p2, c1, k60).
+1704505668: Client ras_pi_pub_1 closed its connection.
+1704505717: Client ras_pi_sub_1 closed its connection.
+1704506066: mosquitto version 2.0.18 terminating
+1704506066: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704506101: mosquitto version 2.0.18 starting
+1704506101: Config loaded from /mosquitto/config/mosquitto.conf.
+1704506101: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704506101: Opening ipv4 listen socket on port 1883.
+1704506101: Opening ipv6 listen socket on port 1883.
+1704506101: mosquitto version 2.0.18 running
+1704506102: New connection from 172.100.10.14:48809 on port 1883.
+1704506102: New client connected from 172.100.10.14:48809 as ras_pi_sub_1 (p2, c1, k60).
+1704506102: New connection from 172.100.10.13:56883 on port 1883.
+1704506102: New client connected from 172.100.10.13:56883 as ras_pi_pub_1 (p2, c1, k60).
+1704506102: Client ras_pi_pub_1 closed its connection.
+1704506152: Client ras_pi_sub_1 closed its connection.
+1704506161: mosquitto version 2.0.18 terminating
+1704506161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704506186: mosquitto version 2.0.18 starting
+1704506186: Config loaded from /mosquitto/config/mosquitto.conf.
+1704506186: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704506186: Opening ipv4 listen socket on port 1883.
+1704506186: Opening ipv6 listen socket on port 1883.
+1704506186: mosquitto version 2.0.18 running
+1704506186: New connection from 172.100.10.14:51165 on port 1883.
+1704506186: New client connected from 172.100.10.14:51165 as ras_pi_sub_1 (p2, c1, k60).
+1704506186: New connection from 172.100.10.13:59171 on port 1883.
+1704506186: New client connected from 172.100.10.13:59171 as ras_pi_pub_1 (p2, c1, k60).
+1704506186: Client ras_pi_pub_1 closed its connection.
+1704506206: Client ras_pi_sub_1 closed its connection.
+1704506206: mosquitto version 2.0.18 terminating
+1704506206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704506350: mosquitto version 2.0.18 starting
+1704506350: Config loaded from /mosquitto/config/mosquitto.conf.
+1704506350: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704506350: Opening ipv4 listen socket on port 1883.
+1704506350: Opening ipv6 listen socket on port 1883.
+1704506350: mosquitto version 2.0.18 running
+1704506350: New connection from 172.100.10.14:56971 on port 1883.
+1704506350: New client connected from 172.100.10.14:56971 as ras_pi_sub_1 (p2, c1, k60).
+1704506351: New connection from 172.100.10.13:48731 on port 1883.
+1704506351: New client connected from 172.100.10.13:48731 as ras_pi_pub_1 (p2, c1, k60).
+1704506354: Client ras_pi_pub_1 closed its connection.
+1704506385: Client ras_pi_sub_1 closed its connection.
+1704506385: mosquitto version 2.0.18 terminating
+1704506385: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704506391: mosquitto version 2.0.18 starting
+1704506391: Config loaded from /mosquitto/config/mosquitto.conf.
+1704506391: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704506391: Opening ipv4 listen socket on port 1883.
+1704506391: Opening ipv6 listen socket on port 1883.
+1704506391: mosquitto version 2.0.18 running
+1704506391: New connection from 172.100.10.14:53299 on port 1883.
+1704506391: New client connected from 172.100.10.14:53299 as ras_pi_sub_1 (p2, c1, k60).
+1704506392: New connection from 172.100.10.13:37861 on port 1883.
+1704506392: New client connected from 172.100.10.13:37861 as ras_pi_pub_1 (p2, c1, k60).
+1704506395: Client ras_pi_pub_1 closed its connection.
+1704506414: Client ras_pi_sub_1 closed its connection.
+1704506415: mosquitto version 2.0.18 terminating
+1704506415: Saving in-memory database to /mosquitto/data//mosquitto.db.

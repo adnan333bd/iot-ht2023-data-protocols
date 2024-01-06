@@ -32,13 +32,18 @@ services:
         mode: host
     networks:
         mqtt-net:
-          ipv4_address: 172.100.10.10  
+          ipv4_address: 172.100.10.10
   mqtt-pub:
     environment:
       - PYTHONUNBUFFERED=1
     build: 
       context: ./
       dockerfile: pubDockerfile
+    volumes:
+      - type: bind
+        source: ./log/
+        target: /mosquitto/log/csv/
+        read_only: false
     depends_on:
       - mqtt-broker
       - mqtt-sub
@@ -51,6 +56,11 @@ services:
     build: 
       context: ./
       dockerfile: subDockerfile
+    volumes:
+      - type: bind
+        source: ./log/
+        target: /mosquitto/log/csv/
+        read_only: false
     depends_on:
       - mqtt-broker
     networks:
@@ -59,3 +69,4 @@ services:
 volumes:
   data:
     name: "mqtt-broker-data"
+    external: true

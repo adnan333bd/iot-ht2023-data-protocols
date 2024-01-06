@@ -1,0 +1,7 @@
+Topic,Event Type,Message,Time
+/device,connection-requested,device_id:1;state:on,2024-01-06 01:59:11
+/device,connection-completed,device_id:1;state:on,2024-01-06 01:59:11
+/device,message-sent,device_id:1;state:on,2024-01-06 01:59:11
+/device,connection-requested,device_id:1;state:on,2024-01-06 01:59:52
+/device,connection-completed,device_id:1;state:on,2024-01-06 01:59:52
+/device,message-sent,device_id:1;state:on,2024-01-06 01:59:52
