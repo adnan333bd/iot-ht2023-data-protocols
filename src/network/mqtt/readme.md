@@ -78,3 +78,4 @@ docker-compose exec -it --privileged mqtt-sub /bin/bash
 
 
 
+# image: eclipse-mosquitto:latest

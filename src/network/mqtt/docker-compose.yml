@@ -7,7 +7,9 @@ networks:
         - subnet: 172.100.10.0/24
 services:
   mqtt-broker:
-    image: eclipse-mosquitto:latest
+    build: 
+      context: ./
+      dockerfile: Dockerfile.broker
     user: mosquitto
     volumes:
       - type: bind
