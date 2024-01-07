@@ -34,7 +34,7 @@ def test():
         )
         gateway.connect()
         gateways.append(gateway)
-
+    time.sleep(5)
     for gateway in gateways:
         send_message(gateway)
 
