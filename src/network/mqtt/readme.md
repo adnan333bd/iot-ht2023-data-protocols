@@ -21,3 +21,18 @@ tc class add dev eth0 parent 1:1 classid 1:20 htb rate 500kbit burst 32kbit
 source_ip="172.100.10.10"
 tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:20
 
+
+-----------------------
+
+# Create the root class with the total bandwidth rate using htb
+tc qdisc add dev eth0 root handle 1: htb default 10
+tc class add dev eth0 parent 1: classid 1:1 htb rate 1mbit burst 32kbit
+tc class add dev eth0 parent 1:1 classid 1:20 htb rate 50kbit burst 32kbit
+# Define the source IP (MQTT broker) and MQTT client IP and port
+source_ip="172.100.10.10"
+mqtt_client_ip="172.100.10.14"
+mqtt_broker_port=1883
+
+# Add tc filter to control inbound traffic from MQTT broker to MQTT client
+tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip match ip dst $mqtt_client_ip match ip dport $mqtt_broker_port flowid 1:20
+
