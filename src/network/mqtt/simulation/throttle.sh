@@ -10,7 +10,7 @@ IF=eth0
 LIMIT=100mbit
 
 # broker
-SRC_CIDR=172.100.10.10/32
+SRC_CIDR=172.100.10.15/32
 
 # filter command -- add ip dst match at the end
 U32="$TC filter add dev $IF protocol ip parent 1:0 prio 1 u32"

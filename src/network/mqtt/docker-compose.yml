@@ -49,6 +49,8 @@ services:
       mqtt-net:
         ipv4_address: 172.100.10.13
   mqtt-sub:
+    cap_add:
+        - NET_ADMIN
     build: 
       context: ./
       dockerfile: Dockerfile.subscriber
@@ -67,6 +69,8 @@ services:
       mqtt-net:
         ipv4_address: 172.100.10.14
   mqtt-sub2:
+    cap_add:
+      - NET_ADMIN
     build: 
       context: ./
       dockerfile: Dockerfile.subscriber2
