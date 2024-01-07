@@ -13921,3 +13921,470 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704576650: Client pub_3 closed its connection.
 1704576650: Client pub_2 closed its connection.
 1704576650: Client pub_1 closed its connection.
+1704576786: Client sub_10 closed its connection.
+1704576786: Client sub_9 closed its connection.
+1704576786: Client sub_8 closed its connection.
+1704576786: Client sub_7 closed its connection.
+1704576786: Client sub_6 closed its connection.
+1704576786: Client sub_5 closed its connection.
+1704576786: Client sub_4 closed its connection.
+1704576786: Client sub_3 closed its connection.
+1704576786: Client sub_2 closed its connection.
+1704576786: Client sub_1 closed its connection.
+1704576793: New connection from 172.100.10.14:54773 on port 1883.
+1704576793: New client connected from 172.100.10.14:54773 as sub_1 (p2, c1, k60).
+1704576793: New connection from 172.100.10.14:35915 on port 1883.
+1704576793: New client connected from 172.100.10.14:35915 as sub_2 (p2, c1, k60).
+1704576793: New connection from 172.100.10.14:47499 on port 1883.
+1704576793: New client connected from 172.100.10.14:47499 as sub_3 (p2, c1, k60).
+1704576813: New connection from 172.100.10.13:59847 on port 1883.
+1704576813: New client connected from 172.100.10.13:59847 as pub_1 (p2, c1, k60).
+1704576813: New connection from 172.100.10.13:40657 on port 1883.
+1704576813: New client connected from 172.100.10.13:40657 as pub_2 (p2, c1, k60).
+1704576813: New connection from 172.100.10.13:37635 on port 1883.
+1704576813: New client connected from 172.100.10.13:37635 as pub_3 (p2, c1, k60).
+1704576819: Client pub_3 closed its connection.
+1704576819: Client pub_2 closed its connection.
+1704576819: Client pub_1 closed its connection.
+1704577585: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704578918: Client sub_3 closed its connection.
+1704578918: Client sub_2 closed its connection.
+1704578918: Client sub_1 closed its connection.
+1704578961: New connection from 172.100.10.14:37899 on port 1883.
+1704578961: New client connected from 172.100.10.14:37899 as sub_1 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:44333 on port 1883.
+1704578961: New client connected from 172.100.10.14:44333 as sub_2 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:56063 on port 1883.
+1704578961: New connection from 172.100.10.14:46745 on port 1883.
+1704578961: New client connected from 172.100.10.14:56063 as sub_3 (p2, c1, k60).
+1704578961: New client connected from 172.100.10.14:46745 as sub_4 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:47313 on port 1883.
+1704578961: New client connected from 172.100.10.14:47313 as sub_5 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:58481 on port 1883.
+1704578961: New client connected from 172.100.10.14:58481 as sub_6 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:33107 on port 1883.
+1704578961: New client connected from 172.100.10.14:33107 as sub_7 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:37605 on port 1883.
+1704578961: New client connected from 172.100.10.14:37605 as sub_8 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:52471 on port 1883.
+1704578961: New client connected from 172.100.10.14:52471 as sub_9 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:52115 on port 1883.
+1704578961: New client connected from 172.100.10.14:52115 as sub_10 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:50549 on port 1883.
+1704578961: New client connected from 172.100.10.14:50549 as sub_11 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:37289 on port 1883.
+1704578961: New client connected from 172.100.10.14:37289 as sub_12 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:32863 on port 1883.
+1704578961: New client connected from 172.100.10.14:32863 as sub_13 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:38991 on port 1883.
+1704578961: New client connected from 172.100.10.14:38991 as sub_14 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:57383 on port 1883.
+1704578961: New client connected from 172.100.10.14:57383 as sub_15 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:44919 on port 1883.
+1704578961: New client connected from 172.100.10.14:44919 as sub_16 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:59001 on port 1883.
+1704578961: New client connected from 172.100.10.14:59001 as sub_17 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:51129 on port 1883.
+1704578961: New client connected from 172.100.10.14:51129 as sub_18 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:57331 on port 1883.
+1704578961: New client connected from 172.100.10.14:57331 as sub_19 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:47985 on port 1883.
+1704578961: New client connected from 172.100.10.14:47985 as sub_20 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:55843 on port 1883.
+1704578961: New client connected from 172.100.10.14:55843 as sub_21 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:38671 on port 1883.
+1704578961: New client connected from 172.100.10.14:38671 as sub_22 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:40807 on port 1883.
+1704578961: New client connected from 172.100.10.14:40807 as sub_23 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:50129 on port 1883.
+1704578961: New client connected from 172.100.10.14:50129 as sub_24 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:45317 on port 1883.
+1704578961: New client connected from 172.100.10.14:45317 as sub_25 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:49741 on port 1883.
+1704578961: New client connected from 172.100.10.14:49741 as sub_26 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:39249 on port 1883.
+1704578961: New client connected from 172.100.10.14:39249 as sub_27 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:58743 on port 1883.
+1704578961: New client connected from 172.100.10.14:58743 as sub_28 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:56921 on port 1883.
+1704578961: New connection from 172.100.10.14:33551 on port 1883.
+1704578961: New client connected from 172.100.10.14:56921 as sub_29 (p2, c1, k60).
+1704578961: New client connected from 172.100.10.14:33551 as sub_30 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:54381 on port 1883.
+1704578961: New client connected from 172.100.10.14:54381 as sub_31 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:48471 on port 1883.
+1704578961: New client connected from 172.100.10.14:48471 as sub_32 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:47063 on port 1883.
+1704578961: New client connected from 172.100.10.14:47063 as sub_33 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:60881 on port 1883.
+1704578961: New client connected from 172.100.10.14:60881 as sub_34 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:47439 on port 1883.
+1704578961: New client connected from 172.100.10.14:47439 as sub_35 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:35505 on port 1883.
+1704578961: New client connected from 172.100.10.14:35505 as sub_36 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:54791 on port 1883.
+1704578961: New client connected from 172.100.10.14:54791 as sub_37 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:56219 on port 1883.
+1704578961: New client connected from 172.100.10.14:56219 as sub_38 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:40987 on port 1883.
+1704578961: New client connected from 172.100.10.14:40987 as sub_39 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:38587 on port 1883.
+1704578961: New client connected from 172.100.10.14:38587 as sub_40 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:42281 on port 1883.
+1704578961: New client connected from 172.100.10.14:42281 as sub_41 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:49401 on port 1883.
+1704578961: New client connected from 172.100.10.14:49401 as sub_42 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:44495 on port 1883.
+1704578961: New client connected from 172.100.10.14:44495 as sub_43 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:41367 on port 1883.
+1704578961: New client connected from 172.100.10.14:41367 as sub_44 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:59899 on port 1883.
+1704578961: New client connected from 172.100.10.14:59899 as sub_45 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:48919 on port 1883.
+1704578961: New client connected from 172.100.10.14:48919 as sub_46 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:39163 on port 1883.
+1704578961: New client connected from 172.100.10.14:39163 as sub_47 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:57691 on port 1883.
+1704578961: New client connected from 172.100.10.14:57691 as sub_48 (p2, c1, k60).
+1704578961: New connection from 172.100.10.14:53075 on port 1883.
+1704578961: New connection from 172.100.10.14:55753 on port 1883.
+1704578961: New client connected from 172.100.10.14:53075 as sub_49 (p2, c1, k60).
+1704578961: New client connected from 172.100.10.14:55753 as sub_50 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:52511 on port 1883.
+1704578983: New client connected from 172.100.10.13:52511 as pub_1 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:33373 on port 1883.
+1704578983: New client connected from 172.100.10.13:33373 as pub_2 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:60791 on port 1883.
+1704578983: New client connected from 172.100.10.13:60791 as pub_3 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:50811 on port 1883.
+1704578983: New client connected from 172.100.10.13:50811 as pub_4 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:53665 on port 1883.
+1704578983: New client connected from 172.100.10.13:53665 as pub_5 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:53043 on port 1883.
+1704578983: New client connected from 172.100.10.13:53043 as pub_6 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:56777 on port 1883.
+1704578983: New client connected from 172.100.10.13:56777 as pub_7 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:58553 on port 1883.
+1704578983: New client connected from 172.100.10.13:58553 as pub_8 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:46925 on port 1883.
+1704578983: New client connected from 172.100.10.13:46925 as pub_9 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:50843 on port 1883.
+1704578983: New client connected from 172.100.10.13:50843 as pub_10 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:42241 on port 1883.
+1704578983: New client connected from 172.100.10.13:42241 as pub_11 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:44977 on port 1883.
+1704578983: New client connected from 172.100.10.13:44977 as pub_12 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:41459 on port 1883.
+1704578983: New client connected from 172.100.10.13:41459 as pub_13 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:33039 on port 1883.
+1704578983: New client connected from 172.100.10.13:33039 as pub_14 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:57347 on port 1883.
+1704578983: New client connected from 172.100.10.13:57347 as pub_15 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:60461 on port 1883.
+1704578983: New client connected from 172.100.10.13:60461 as pub_16 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:60059 on port 1883.
+1704578983: New client connected from 172.100.10.13:60059 as pub_17 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:47149 on port 1883.
+1704578983: New client connected from 172.100.10.13:47149 as pub_18 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:58037 on port 1883.
+1704578983: New client connected from 172.100.10.13:58037 as pub_19 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:36901 on port 1883.
+1704578983: New client connected from 172.100.10.13:36901 as pub_20 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:53079 on port 1883.
+1704578983: New client connected from 172.100.10.13:53079 as pub_21 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:37441 on port 1883.
+1704578983: New client connected from 172.100.10.13:37441 as pub_22 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:54599 on port 1883.
+1704578983: New client connected from 172.100.10.13:54599 as pub_23 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:51239 on port 1883.
+1704578983: New client connected from 172.100.10.13:51239 as pub_24 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:45731 on port 1883.
+1704578983: New connection from 172.100.10.13:45509 on port 1883.
+1704578983: New client connected from 172.100.10.13:45731 as pub_25 (p2, c1, k60).
+1704578983: New client connected from 172.100.10.13:45509 as pub_26 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:50405 on port 1883.
+1704578983: New client connected from 172.100.10.13:50405 as pub_27 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:42631 on port 1883.
+1704578983: New connection from 172.100.10.13:60355 on port 1883.
+1704578983: New client connected from 172.100.10.13:42631 as pub_28 (p2, c1, k60).
+1704578983: New client connected from 172.100.10.13:60355 as pub_29 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:53947 on port 1883.
+1704578983: New client connected from 172.100.10.13:53947 as pub_30 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:57575 on port 1883.
+1704578983: New client connected from 172.100.10.13:57575 as pub_31 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:55853 on port 1883.
+1704578983: New client connected from 172.100.10.13:55853 as pub_32 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:46483 on port 1883.
+1704578983: New client connected from 172.100.10.13:46483 as pub_33 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:50583 on port 1883.
+1704578983: New client connected from 172.100.10.13:50583 as pub_34 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:48633 on port 1883.
+1704578983: New client connected from 172.100.10.13:48633 as pub_35 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:39401 on port 1883.
+1704578983: New client connected from 172.100.10.13:39401 as pub_36 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:50807 on port 1883.
+1704578983: New client connected from 172.100.10.13:50807 as pub_37 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:49363 on port 1883.
+1704578983: New client connected from 172.100.10.13:49363 as pub_38 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:49051 on port 1883.
+1704578983: New client connected from 172.100.10.13:49051 as pub_39 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:46355 on port 1883.
+1704578983: New client connected from 172.100.10.13:46355 as pub_40 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:38151 on port 1883.
+1704578983: New client connected from 172.100.10.13:38151 as pub_41 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:55375 on port 1883.
+1704578983: New client connected from 172.100.10.13:55375 as pub_42 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:51071 on port 1883.
+1704578983: New client connected from 172.100.10.13:51071 as pub_43 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:49879 on port 1883.
+1704578983: New client connected from 172.100.10.13:49879 as pub_44 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:60839 on port 1883.
+1704578983: New connection from 172.100.10.13:33215 on port 1883.
+1704578983: New client connected from 172.100.10.13:60839 as pub_45 (p2, c1, k60).
+1704578983: New client connected from 172.100.10.13:33215 as pub_46 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:52805 on port 1883.
+1704578983: New client connected from 172.100.10.13:52805 as pub_47 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:46187 on port 1883.
+1704578983: New client connected from 172.100.10.13:46187 as pub_48 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:38279 on port 1883.
+1704578983: New client connected from 172.100.10.13:38279 as pub_49 (p2, c1, k60).
+1704578983: New connection from 172.100.10.13:54847 on port 1883.
+1704578983: New client connected from 172.100.10.13:54847 as pub_50 (p2, c1, k60).
+1704578996: Client pub_50 closed its connection.
+1704578996: Client pub_49 closed its connection.
+1704578996: Client pub_48 closed its connection.
+1704578996: Client pub_47 closed its connection.
+1704578996: Client pub_46 closed its connection.
+1704578996: Client pub_45 closed its connection.
+1704578996: Client pub_44 closed its connection.
+1704578996: Client pub_43 closed its connection.
+1704578996: Client pub_42 closed its connection.
+1704578996: Client pub_41 closed its connection.
+1704578996: Client pub_40 closed its connection.
+1704578996: Client pub_39 closed its connection.
+1704578996: Client pub_38 closed its connection.
+1704578996: Client pub_37 closed its connection.
+1704578996: Client pub_36 closed its connection.
+1704578996: Client pub_35 closed its connection.
+1704578996: Client pub_34 closed its connection.
+1704578996: Client pub_33 closed its connection.
+1704578996: Client pub_32 closed its connection.
+1704578996: Client pub_31 closed its connection.
+1704578996: Client pub_30 closed its connection.
+1704578996: Client pub_29 closed its connection.
+1704578996: Client pub_28 closed its connection.
+1704578996: Client pub_27 closed its connection.
+1704578996: Client pub_26 closed its connection.
+1704578996: Client pub_25 closed its connection.
+1704578996: Client pub_24 closed its connection.
+1704578996: Client pub_23 closed its connection.
+1704578996: Client pub_22 closed its connection.
+1704578996: Client pub_21 closed its connection.
+1704578996: Client pub_20 closed its connection.
+1704578996: Client pub_19 closed its connection.
+1704578996: Client pub_18 closed its connection.
+1704578996: Client pub_17 closed its connection.
+1704578996: Client pub_16 closed its connection.
+1704578996: Client pub_15 closed its connection.
+1704578996: Client pub_14 closed its connection.
+1704578996: Client pub_13 closed its connection.
+1704578996: Client pub_12 closed its connection.
+1704578996: Client pub_11 closed its connection.
+1704578996: Client pub_10 closed its connection.
+1704578996: Client pub_9 closed its connection.
+1704578996: Client pub_8 closed its connection.
+1704578996: Client pub_7 closed its connection.
+1704578996: Client pub_6 closed its connection.
+1704578996: Client pub_5 closed its connection.
+1704578996: Client pub_4 closed its connection.
+1704578996: Client pub_3 closed its connection.
+1704578996: Client pub_2 closed its connection.
+1704578996: Client pub_1 closed its connection.
+1704579386: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704579771: Client sub_50 closed its connection.
+1704579771: Client sub_49 closed its connection.
+1704579771: Client sub_48 closed its connection.
+1704579771: Client sub_47 closed its connection.
+1704579771: Client sub_46 closed its connection.
+1704579771: Client sub_45 closed its connection.
+1704579771: Client sub_44 closed its connection.
+1704579771: Client sub_43 closed its connection.
+1704579771: Client sub_42 closed its connection.
+1704579771: Client sub_41 closed its connection.
+1704579771: Client sub_40 closed its connection.
+1704579771: Client sub_39 closed its connection.
+1704579771: Client sub_38 closed its connection.
+1704579771: Client sub_37 closed its connection.
+1704579771: Client sub_36 closed its connection.
+1704579771: Client sub_35 closed its connection.
+1704579771: Client sub_34 closed its connection.
+1704579771: Client sub_33 closed its connection.
+1704579771: Client sub_32 closed its connection.
+1704579771: Client sub_31 closed its connection.
+1704579771: Client sub_30 closed its connection.
+1704579771: Client sub_29 closed its connection.
+1704579771: Client sub_28 closed its connection.
+1704579771: Client sub_27 closed its connection.
+1704579771: Client sub_26 closed its connection.
+1704579771: Client sub_25 closed its connection.
+1704579771: Client sub_24 closed its connection.
+1704579771: Client sub_23 closed its connection.
+1704579771: Client sub_22 closed its connection.
+1704579771: Client sub_21 closed its connection.
+1704579771: Client sub_20 closed its connection.
+1704579771: Client sub_19 closed its connection.
+1704579771: Client sub_18 closed its connection.
+1704579771: Client sub_17 closed its connection.
+1704579771: Client sub_16 closed its connection.
+1704579771: Client sub_15 closed its connection.
+1704579771: Client sub_14 closed its connection.
+1704579771: Client sub_13 closed its connection.
+1704579771: Client sub_12 closed its connection.
+1704579771: Client sub_11 closed its connection.
+1704579771: Client sub_10 closed its connection.
+1704579771: Client sub_9 closed its connection.
+1704579771: Client sub_8 closed its connection.
+1704579771: Client sub_7 closed its connection.
+1704579771: Client sub_6 closed its connection.
+1704579771: Client sub_5 closed its connection.
+1704579771: Client sub_4 closed its connection.
+1704579771: Client sub_3 closed its connection.
+1704579771: Client sub_2 closed its connection.
+1704579771: Client sub_1 closed its connection.
+1704579772: mosquitto version 2.0.18 terminating
+1704579772: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704579899: mosquitto version 2.0.18 starting
+1704579899: Config loaded from /mosquitto/config/mosquitto.conf.
+1704579899: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704579899: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704579899: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704579899: Opening ipv4 listen socket on port 1883.
+1704579899: Opening ipv6 listen socket on port 1883.
+1704579899: mosquitto version 2.0.18 running
+1704579901: New connection from 172.100.10.14:55941 on port 1883.
+1704579901: New connection from 172.100.10.14:40887 on port 1883.
+1704579901: New client connected from 172.100.10.14:55941 as sub_1 (p2, c1, k60).
+1704579901: New client connected from 172.100.10.14:40887 as sub_2 (p2, c1, k60).
+1704579903: New connection from 172.100.10.13:58323 on port 1883.
+1704579903: New client connected from 172.100.10.13:58323 as pub_1 (p2, c1, k60).
+1704579903: New connection from 172.100.10.13:46567 on port 1883.
+1704579903: New client connected from 172.100.10.13:46567 as pub_2 (p2, c1, k60).
+1704579908: Client pub_2 closed its connection.
+1704579908: Client pub_1 closed its connection.
+1704581659: Client sub_2 closed its connection.
+1704581659: Client sub_1 closed its connection.
+1704581661: mosquitto version 2.0.18 terminating
+1704581661: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704582373: mosquitto version 2.0.18 starting
+1704582373: Config loaded from /mosquitto/config/mosquitto.conf.
+1704582373: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704582373: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704582373: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704582373: Opening ipv4 listen socket on port 1883.
+1704582373: Opening ipv6 listen socket on port 1883.
+1704582373: mosquitto version 2.0.18 running
+1704582377: New connection from 172.100.10.14:38991 on port 1883.
+1704582377: New connection from 172.100.10.14:34937 on port 1883.
+1704582377: New client connected from 172.100.10.14:38991 as sub_1 (p2, c1, k60).
+1704582377: New client connected from 172.100.10.14:34937 as sub_2 (p2, c1, k60).
+1704582381: New connection from 172.100.10.13:58275 on port 1883.
+1704582381: New client connected from 172.100.10.13:58275 as pub_1 (p2, c1, k60).
+1704582381: New connection from 172.100.10.13:54463 on port 1883.
+1704582381: New client connected from 172.100.10.13:54463 as pub_2 (p2, c1, k60).
+1704582386: Client pub_2 closed its connection.
+1704582386: Client pub_1 closed its connection.
+1704582525: Client sub_2 closed its connection.
+1704582525: Client sub_1 closed its connection.
+1704582527: mosquitto version 2.0.18 terminating
+1704582527: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704582648: mosquitto version 2.0.18 starting
+1704582648: Config loaded from /mosquitto/config/mosquitto.conf.
+1704582648: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704582648: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704582648: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704582648: Opening ipv4 listen socket on port 1883.
+1704582648: Opening ipv6 listen socket on port 1883.
+1704582648: mosquitto version 2.0.18 running
+1704582649: New connection from 172.100.10.14:48983 on port 1883.
+1704582649: New client connected from 172.100.10.14:48983 as sub_1 (p2, c1, k60).
+1704582649: New connection from 172.100.10.14:34087 on port 1883.
+1704582649: New client connected from 172.100.10.14:34087 as sub_2 (p2, c1, k60).
+1704582651: New connection from 172.100.10.13:41833 on port 1883.
+1704582651: New client connected from 172.100.10.13:41833 as pub_1 (p2, c1, k60).
+1704582651: New connection from 172.100.10.13:39399 on port 1883.
+1704582651: New client connected from 172.100.10.13:39399 as pub_2 (p2, c1, k60).
+1704582657: Client pub_2 closed its connection.
+1704582657: Client pub_1 closed its connection.
+1704582880: Client sub_2 closed its connection.
+1704582880: Client sub_1 closed its connection.
+1704582881: mosquitto version 2.0.18 terminating
+1704582881: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704583091: mosquitto version 2.0.18 starting
+1704583091: Config loaded from /mosquitto/config/mosquitto.conf.
+1704583091: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704583091: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704583091: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704583091: Opening ipv4 listen socket on port 1883.
+1704583091: Opening ipv6 listen socket on port 1883.
+1704583091: mosquitto version 2.0.18 running
+1704583095: New connection from 172.100.10.14:51371 on port 1883.
+1704583095: New connection from 172.100.10.14:36811 on port 1883.
+1704583095: New client connected from 172.100.10.14:51371 as sub_1 (p2, c1, k60).
+1704583095: New client connected from 172.100.10.14:36811 as sub_2 (p2, c1, k60).
+1704583097: New connection from 172.100.10.13:47885 on port 1883.
+1704583097: New connection from 172.100.10.13:57595 on port 1883.
+1704583097: New client connected from 172.100.10.13:47885 as pub_1 (p2, c1, k60).
+1704583097: New client connected from 172.100.10.13:57595 as pub_2 (p2, c1, k60).
+1704583102: Client pub_2 closed its connection.
+1704583102: Client pub_1 closed its connection.
+1704584892: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704586693: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704588494: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704590295: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704592096: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704593897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704595698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704597499: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704599300: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704601101: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704602902: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704604703: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704606504: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704608305: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704610106: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704611907: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704613708: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704615509: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704617310: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704617584: Client sub_2 closed its connection.
+1704617584: Client sub_1 closed its connection.
+1704617591: mosquitto version 2.0.18 terminating
+1704617591: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704617841: mosquitto version 2.0.18 starting
+1704617841: Config loaded from /mosquitto/config/mosquitto.conf.
+1704617841: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704617841: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+1704617841: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+1704617841: Opening ipv4 listen socket on port 1883.
+1704617841: Opening ipv6 listen socket on port 1883.
+1704617841: mosquitto version 2.0.18 running
+1704617844: New connection from 172.100.10.14:47857 on port 1883.
+1704617844: New client connected from 172.100.10.14:47857 as sub_1 (p2, c1, k60).
+1704617844: New connection from 172.100.10.14:49341 on port 1883.
+1704617844: New client connected from 172.100.10.14:49341 as sub_2 (p2, c1, k60).
+1704617845: New connection from 172.100.10.13:42521 on port 1883.
+1704617845: New client connected from 172.100.10.13:42521 as pub_1 (p2, c1, k60).
+1704617845: New connection from 172.100.10.13:49031 on port 1883.
+1704617845: New client connected from 172.100.10.13:49031 as pub_2 (p2, c1, k60).
+1704617851: Client pub_2 closed its connection.
+1704617851: Client pub_1 closed its connection.
+1704619642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704621141: Client sub_2 closed its connection.
+1704621141: Client sub_1 closed its connection.
+1704621143: mosquitto version 2.0.18 terminating
+1704621143: Saving in-memory database to /mosquitto/data//mosquitto.db.

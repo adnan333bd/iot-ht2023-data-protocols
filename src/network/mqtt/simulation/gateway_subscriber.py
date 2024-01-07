@@ -38,5 +38,5 @@ if __name__ == "__main__":
         gateway.subscribe()
 
     while True:
-        time.sleep(10)
+        time.sleep(5)
         Logger.dump_logs()

@@ -74,7 +74,7 @@ class Logger:
 
         # Format the time with millisecond precision
         # (first three digits of microseconds)
-        current_time = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        current_time = now.strftime("%Y-%m-%d %H:%M:%S.%f")
 
         data = {
             FIELD_FROM_DEVICE_ID: from_device,

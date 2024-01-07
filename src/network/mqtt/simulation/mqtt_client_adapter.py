@@ -1,5 +1,5 @@
 import paho.mqtt.client as mqtt
-from logger import Logger, EVENT_CONNECTED
+from logger import Logger, EVENT_CONNECTED, EVENT_CONN_REQUEST
 
 
 class MQTTClient(Logger):
@@ -15,11 +15,17 @@ class MQTTClient(Logger):
         print(f"Connected with result code {rc}")
         self.log_message(
             event_type=EVENT_CONNECTED,
-            from_device=self.client_id,
-            to_device='',
+            from_device='',
+            to_device=self.client_id,
             message="",
         )
 
     def connect(self):
         self.client.connect(self.broker_address, self.port, 60)
+        self.log_message(
+            event_type=EVENT_CONN_REQUEST,
+            from_device=self.client_id,
+            to_device='',
+            message="",
+        )
         self.client.loop_start()
