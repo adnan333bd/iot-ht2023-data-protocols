@@ -14511,3 +14511,90 @@ To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
 1704621676: New client connected from 172.100.10.14:33387 as sub_2 (p2, c1, k60).
 1704621676: New connection from 172.100.10.14:43135 on port 1883.
 1704621676: New client connected from 172.100.10.14:43135 as sub_3 (p2, c1, k60).
+1704625727: mosquitto version 2.0.18 starting
+1704625727: Config loaded from /mosquitto/config/mosquitto.conf.
+1704625727: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+1704625727: Opening ipv4 listen socket on port 1883.
+1704625727: Opening ipv6 listen socket on port 1883.
+1704625727: mosquitto version 2.0.18 running
+1704625728: New connection from 172.100.10.14:40419 on port 1883.
+1704625728: New client connected from 172.100.10.14:40419 as sub_1 (p2, c1, k60).
+1704625728: New connection from 172.100.10.14:48591 on port 1883.
+1704625728: New client connected from 172.100.10.14:48591 as sub_2 (p2, c1, k60).
+1704625728: New connection from 172.100.10.14:60811 on port 1883.
+1704625728: New client connected from 172.100.10.14:60811 as sub_3 (p2, c1, k60).
+1704625729: New connection from 172.100.10.13:57095 on port 1883.
+1704625729: New connection from 172.100.10.13:36677 on port 1883.
+1704625729: New connection from 172.100.10.13:58879 on port 1883.
+1704625729: New client connected from 172.100.10.13:57095 as pub_1 (p2, c1, k60).
+1704625729: New client connected from 172.100.10.13:36677 as pub_2 (p2, c1, k60).
+1704625729: New client connected from 172.100.10.13:58879 as pub_3 (p2, c1, k60).
+1704625740: Client pub_3 closed its connection.
+1704625740: Client pub_2 closed its connection.
+1704625740: Client pub_1 closed its connection.
+1704625799: Client sub_3 closed its connection.
+1704625799: Client sub_2 closed its connection.
+1704625799: Client sub_1 closed its connection.
+1704625835: New connection from 172.100.10.14:42467 on port 1883.
+1704625835: New connection from 172.100.10.14:60891 on port 1883.
+1704625835: New connection from 172.100.10.14:40741 on port 1883.
+1704625835: New client connected from 172.100.10.14:42467 as sub_1 (p2, c1, k60).
+1704625835: New client connected from 172.100.10.14:60891 as sub_2 (p2, c1, k60).
+1704625835: New client connected from 172.100.10.14:40741 as sub_3 (p2, c1, k60).
+1704625902: New connection from 172.100.10.13:34789 on port 1883.
+1704625902: New connection from 172.100.10.13:36455 on port 1883.
+1704625902: New connection from 172.100.10.13:54387 on port 1883.
+1704625902: New client connected from 172.100.10.13:34789 as pub_1 (p2, c1, k60).
+1704625902: New client connected from 172.100.10.13:36455 as pub_2 (p2, c1, k60).
+1704625902: New client connected from 172.100.10.13:54387 as pub_3 (p2, c1, k60).
+1704625914: Client pub_3 closed its connection.
+1704625914: Client pub_2 closed its connection.
+1704625914: Client pub_1 closed its connection.
+1704626024: New connection from 172.100.10.13:45017 on port 1883.
+1704626024: New client connected from 172.100.10.13:45017 as pub_1 (p2, c1, k60).
+1704626024: New connection from 172.100.10.13:57673 on port 1883.
+1704626024: New connection from 172.100.10.13:39087 on port 1883.
+1704626024: New client connected from 172.100.10.13:57673 as pub_2 (p2, c1, k60).
+1704626024: New client connected from 172.100.10.13:39087 as pub_3 (p2, c1, k60).
+1704626037: Client pub_3 closed its connection.
+1704626037: Client pub_2 closed its connection.
+1704626037: Client pub_1 closed its connection.
+1704626301: New connection from 172.100.10.13:57041 on port 1883.
+1704626301: New client connected from 172.100.10.13:57041 as pub_1 (p2, c1, k60).
+1704626301: New connection from 172.100.10.13:57605 on port 1883.
+1704626301: New connection from 172.100.10.13:35077 on port 1883.
+1704626301: New client connected from 172.100.10.13:57605 as pub_2 (p2, c1, k60).
+1704626301: New client connected from 172.100.10.13:35077 as pub_3 (p2, c1, k60).
+1704626313: Client pub_3 closed its connection.
+1704626313: Client pub_2 closed its connection.
+1704626313: Client pub_1 closed its connection.
+1704627012: New connection from 172.100.10.13:57369 on port 1883.
+1704627012: New client connected from 172.100.10.13:57369 as pub_1 (p2, c1, k60).
+1704627012: New connection from 172.100.10.13:39183 on port 1883.
+1704627012: New client connected from 172.100.10.13:39183 as pub_2 (p2, c1, k60).
+1704627012: New connection from 172.100.10.13:47015 on port 1883.
+1704627012: New client connected from 172.100.10.13:47015 as pub_3 (p2, c1, k60).
+1704627024: Client pub_3 closed its connection.
+1704627024: Client pub_2 closed its connection.
+1704627024: Client pub_1 closed its connection.
+1704627204: Client sub_3 closed its connection.
+1704627204: Client sub_2 closed its connection.
+1704627204: Client sub_1 closed its connection.
+1704627372: New connection from 172.100.10.14:51757 on port 1883.
+1704627372: New client connected from 172.100.10.14:51757 as sub_1 (p2, c1, k60).
+1704627372: New connection from 172.100.10.14:47215 on port 1883.
+1704627372: New connection from 172.100.10.14:43381 on port 1883.
+1704627372: New client connected from 172.100.10.14:47215 as sub_2 (p2, c1, k60).
+1704627372: New client connected from 172.100.10.14:43381 as sub_3 (p2, c1, k60).
+1704627488: New connection from 172.100.10.13:46581 on port 1883.
+1704627488: New connection from 172.100.10.13:57207 on port 1883.
+1704627488: New client connected from 172.100.10.13:46581 as pub_1 (p2, c1, k60).
+1704627488: New client connected from 172.100.10.13:57207 as pub_2 (p2, c1, k60).
+1704627488: New connection from 172.100.10.13:56397 on port 1883.
+1704627488: New client connected from 172.100.10.13:56397 as pub_3 (p2, c1, k60).
+1704627499: Client pub_3 closed its connection.
+1704627499: Client pub_2 closed its connection.
+1704627499: Client pub_1 closed its connection.
+1704627528: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704629329: Saving in-memory database to /mosquitto/data//mosquitto.db.

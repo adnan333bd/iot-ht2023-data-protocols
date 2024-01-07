@@ -17,7 +17,21 @@ tc class add dev eth0 parent 1:1 classid 1:10 htb rate 1mbit burst 32kbit
 # Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
 tc class add dev eth0 parent 1:1 classid 1:20 htb rate 500kbit burst 32kbit
 
+# Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
+tc class add dev eth0 parent 1:1 classid 1:21 htb rate 100bit burst 32kbit
+
+# Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
+tc class add dev eth0 parent 1:1 classid 1:22 htb rate 10bit burst 32kbit
 # Assign a filter to direct traffic from the specified IP to the class with lower bandwidth
 source_ip="172.100.10.10"
 tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:20
 
+tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:21
+
+tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:22
+
+
+tc class add dev eth0 parent 1: classid 1:1 htb rate 1mbit burst 32kbit
+tc class add dev eth0 parent 1:1 classid 1:22 htb rate 10bit burst 32kbit
+source_ip="172.100.10.10"
+tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:22
