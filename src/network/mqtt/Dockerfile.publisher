@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED 1
 
 # install system dependencies
 RUN apt-get update \
-  && apt-get -y install net-tools \
+  && apt-get -y install net-tools iproute2 iperf3 \
   && apt-get clean
 
 RUN pip install --upgrade pip

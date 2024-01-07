@@ -41,3 +41,40 @@ mqtt_broker_port=1883
 # Add tc filter to control inbound traffic from MQTT broker to MQTT client
 tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip match ip dst $mqtt_client_ip match ip dport $mqtt_broker_port flowid 1:20
 
+
+
+
+tc qdisc add dev eth0 root handle 1:0 htb default 30
+tc class add dev eth0 parent 1:0 classid 1:1 htb rate 1mbit burst 32kbit
+
+cidr="172.100.10.0/24"
+
+tc filter add dev eth0 protocol ip parent 1:0 prio 1 u32 match ip dst cidr flowid 1:1
+
+# subs 1
+
+docker-compose exec -it --privileged mqtt-sub /bin/bash
+
+iperf3 -s -p 8080
+
+./throttle.sh
+
+# broker
+
+docker-compose exec -it --privileged mqtt-broker /bin/bash
+
+apt-get update \
+  && apt-get -y install net-tools iperf3 \
+  && apt-get clean
+
+iperf3 -c 172.100.10.14 -p 8080 -t 30
+
+
+# subs 2
+
+docker-compose exec -it --privileged mqtt-sub /bin/bash
+
+./throttle.sh
+
+
+

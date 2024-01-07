@@ -14,6 +14,7 @@ def calculate_timestamp_difference(timestamp1, timestamp2):
     """Calculates the difference between two timestamps in seconds."""
     timestamp1_datetime = datetime.datetime.strptime(timestamp1, "%Y-%m-%d %H:%M:%S.%f")
     timestamp2_datetime = datetime.datetime.strptime(timestamp2, "%Y-%m-%d %H:%M:%S.%f")
+    print(timestamp1_datetime, timestamp2_datetime)
     delta = timestamp2_datetime - timestamp1_datetime
     return delta.total_seconds()
 
