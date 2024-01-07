@@ -2,6 +2,10 @@ FROM eclipse-mosquitto:latest
 
 RUN apk --no-cache add iproute2 iperf3 net-tools
 
+WORKDIR /app
+
 COPY simulation/throttle.sh /app/
 
 ENTRYPOINT ["/broker-entrypoint.sh"]
+
+CMD ["/usr/sbin/mosquitto", "-c", "/mosquitto/config/mosquitto.conf"]
