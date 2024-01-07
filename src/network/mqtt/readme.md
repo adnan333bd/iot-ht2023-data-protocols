@@ -5,7 +5,7 @@ New-Item -ItemType File -Path "log/mosquitto.log"
 docker-compose up --build
 
 
-docker-compose exec -it mqtt-sub /bin/bash
+docker-compose exec -it --privileged mqtt-sub /bin/bash
 
 
 # Create the root class with the total bandwidth rate
