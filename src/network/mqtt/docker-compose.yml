@@ -11,6 +11,9 @@ services:
       context: ./
       dockerfile: Dockerfile.broker
     user: mosquitto
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
     volumes:
       - type: bind
         source: ./config/
@@ -70,26 +73,6 @@ services:
     networks:
       mqtt-net:
         ipv4_address: 172.100.10.14
-  mqtt-sub2:
-    cap_add:
-      - NET_ADMIN
-    build: 
-      context: ./
-      dockerfile: Dockerfile.subscriber2
-    volumes:
-      - type: bind
-        source: ./log/
-        target: /mosquitto/log/custom/
-        read_only: false
-      - type: bind
-        source: ./simulation/
-        target: /app/
-        read_only: false
-    depends_on:
-      - mqtt-broker
-    networks:
-      mqtt-net:
-        ipv4_address: 172.100.10.15
 volumes:
   data:
     name: "mqtt-broker-data"

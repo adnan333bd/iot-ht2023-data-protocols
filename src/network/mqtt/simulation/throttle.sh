@@ -10,7 +10,7 @@ IF=eth0
 LIMIT=100mbit
 
 # broker
-SRC_CIDR=172.100.10.15/32
+DST_CIDR=172.100.10.14/32
 
 # filter command -- add ip dst match at the end
 U32="$TC filter add dev $IF protocol ip parent 1:0 prio 1 u32"
@@ -28,7 +28,7 @@ create () {
 
   # setup filters to ensure packets are enqueued to the correct
   # child based on the src IP of the packet
-  $U32 match ip src $SRC_CIDR flowid 1:1
+  $U32 match ip dst $DST_CIDR flowid 1:1
 
   echo "== SHAPING DONE =="
 }

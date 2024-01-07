@@ -61,7 +61,7 @@ iperf3 -s -p 8080
 
 # broker
 
-docker-compose exec -it --privileged mqtt-broker /bin/bash
+docker-compose exec -it --privileged mqtt-broker /bin/sh
 
 apt-get update \
   && apt-get -y install net-tools iperf3 \
