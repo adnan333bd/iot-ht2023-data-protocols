@@ -44,3 +44,5 @@ if __name__ == "__main__":
     test()
     time.sleep(5)
     Logger.dump_logs()
+    while True:
+        time.sleep(5)
