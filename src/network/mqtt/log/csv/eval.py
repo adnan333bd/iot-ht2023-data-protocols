@@ -2,7 +2,6 @@ import csv
 import datetime
 
 def read_csv(filename):
-    """Reads a CSV file and returns a list of rows."""
     rows = []
     with open(filename, "r") as f:
         reader = csv.reader(f)
