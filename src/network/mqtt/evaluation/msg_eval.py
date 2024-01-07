@@ -7,7 +7,8 @@ def read_csv(file_path):
     with open(file_path, 'r') as file:
         csv_reader = csv.DictReader(file)
         for row in csv_reader:
-            data.append(row)
+            if row.get('Event_Type') in ['EVENT_MSG_RECD', 'EVENT_MSG_SENT']:
+                data.append(row)
     return data
 
 def process_files(directory):
@@ -41,7 +42,7 @@ def process_files(directory):
     return messages
 
 if __name__ == "__main__":
-    directory_path = "/home/adit/Pictures/csv"  
+    directory_path = "/home/adit/Documents/GitHub/iot-ht2023-data-protocols/src/network/mqtt/log/csv"  
     result = process_files(directory_path)
 
     print("{")
