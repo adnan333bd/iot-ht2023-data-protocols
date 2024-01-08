@@ -41,6 +41,7 @@ def test():
 
 if __name__ == "__main__":
     count_gen = counter_generator()
+    time.sleep(20)
     test()
     time.sleep(5)
     Logger.dump_logs()
