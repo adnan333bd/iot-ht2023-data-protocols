@@ -16,15 +16,15 @@ def calculate_time_difference(messages):
 
     if time_differences:
         average_difference = sum(time_differences.values()) / len(time_differences.keys())
-        return time_differences, average_difference, max_diff
+        return time_differences, average_difference, max_diff, len(time_differences.keys())
     else:
-        return {}, 0, 0
+        return {}, 0, 0, 0
 
 if __name__ == "__main__":
-    directory_path = "5 kb\csv"
+    directory_path = "../log/csv"
     result = process_files(directory_path)
 
-    time_diff_result, average_time_diff, max_diff = calculate_time_difference(result)
+    time_diff_result, average_time_diff, max_diff, message_count = calculate_time_difference(result)
 
     print("{")
     for message, difference in time_diff_result.items():
@@ -33,3 +33,5 @@ if __name__ == "__main__":
 
     print(f"\nAverage Time : {average_time_diff} mili second")
     print(f"\nMax Time : {max_diff} mili second")
+    print(f"\nReceived Message Count : {message_count}")
+    print(f"\nSent Message Count : {len(result.keys())}")

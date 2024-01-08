@@ -44,8 +44,8 @@ def process_files(directory):
 if __name__ == "__main__":
     directory_path = "../log/csv"  
     result = process_files(directory_path)
-
     print("{")
     for key, value in result.items():
         print(f"    '{key}': {value},")
     print("}")
+    print("message length :", len(result.keys()))

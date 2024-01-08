@@ -51,23 +51,19 @@ cidr="172.100.10.0/24"
 
 tc filter add dev eth0 protocol ip parent 1:0 prio 1 u32 match ip dst cidr flowid 1:1
 
-# subs 1
+# pub 1
 
-docker-compose exec -it --privileged mqtt-sub /bin/bash
-
-iperf3 -s -p 8080
+docker-compose exec -it --privileged mqtt-pub /bin/bash
 
 ./throttle.sh
+
+iperf3 -c 172.100.10.10 -p 8080 -t 30
 
 # broker
 
 docker-compose exec -it --privileged mqtt-broker /bin/sh
 
-apt-get update \
-  && apt-get -y install net-tools iperf3 \
-  && apt-get clean
-
-iperf3 -c 172.100.10.14 -p 8080 -t 30
+iperf3 -s -p 8080
 
 
 # subs 2
