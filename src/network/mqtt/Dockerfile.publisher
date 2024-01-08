@@ -26,6 +26,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY simulation/throttle.sh /app/
 
+RUN chown appuser:appgroup /app/throttle.sh
+RUN chmod 700 /app/throttle.sh
+
 USER appuser
 
 RUN throttle.sh
