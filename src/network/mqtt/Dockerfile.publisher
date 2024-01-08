@@ -18,6 +18,11 @@ RUN pip install --upgrade pip
 COPY simulation/requirements.txt simulation/throttle.sh /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY simulation/throttle.sh /app/
+
+RUN chown $USER /app/throttle.sh
+RUN chmod 700 /app/throttle.sh
+
 RUN throttle.sh
 
 # Run when the container launches
