@@ -17,7 +17,7 @@ def calculate_time_difference(messages):
         return {}, 0
 
 if __name__ == "__main__":
-    directory_path = "/home/adit/Documents/GitHub/iot-ht2023-data-protocols/src/network/mqtt/log/csv"
+    directory_path = "../log/csv"
     result = process_files(directory_path)
 
     time_diff_result, average_time_diff = calculate_time_difference(result)
