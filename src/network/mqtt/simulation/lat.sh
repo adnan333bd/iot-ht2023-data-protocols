@@ -2,36 +2,36 @@
 
 TC=/sbin/tc
 
-# interface traffic will leave on
+# Interface traffic will leave on
 IF=eth0
 
+# Latency in milliseconds
 LATENCY=50ms
 
-# broker
+# Broker
 DST_CIDR=172.100.10.10/32
 
-# filter command -- add ip dst match at the end
+# Filter command -- add ip dst match at the end
 U32="$TC filter add dev $IF protocol ip parent 1:0 prio 1 u32"
 
 create () {
   echo "== SHAPING INIT =="
 
-  # create the root qdisc
+  # Create the root qdisc
   $TC qdisc add dev $IF root handle 1:0 htb \
     default 30
 
-  # create the parent qdisc, children will borrow bandwidth from
-  $TC class add dev $IF parent 1:0 classid \
-    1:1 netem delay $LATENCY
+  # Introduce latency using netem qdisc
+  $TC qdisc add dev $IF parent 1:0 handle 2: netem delay $LATENCY
 
-  # setup filters to ensure packets are enqueued to the correct
+  # Setup filters to ensure packets are enqueued to the correct
   # child based on the src IP of the packet
-  $U32 match ip dst $DST_CIDR flowid 1:1
+  $U32 match ip dst $DST_CIDR flowid 1:0
 
   echo "== SHAPING DONE =="
 }
 
-# run clean to ensure existing tc is not configured
+# Run clean to ensure existing tc is not configured
 clean () {
   echo "== CLEAN INIT =="
   $TC qdisc del dev $IF root
