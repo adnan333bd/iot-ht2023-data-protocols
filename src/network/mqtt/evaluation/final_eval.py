@@ -4,14 +4,17 @@ from datetime import datetime
 def calculate_time_difference(messages):
     time_differences = {}
 
+
     for message, timestamps in messages.items():
+        if 'end' not in timestamps: 
+            continue
         start_time = datetime.strptime(timestamps['start'], '%Y-%m-%d %H:%M:%S.%f')
         end_time = datetime.strptime(timestamps['end'], '%Y-%m-%d %H:%M:%S.%f')
         time_difference = end_time - start_time
         time_differences[message] = time_difference.total_seconds() * 1000000
 
     if time_differences:
-        average_difference = sum(time_differences.values()) / len(time_differences)
+        average_difference = sum(time_differences.values()) / len(time_differences.keys())
         return time_differences, average_difference
     else:
         return {}, 0
@@ -27,4 +30,4 @@ if __name__ == "__main__":
         print(f"    '{message}': {difference},")
     print("}")
 
-    print(f"\nAverage Time : {average_time_diff}")
+    print(f"\nAverage Time : {average_time_diff} microseconds")
