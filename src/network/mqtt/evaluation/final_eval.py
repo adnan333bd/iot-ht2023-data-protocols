@@ -3,31 +3,33 @@ from datetime import datetime
 
 def calculate_time_difference(messages):
     time_differences = {}
-
-
+    max_diff = 0
     for message, timestamps in messages.items():
-        if 'end' not in timestamps: 
+        if 'start' not in timestamps or 'end' not in timestamps: 
             continue
         start_time = datetime.strptime(timestamps['start'], '%Y-%m-%d %H:%M:%S.%f')
         end_time = datetime.strptime(timestamps['end'], '%Y-%m-%d %H:%M:%S.%f')
         time_difference = end_time - start_time
-        time_differences[message] = time_difference.total_seconds() * 1000000
+        time_differences[message] = time_difference.total_seconds() * 1000
+        if time_differences[message] > max_diff:
+            max_diff = time_differences[message]
 
     if time_differences:
         average_difference = sum(time_differences.values()) / len(time_differences.keys())
-        return time_differences, average_difference
+        return time_differences, average_difference, max_diff
     else:
-        return {}, 0
+        return {}, 0, 0
 
 if __name__ == "__main__":
-    directory_path = "../log/csv"
+    directory_path = "5 kb\csv"
     result = process_files(directory_path)
 
-    time_diff_result, average_time_diff = calculate_time_difference(result)
+    time_diff_result, average_time_diff, max_diff = calculate_time_difference(result)
 
     print("{")
     for message, difference in time_diff_result.items():
         print(f"    '{message}': {difference},")
     print("}")
 
-    print(f"\nAverage Time : {average_time_diff} microseconds")
+    print(f"\nAverage Time : {average_time_diff} mili second")
+    print(f"\nMax Time : {max_diff} mili second")
