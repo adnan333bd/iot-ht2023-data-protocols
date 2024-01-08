@@ -42,7 +42,7 @@ def process_files(directory):
     return messages
 
 if __name__ == "__main__":
-    directory_path = "/home/adit/Documents/GitHub/iot-ht2023-data-protocols/src/network/mqtt/log/csv"  
+    directory_path = "../log/csv"  
     result = process_files(directory_path)
 
     print("{")
