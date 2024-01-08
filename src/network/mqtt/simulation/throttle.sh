@@ -7,7 +7,7 @@ IF=eth0
 
 # The parent limit, children can borrow from this amount of bandwidth
 # based on what's available.
-LIMIT=100mbit
+LIMIT=5kbit
 
 # broker
 DST_CIDR=172.100.10.10/32
