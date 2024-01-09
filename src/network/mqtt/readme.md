@@ -1,77 +1,23 @@
-https://dev.to/abbazs/a-step-by-step-guide-for-starting-a-mosquitto-broker-service-in-a-containers-with-docker-compose-1j8i
+# Environment requirements
 
-New-Item -ItemType File -Path "log/mosquitto.log"
+- Docker desktop installed in MacOS or Ubuntu (other linux based OS)
 
-docker-compose up --build
+# How to run the docker compose file
 
-
-docker-compose exec -it --privileged mqtt-sub /bin/bash
-
-# Create the root class with the total bandwidth rate using htb
-tc qdisc add dev eth0 root handle 1: htb default 10
-tc class add dev eth0 parent 1: classid 1:1 htb rate 1mbit burst 32kbit
-
-# Create a child class for normal traffic
-tc class add dev eth0 parent 1:1 classid 1:10 htb rate 1mbit burst 32kbit
-
-# Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
-tc class add dev eth0 parent 1:1 classid 1:20 htb rate 500kbit burst 32kbit
-
-# Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
-tc class add dev eth0 parent 1:1 classid 1:21 htb rate 100bit burst 32kbit
-
-# Create a child class for traffic from a specific IP (e.g., 172.100.10.10) with lower bandwidth
-tc class add dev eth0 parent 1:1 classid 1:22 htb rate 10bit burst 32kbit
-# Assign a filter to direct traffic from the specified IP to the class with lower bandwidth
-source_ip="172.100.10.10"
-tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip flowid 1:20
+Inside /mqtt folder
 
 
------------------------
+    docker-compose up  --build
 
-# Create the root class with the total bandwidth rate using htb
-tc qdisc add dev eth0 root handle 1: htb default 10
-tc class add dev eth0 parent 1: classid 1:1 htb rate 1mbit burst 32kbit
-tc class add dev eth0 parent 1:1 classid 1:20 htb rate 50kbit burst 32kbit
-# Define the source IP (MQTT broker) and MQTT client IP and port
-source_ip="172.100.10.10"
-mqtt_client_ip="172.100.10.14"
-mqtt_broker_port=1883
+files will be generated inside /mqtt/log/csv after a minutes or so.
 
-# Add tc filter to control inbound traffic from MQTT broker to MQTT client
-tc filter add dev eth0 parent 1: protocol ip prio 1 u32 match ip src $source_ip match ip dst $mqtt_client_ip match ip dport $mqtt_broker_port flowid 1:20
+# Design of the Simulation 
+In the simulation scenarios, there are two type of objects - publisher gateway and subscriber gateway. A ‘subscriber gateway’ represents a raspberry PI that only subscribe to messages and ‘publisher gateway’ is another raspberry pi that only publishes messages to a topic.( For simplicity, we defined these two types of gateways)
 
 
+A publisher gateway with client id pub_1 would be sending message to a topic - ‘pub_1’ (topic name = publisher’s client id) and subscriber gateway with client id sub_1 would subscribe to a corresponding topic ‘pub_1’. This is a one to one message transfer, and suffix of the client id (1,2,3 … ) makes a pairing of the gateways for communication. In implementation, each gateway should be a python object with capability of connecting as a client to an MQTT broker.
 
 
-tc qdisc add dev eth0 root handle 1:0 htb default 30
-tc class add dev eth0 parent 1:0 classid 1:1 htb rate 1mbit burst 32kbit
+One running container called ‘pub container’ with ip address 172.100.10.13 would be acting as a host machine for all publisher gateways. Number of gateways in a test run should be configurable with a single constant in python code. Similarly one container with ip address 172.100.10.14 would host all subscriber gateways (python objects). All gateways will connect to the broker, running in a container with ip address 172.100.10.10. All three containers are in the same network 172.100.10.0/24.
 
-cidr="172.100.10.0/24"
-
-tc filter add dev eth0 protocol ip parent 1:0 prio 1 u32 match ip dst cidr flowid 1:1
-
-# pub 1
-
-docker-compose exec -it --privileged mqtt-pub /bin/bash
-
-./throttle.sh
-
-iperf3 -c 172.100.10.10 -p 8080 -t 30
-
-# broker
-
-docker-compose exec -it --privileged mqtt-broker /bin/sh
-
-iperf3 -s -p 8080
-
-
-# subs 2
-
-docker-compose exec -it --privileged mqtt-sub /bin/bash
-
-./throttle.sh
-
-
-
-# image: eclipse-mosquitto:latest
+In a single test run, all messages will be uniquely identifiable, like msg_1, msg_2. This identity will be used to calculate the delivery latency of a message. Each pubisher gateway would be sending n number of messages to a paired subscriber gateway, in a single test run. Value of n should be configurable by single constant in python.
