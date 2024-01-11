@@ -6,10 +6,6 @@ services:
       dockerfile: Dockerfile.sender
     volumes:
       - type: bind
-        source: ./csv/
-        target: /log/
-        read_only: false
-      - type: bind
         source: ./sender/
         target: /app/
         read_only: false
@@ -19,10 +15,6 @@ services:
       context: ./
       dockerfile: Dockerfile.receiver
     volumes:
-      - type: bind
-        source: ./csv/
-        target: /log/
-        read_only: false
       - type: bind
         source: ./receiver/
         target: /app/

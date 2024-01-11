@@ -12,6 +12,9 @@ Inside /mqtt folder
 files will be generated inside /mqtt/log/csv after a minutes or so.
 
 # Design of the Simulation 
+
+
+
 In the simulation scenarios, there are two type of objects - publisher gateway and subscriber gateway. A ‘subscriber gateway’ represents a raspberry PI that only subscribe to messages and ‘publisher gateway’ is another raspberry pi that only publishes messages to a topic.( For simplicity, we defined these two types of gateways)
 
 

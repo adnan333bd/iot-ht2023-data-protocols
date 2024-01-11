@@ -1,5 +1,5 @@
 const xmpp = require("simple-xmpp");
-const writeToCSV = require("./logger");
+const { writeToCSV, getFormattedDateTime }= require("./logger");
 
 xmpp.on("online", (data) => {
   console.log("Hey you are online! ");
@@ -11,14 +11,14 @@ xmpp.on("error", (error) =>
 );
 
 xmpp.on("chat", (from, message) => {
-  console.log(`Got a message! ${message} from ${from}`);
+  // console.log(`Got a message! ${message} from ${from}`);
   // Example usage:
   const sampleData = {
-    FROM_DEVICE_ID: "device1",
-    TO_DEVICE_ID: "device2",
-    EVENT_TYPE: "event_type",
-    MSG: message,
-    TIME_STAMP: "2022-01-11T12:00:00Z",
+    From_Device_ID: "",
+    To_Device_ID: "Sub_1",
+    Event_Type: "EVENT_MSG_RECD",
+    Message: message,
+    Time_Stamp: getFormattedDateTime(),
   };
   writeToCSV(sampleData, 'sub_1.csv');
 });

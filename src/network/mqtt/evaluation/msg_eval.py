@@ -2,14 +2,16 @@ import os
 import csv
 from datetime import datetime
 
+
 def read_csv(file_path):
     data = []
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         csv_reader = csv.DictReader(file)
         for row in csv_reader:
-            if row.get('Event_Type') in ['EVENT_MSG_RECD', 'EVENT_MSG_SENT']:
+            if row.get("Event_Type") in ["EVENT_MSG_RECD", "EVENT_MSG_SENT"]:
                 data.append(row)
     return data
+
 
 def process_files(directory):
     publisher_files = []
@@ -27,22 +29,23 @@ def process_files(directory):
     for publisher_file in publisher_files:
         publisher_data = read_csv(publisher_file)
         for row in publisher_data:
-            message_name = row['Message']
-            timestamp_start = row['Time_Stamp']
-            messages[message_name] = {'start': timestamp_start}
+            message_name = row["Message"]
+            timestamp_start = row["Time_Stamp"]
+            messages[message_name] = {"start": timestamp_start}
 
     for subscriber_file in subscriber_files:
         subscriber_data = read_csv(subscriber_file)
         for row in subscriber_data:
-            message_name = row['Message']
-            timestamp_end = row['Time_Stamp']
+            message_name = row["Message"]
+            timestamp_end = row["Time_Stamp"]
             if message_name in messages:
-                messages[message_name]['end'] = timestamp_end
-                
+                messages[message_name]["end"] = timestamp_end
+
     return messages
 
+
 if __name__ == "__main__":
-    directory_path = "../log/csv"  
+    directory_path = "../log/csv"
     result = process_files(directory_path)
     print("{")
     for key, value in result.items():
