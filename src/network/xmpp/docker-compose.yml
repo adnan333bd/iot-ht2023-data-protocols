@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  xmpp-sender:
+    build: 
+      context: ./
+      dockerfile: Dockerfile.sender
+    volumes:
+      - type: bind
+        source: ./csv/
+        target: /log/
+        read_only: false
+      - type: bind
+        source: ./sender/
+        target: /app/
+        read_only: false
+    network_mode: "host"
+  xmpp-receiver:
+    build: 
+      context: ./
+      dockerfile: Dockerfile.receiver
+    volumes:
+      - type: bind
+        source: ./csv/
+        target: /log/
+        read_only: false
+      - type: bind
+        source: ./receiver/
+        target: /app/
+        read_only: false
+    network_mode: "host"
+ 
+# ws://localhost:7070/ws/

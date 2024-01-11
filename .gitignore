@@ -1,2 +1,4 @@
 **/xenv
 **/menv
+**/node_modules
+**/app-env

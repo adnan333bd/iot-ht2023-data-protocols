@@ -21,3 +21,35 @@ A publisher gateway with client id pub_1 would be sending message to a topic - �
 One running container called ‘pub container’ with ip address 172.100.10.13 would be acting as a host machine for all publisher gateways. Number of gateways in a test run should be configurable with a single constant in python code. Similarly one container with ip address 172.100.10.14 would host all subscriber gateways (python objects). All gateways will connect to the broker, running in a container with ip address 172.100.10.10. All three containers are in the same network 172.100.10.0/24.
 
 In a single test run, all messages will be uniquely identifiable, like msg_1, msg_2. This identity will be used to calculate the delivery latency of a message. Each pubisher gateway would be sending n number of messages to a paired subscriber gateway, in a single test run. Value of n should be configurable by single constant in python.
+
+
+
+ mysql-client:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: 'user'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: '123'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: '123'
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '3309:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - type: bind
+        source: ./srv/db
+        target: /var/lib/mysql
+        read_only: false
+    networks:
+      xmpp-net:
+        ipv4_address: 172.100.20.20
+
+
+ws://host.docker.internal:7070/ws/
