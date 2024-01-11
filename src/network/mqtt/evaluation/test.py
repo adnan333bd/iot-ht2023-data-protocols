@@ -27,6 +27,7 @@ for directory_path in directories:
     if connection_times:
         average_connection_time = sum(connection_times) / len(connection_times)
         average_connection_times.append(average_connection_time)
-        print(f'The average connection time of {directory_path} is: {average_connection_time} seconds')
+        print(f'The average connection time for folder {directory_path} is: {average_connection_time} seconds')
     else:
         print(f'No valid files found in folder {directory_path}.')
+
