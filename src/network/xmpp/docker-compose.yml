@@ -9,7 +9,10 @@ services:
       - "5222:5222"
       - "7777:7777"
     volumes:
-      - "/srv/docker/openfire:/var/lib/openfire"
+      - type: bind
+        source: ./srv/docker/openfire
+        target: /var/lib/openfire
+        read_only: false
   xmpp-sender:
     build: 
       context: ./
