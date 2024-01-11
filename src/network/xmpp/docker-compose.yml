@@ -1,5 +1,15 @@
 version: '3.8'
 services:
+  openfire:
+    image: gizmotronic/openfire:4.4.4
+    container_name: openfire
+    restart: always
+    ports:
+      - "9090:9090"
+      - "5222:5222"
+      - "7777:7777"
+    volumes:
+      - "/srv/docker/openfire:/var/lib/openfire"
   xmpp-sender:
     build: 
       context: ./
