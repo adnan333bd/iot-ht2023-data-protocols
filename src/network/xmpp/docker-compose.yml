@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   openfire:
-    image: gizmotronic/openfire:4.4.4
+    image: sameersbn/openfire:3.10.3-19
     container_name: openfire
     restart: always
     ports:
