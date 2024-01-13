@@ -1,3 +1,17 @@
 FROM eclipse-mosquitto:latest
 
 RUN apk --no-cache add iproute2 iperf3 net-tools
+
+# Copy the custom Mosquitto configuration file
+COPY ./config/mosquitto.conf /mosquitto/config/mosquitto.conf
+
+# Set ownership and permissions for the configuration file
+RUN chown mosquitto:mosquitto /mosquitto/config/mosquitto.conf \
+    && chmod 644 /mosquitto/config/mosquitto.conf
+
+# Copy the custom Mosquitto configuration file
+COPY ./config/password.txt /mosquitto/config/password.txt
+
+# Set ownership and permissions for the configuration file
+RUN chown mosquitto:mosquitto /mosquitto/config/password.txt \
+    && chmod 644 /mosquitto/config/password.txt

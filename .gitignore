@@ -2,3 +2,5 @@
 **/menv
 **/node_modules
 **/app-env
+**/env
+**/__pycache__

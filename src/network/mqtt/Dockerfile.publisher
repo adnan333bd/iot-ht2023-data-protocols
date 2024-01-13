@@ -19,7 +19,7 @@ RUN pip install --upgrade pip
 COPY simulation/requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY simulation/throttle.sh /app/
+COPY simulation/throttle.sh /band/
+RUN chmod +x /band/throttle.sh
 
-# Run when the container launches
-CMD ["python", "./publisher_runner.py"]
+CMD ["bash", "-c", "/band/throttle.sh && python /app/publisher_runner.py"]

@@ -6,6 +6,11 @@
 
 Inside /mqtt folder
 
+    
+    chmod o+w log/mosquitto.log
+    chmod 766 -R config
+    chmod o+wr config/mosquitto.conf
+
 
     docker-compose up  --build
 
@@ -27,32 +32,11 @@ In a single test run, all messages will be uniquely identifiable, like msg_1, ms
 
 
 
- mysql-client:
-    image: mysql:5.7
-    restart: always
-    environment:
-      MYSQL_DATABASE: 'db'
-      # So you don't have to use root, but you can if you like
-      MYSQL_USER: 'user'
-      # You can use whatever password you like
-      MYSQL_PASSWORD: '123'
-      # Password for root access
-      MYSQL_ROOT_PASSWORD: '123'
-    ports:
-      # <Port exposed> : <MySQL Port running inside container>
-      - '3309:3306'
-    expose:
-      # Opens port 3306 on the container
-      - '3306'
-      # Where our data will be persisted
-    volumes:
-      - type: bind
-        source: ./srv/db
-        target: /var/lib/mysql
-        read_only: false
-    networks:
-      xmpp-net:
-        ipv4_address: 172.100.20.20
 
 
 ws://host.docker.internal:7070/ws/
+
+volumes:
+  data:
+    name: "mqtt-broker-data"
+    external: true
