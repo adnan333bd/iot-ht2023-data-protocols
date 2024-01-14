@@ -7,13 +7,16 @@ RUN apt-get update \
 
 # Set the working directory to /app
 WORKDIR /app
+RUN mkdir receiver
+RUN mkdir logger
 
-COPY receiver/package*.json /app/
+COPY app/package*.json /app/
 
 # Install the application dependencies
 RUN npm install
 
-COPY receiver/ /app/
+COPY app/receiver/ /app/receiver
+COPY app/logger/ /app/logger
 
 # Define the command to run the application
-CMD ["npm", "start"]
+CMD ["bash", "-c", "npm run receive"]

@@ -1,6 +1,5 @@
 import os
 import csv
-from datetime import datetime
 
 
 def read_csv(file_path):
@@ -13,7 +12,7 @@ def read_csv(file_path):
     return data
 
 
-def process_files(directory):
+def read_messages_from_files(directory):
     publisher_files = []
     subscriber_files = []
 
@@ -46,9 +45,9 @@ def process_files(directory):
 
 if __name__ == "__main__":
     directory_path = "../log/csv"
-    result = process_files(directory_path)
+    messages = read_messages_from_files(directory_path)
     print("{")
-    for key, value in result.items():
+    for key, value in messages.items():
         print(f"    '{key}': {value},")
     print("}")
-    print("message length :", len(result.keys()))
+    print("message length :", len(messages.keys()))

@@ -1,4 +1,4 @@
-from msg_eval import read_csv, process_files
+from msg_eval import read_csv, read_messages_from_files
 from datetime import datetime
 
 def calculate_time_difference(messages):
@@ -21,17 +21,23 @@ def calculate_time_difference(messages):
         return {}, 0, 0, 0
 
 if __name__ == "__main__":
-    directory_path = "../log/csv"
-    result = process_files(directory_path)
+    directory_path = "xmpp/3 kb/csv"
+    # directory_path = "xmpp/5 kb/"
+    # directory_path = "xmpp/10 kb/"
+    # directory_path = "mqtt/3 kb/"
+    # directory_path = "mqtt/5 kb/"
+    # directory_path = "mqtt/10 kb/"
+    # 
+    messages_dict = read_messages_from_files(directory_path)
 
-    time_diff_result, average_time_diff, max_diff, message_count = calculate_time_difference(result)
+    time_diff_result, average_time_diff, max_diff, message_count = calculate_time_difference(messages_dict)
 
     print("{")
     for message, difference in time_diff_result.items():
         print(f"    '{message}': {difference},")
     print("}")
 
-    print(f"\nAverage Time : {average_time_diff} mili second")
-    print(f"\nMax Time : {max_diff} mili second")
+    print(f"\nAverage Time : {average_time_diff} milliseconds")
+    print(f"\nMax Time : {max_diff} milliseconds")
     print(f"\nReceived Message Count : {message_count}")
-    print(f"\nSent Message Count : {len(result.keys())}")
+    print(f"\nSent Message Count : {len(messages_dict.keys())}")

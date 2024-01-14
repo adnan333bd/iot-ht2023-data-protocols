@@ -23,7 +23,7 @@ def send_message(gateway):
     for i in range(NUMBER_OF_MSG_PER_GATEWAY):
         message_id = next(count_gen)
         gateway.publish_message(f"msg_{message_id}")
-        time.sleep(0.05)
+        # time.sleep(0.05)
 
 
 def test():

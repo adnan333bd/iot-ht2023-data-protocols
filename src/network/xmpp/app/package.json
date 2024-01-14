@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node send.js"
+    "send": "node sender/send.js",
+    "receive": "node receiver/recv.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.30.1",
     "simple-xmpp": "^2.3.1"
   }
 }

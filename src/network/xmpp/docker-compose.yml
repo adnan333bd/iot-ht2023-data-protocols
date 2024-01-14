@@ -7,7 +7,9 @@ networks:
         - subnet: 172.100.39.0/24
 services:
   openfire:
-    image: gizmotronic/openfire:4.4.4
+    build: 
+      context: ./
+      dockerfile: Dockerfile.server
     container_name: openfire
     restart: always
     ports:
@@ -15,8 +17,10 @@ services:
       - "5222:5222"
       - "7777:7777"
       - "7070:7070"
-    volumes:
-      - /srv/docker/openfire:/var/lib/openfire
+    volumes:     
+      - type: volume
+        source: data
+        target: /var/lib/openfire
     networks:
       xmpp-net:
         ipv4_address: 172.100.39.10
@@ -28,7 +32,7 @@ services:
       dockerfile: Dockerfile.sender
     volumes:
       - type: bind
-        source: ./sender/csv/
+        source: ./app/csv/
         target: /app/csv/
         read_only: false
     networks:
@@ -43,7 +47,7 @@ services:
       dockerfile: Dockerfile.receiver
     volumes:
       - type: bind
-        source: ./receiver/csv/
+        source: ./app/csv/
         target: /app/csv/
         read_only: false
     networks:
@@ -51,8 +55,9 @@ services:
         ipv4_address: 172.100.39.14
     depends_on:
       - openfire
+volumes:
+  data:
+    name: "xmpp-server-data"
  
 # ws://localhost:7070/ws/
-# after first run the sender and receiver wont connect
-# go to admin console at localhost:9090 and setup openfire with embeded db, domain host.docker.internal
-# create two users with password 123 - goch6657@example.com , iamadit@example.com
+# - /srv/docker/openfire:/var/lib/openfire
