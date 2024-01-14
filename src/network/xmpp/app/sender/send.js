@@ -18,8 +18,8 @@ async function send_messages(count) {
   for (let i = 1; i < count + 1; i++) {
     const message = `msg_${i}`;
     send(message);
-    await sleep(50); // .05 sec
     messages.push(format_message(message, "EVENT_MSG_SENT", "pub_1"));
+    await sleep(50); // .05 sec    
   }
   writeToCSV(messages, "pub_1.csv");
 }

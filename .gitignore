@@ -3,4 +3,5 @@
 **/node_modules
 **/app-env
 **/env
+**/eval-env
 **/__pycache__

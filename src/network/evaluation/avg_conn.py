@@ -2,7 +2,8 @@ import os
 import pandas as pd
 from datetime import datetime
 
-directories = ['3 kb/csv', '5 kb/csv', '10 kb/csv']
+proto_dir = 'xmpp/'
+directories =  [proto_dir + '3 kb/csv', proto_dir + '5 kb/csv', proto_dir + '10 kb/csv', proto_dir + '50 kb/csv']
 
 average_connection_times = []
 

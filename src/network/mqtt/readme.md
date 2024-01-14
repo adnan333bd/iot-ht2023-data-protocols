@@ -1,36 +1,46 @@
-# docker compose commands
+# mqtt test steps
 
-# run all containers from compose file config
-docker compose up --build
+### run all containers from docker-compose file
 
-# remove all containers
-docker rm -f $(docker ps -aq)
+inside mqtt folder:
 
-# run pub again, to test again
-docker compose ps -a
-docker compose start mqtt-mqtt-pub-1
+    docker compose up --build
 
-# stop all running containers
-docker stop $(docker ps -a)
+## Debugging
+### remove all containers
 
-# bandwidth change 
+    docker compose ps -a
+    docker rm -f $(docker ps -aq)
+
+### run pub again, to test again
+
+    docker compose start mqtt-mqtt-pub-1
+
+### stop all running containers
+    
+    docker stop $(docker ps -a)
+
+## bandwidth change 
+
 ## mqtt-pub 
-docker compose exec -it --privileged mqtt-pub /bin/bash
+    
+    docker compose exec -it --privileged mqtt-pub /bin/bash
 
-/bin/bash throttle.sh
+    /bin/bash throttle.sh
 
-iperf3 -c 172.100.10.10 -p 8080 -t 30
+    iperf3 -c 172.100.10.10 -p 8080 -t 30
 
-# broker
+### broker
 
-docker compose exec -it --privileged mqtt-broker /bin/sh
+    docker compose exec -it --privileged mqtt-broker /bin/sh
 
-iperf3 -s -p 8080
+    iperf3 -s -p 8080
 
-# set 100mbit
+## set 100mbit
+
 change limit in thottle.sh
 
-# pyenv setup in ubuntu
+## pyenv setup in ubuntu
 
 apt update; apt install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
