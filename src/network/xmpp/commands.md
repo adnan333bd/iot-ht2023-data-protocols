@@ -1,7 +1,57 @@
+## install nodejs in ubuntu
+
+#### from https://github.com/nodesource/distributions#installation-instructions
+curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+
+## run docker compose up to deploy the containers
+docker compose up --build
+
+- after first run the sender and receiver wont connect to 172.100.39.10 (server)
+- go to admin console at localhost:9090 and setup openfire with embeded db, domain host.docker.internal
+- create two users with password 123 - goch6657@example.com , iamadit@example.com
+
+## run the reciever container in a differenent terminal
+
+see what are the containers running
+
+    docker compose ps -a
+
+start the receiver service
+
+    docker compose start xmpp-receiver
+
+see the logs
+
+    docker compose logs xmpp-receiver
+
+## run the sender container in a differenent terminal
+
+    docker compose start xmpp-sender
+
+    docker compose logs xmpp-sender
+
+(to run again later, you can use docker compose restart xmpp-sender)
+
+
+
+## debugging
+
+shell in the container:
+docker compose exec -it --privileged xmpp-receiver /bin/bash
+
 # docker compose commands
+
+
+
 
 # run all containers from compose file config
 docker compose up --build
+
+
+## 
+
+
 
 # remove all containers
 docker rm -f $(docker ps -aq)

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-console.log(__dirname);
+
 const CSV_FILE_PATH = path.join(__dirname, 'csv');
 const HEADER = [
   'From_Device_ID',

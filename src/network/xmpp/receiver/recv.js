@@ -11,11 +11,11 @@ xmpp.on("error", (error) =>
 );
 
 xmpp.on("chat", (from, message) => {
-  // console.log(`Got a message! ${message} from ${from}`);
+  console.log(`Got a message! ${message} from ${from}`);
   // Example usage:
   const sampleData = {
     From_Device_ID: "",
-    To_Device_ID: "Sub_1",
+    To_Device_ID: "sub_1",
     Event_Type: "EVENT_MSG_RECD",
     Message: message,
     Time_Stamp: getFormattedDateTime(),
@@ -26,6 +26,6 @@ xmpp.on("chat", (from, message) => {
 xmpp.connect({
   jid: "iamadit@host.docker.internal",
   password: "123",
-  host: "host.docker.internal",
+  host: "172.100.39.10",
   port: 5222,
 });

@@ -1,10 +1,10 @@
 const xmpp = require("simple-xmpp");
-const { writeToCSV, getFormattedDateTime }= require("./logger");
+const { writeToCSV, getFormattedDateTime } = require("./logger");
 
 xmpp.on("online", (data) => {
   console.log("Hey you are online! ");
   console.log(`Connected as ${data.jid.user}`);
-  send_messages(1000);
+  send_messages(10);
 });
 
 function send_messages(count) {
@@ -36,6 +36,6 @@ xmpp.on("chat", (from, message) => {
 xmpp.connect({
   jid: "goch6657@host.docker.internal",
   password: "123",
-  host: "host.docker.internal",
+  host: "172.100.39.10",
   port: 5222,
 });
