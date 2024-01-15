@@ -1,6 +1,10 @@
 import csv
 import os
 from datetime import datetime
+from constants import (
+    NUMBER_OF_MSG_PER_GATEWAY,
+)
+
 
 FIELD_FROM_DEVICE_ID = "From_Device_ID"
 FIELD_TO_DEVICE_ID = "To_Device_ID"
@@ -29,9 +33,11 @@ class Logger:
         return Logger.global_file_logs[file_name]
 
     @staticmethod
-    def clear_file_logs(file_name):
+    def clear_file_logs(file_name, logs):
+        messages_set = set([ log[FIELD_MSG] for log in logs ])
         if file_name in Logger.global_file_logs:
-            Logger.global_file_logs[file_name] = []
+            file_logs = Logger.global_file_logs[file_name]
+            Logger.global_file_logs[file_name] = list(filter(lambda x: x[FIELD_MSG] not in messages_set, file_logs))
 
     @staticmethod
     def dump_logs():
@@ -61,7 +67,7 @@ class Logger:
                 for data in file_logs:
                     # Write new data
                     writer.writerow(data)
-                Logger.clear_file_logs(file_name)
+                Logger.clear_file_logs(file_name, file_logs)
         except Exception as e:
             print(f"Error creating CSV file: {e}")
 

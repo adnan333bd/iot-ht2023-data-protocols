@@ -2,27 +2,44 @@
 
 ### run all containers from docker-compose file
 
-inside mqtt folder:
+inside src/network/mqtt folder:
+
+    docker compose up --build
+
+please wait until sub_20.csv has all the messages logged
+
+### for diff bandwidth
+
+change limit in thottle.sh
+
+#### remove all containers
+    
+    docker rm -f $(docker ps -aq)
+
+inside src/network/mqtt folder:
 
     docker compose up --build
 
 ## Debugging
-### remove all containers
+
+### list all containers
 
     docker compose ps -a
-    docker rm -f $(docker ps -aq)
 
-### run pub again, to test again
 
-    docker compose start mqtt-mqtt-pub-1
+### service start stop
 
-### stop all running containers
-    
-    docker stop $(docker ps -a)
+    docker compose stop mqtt-sub
 
-## bandwidth change 
+    delete all csv files inside mqtt/log/csv
 
-## mqtt-pub 
+    docker compose start mqtt-sub
+
+    docker compose start mqtt-pub
+
+## bandwidth change test with iperf3
+
+## mqtt-pub
     
     docker compose exec -it --privileged mqtt-pub /bin/bash
 
@@ -35,10 +52,6 @@ inside mqtt folder:
     docker compose exec -it --privileged mqtt-broker /bin/sh
 
     iperf3 -s -p 8080
-
-## set 100mbit
-
-change limit in thottle.sh
 
 ## pyenv setup in ubuntu
 
